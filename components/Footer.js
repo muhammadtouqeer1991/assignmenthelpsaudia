@@ -15,6 +15,9 @@ const Footer = () => {
           <Footerabout />
         </div>
       </div>
+      <div className='flex justify-center items-center bg-navactive py-2 pb-2'>
+        <p>Copyright © 2023 Assignmenthelpsaudia | All Rights Reserved</p>
+      </div>
     </>
   )
 }
