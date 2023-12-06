@@ -1,6 +1,7 @@
 import React from 'react'
 import arrow from '../public/assets/arrow.svg';
 import Image from 'next/image';
+import Link from 'next/link';
 const Headerinfo = () => {
   return (
     <>
@@ -13,6 +14,10 @@ const Headerinfo = () => {
           <li className='flex gap-2 items-center'><Image src={arrow} /> Raise Your Grades with Assignment Help Pro</li>
           <li className='flex gap-2 items-center'><Image src={arrow} /> Raise Your Grades with Assignment Help Pro</li>
         </ul>
+        <div className='flex gap-4 pt-4 items-center'>
+                <Link href="#" className='py-3 px-8 bg-navactive rounded-[10px]'>Order Now</Link>
+                <Link href="#" className='py-3 px-8 border-2 border-navactive text-white rounded-[10px]'>Live Chat</Link>
+            </div>
         </div>
     </>
   )

@@ -13,7 +13,18 @@ module.exports = {
       'navcolor':'#282B2F',
       'navactive':'#28D07E',
       'navinactive':'#414549',
+      'benifitcolor':'#343A40',
     },
+    container: {
+      screens: {
+        'sm': '100%',
+        'md': '100%',
+        'lg': '1238px',
+        'xl': '1238px',
+        '2xl': '1238px',
+      }
+    }
+
   },
   plugins: [],
 }
