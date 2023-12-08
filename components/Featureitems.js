@@ -10,19 +10,19 @@ const Featureitems = () => {
     <>
         <div className='flex justify-center items-center mx-auto  gap-10 bg-navcolor py-14 px-14 rounded-[16px]'>
             <div className='flex flex-col justify-center items-center gap-4'>
-                <Image src={writers} />
+                <Image src={writers} alt="market" />
                 <h5 className='text-white text-[16px] font-semibold'>Competent Writers</h5>
             </div>
             <div className='relative flex flex-col justify-center items-center gap-4'>
-                <Image src={brilliant} />
+                <Image src={brilliant} alt="market" />
                 <h5 className='text-white text-[16px] font-semibold'>Brilliant Content</h5>
             </div>
             <div className='flex flex-col justify-center items-center gap-4'>
-                <Image src={privacy} />
+                <Image src={privacy} alt="market" />
                 <h5 className='text-white text-[16px] font-semibold'>Customer Privacy</h5>
             </div>
             <div className='flex flex-col justify-center items-center gap-4'>
-                <Image src={proofread} />
+                <Image src={proofread} alt="market" />
                 <h5 className='text-white text-[16px] font-semibold'>Well Edited Content</h5>
             </div>
         </div>

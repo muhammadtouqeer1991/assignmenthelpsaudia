@@ -21,10 +21,10 @@ const Footerabout = () => {
         <p className='text-white pt-2'>Assignment Help Writers offers its assignment writing services purely for the help of students. Our  assignments are for reference purposes and help students</p>
        <div className='flex'>
        <nav className='flex mt-3 text-white gap-2 flex-wrap flex-[20%]'>
-            <Link href="#" className='flex flex-col justify-center items-center'><Image src={paYPAL2} /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><Image src={mastercard} /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><Image src={bank} /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><Image src={visa} /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><Image src={paYPAL2} alt="market" /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><Image src={mastercard} alt="market" /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><Image src={bank} alt="market" /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><Image src={visa} alt="market" /></Link>
         </nav>
         <nav className='flex mt-3 text-white gap-2 flex-1'>
             <Link href="#" className='flex flex-col justify-center items-center'><Image src={clutch} className='w-[100%]' /></Link>

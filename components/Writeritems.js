@@ -18,7 +18,7 @@ return (
             </div>
 
             <div className='rounded-full w-[260px] h-[187px] bg-navactive flex justify-center items-center relative top-[-1.4rem] left-[-0.2rem]'>
-                <Image src={writerImg} width={120} />
+                <Image src={writerImg} width={120} alt="market" />
             </div>
             <div className='bg-navactive w-full relative left-[-3rem] z-[-1] h-20 flex justify-center items-center text-[26px] text-white font-bold rounded-tr-[20px]'>
                 Joseph Brown
@@ -63,7 +63,7 @@ return (
             </div>
 
             <div className='rounded-full w-[260px] h-[187px] bg-navactive flex justify-center items-center relative top-[-1.4rem] left-[-0.2rem]'>
-                <Image src={writerImg} width={120} />
+                <Image src={writerImg} width={120} alt="market" />
             </div>
             <div className='bg-navactive w-full relative left-[-3rem] z-[-1] h-20 flex justify-center items-center text-[26px] text-white font-bold rounded-tr-[20px]'>
                 Joseph Brown

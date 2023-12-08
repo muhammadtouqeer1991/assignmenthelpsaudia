@@ -6,7 +6,7 @@ const Faqimg = () => {
   return (
     <>
         <div>
-        <Image src={faqImg} style={{minWidth:'450px'}} />
+        <Image src={faqImg} style={{minWidth:'450px'}} alt="market" />
         </div>
     </>
   )

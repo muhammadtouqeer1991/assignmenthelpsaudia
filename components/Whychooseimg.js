@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Whychooseimg = () => {
   return (
     <>
-        <Image src={whychoose} />
+        <Image src={whychoose} alt="market" />
     </>
   )
 }

@@ -5,7 +5,7 @@ import aceOnline from '../public/assets/aceOnline.webp';
 const Ctaimage = () => {
   return (
     <>
-        <Image src={aceOnline} />
+        <Image src={aceOnline} alt="market" />
     </>
   )
 }

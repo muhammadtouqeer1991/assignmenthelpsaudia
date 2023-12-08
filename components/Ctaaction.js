@@ -10,16 +10,16 @@ const Ctaaction = () => {
     <>
         <div className='flex flex-wrap w-[500px] items-center gap-3'>
             <div>
-                <Image src={notgtp} />
+                <Image src={notgtp} alt="market" />
             </div>
             <div>
-                <Image src={turniting} />
+                <Image src={turniting} alt="market" />
             </div>
             <div>
-                <Image src={copyleak} />
+                <Image src={copyleak} alt="market" />
             </div>
             <div>
-                <Image src={paypal} />
+                <Image src={paypal} alt="market" />
             </div>
         </div>
     </>

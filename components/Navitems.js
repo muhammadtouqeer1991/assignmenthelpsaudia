@@ -11,7 +11,7 @@ import { FiUserCheck } from "react-icons/fi";
 const Navitems = () => {
   return (
     <>
-        <Link href="/"><Image src={brandLogo} width={251} /></Link>
+        <Link href="/"><Image src={brandLogo} width={251} alt="market" /></Link>
         <nav className='flex items-center border-b-[10px] border-navactive z-[1]'>
             <Link href="/" className='py-7 flex flex-col justify-center items-center bg-navactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[88%] before:bg-navactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-14px] before:z-[-1] z-[1] '>
                 <BiHomeAlt size={25} />

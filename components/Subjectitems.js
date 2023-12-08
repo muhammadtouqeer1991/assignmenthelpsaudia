@@ -9,7 +9,7 @@ return (
 <div className='py-4 flex justify-between items-center flex-wrap gap-3'>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketing} width={30} />
+            <Image src={marketing} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive w-full text-center'>
@@ -18,7 +18,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketinginactive} width={30} />
+            <Image src={marketinginactive} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center'>
@@ -27,7 +27,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketinginactive} width={30} />
+            <Image src={marketinginactive} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center'>
@@ -36,7 +36,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketinginactive} width={30} />
+            <Image src={marketinginactive} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center'>
@@ -45,7 +45,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketinginactive} width={30} />
+            <Image src={marketinginactive} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center'>
@@ -54,7 +54,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketinginactive} width={30} />
+            <Image src={marketinginactive} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center'>
@@ -63,7 +63,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketinginactive} width={30} />
+            <Image src={marketinginactive} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center'>
@@ -72,7 +72,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketinginactive} width={30} />
+            <Image src={marketinginactive} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center'>
@@ -81,7 +81,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketinginactive} width={30} />
+            <Image src={marketinginactive} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center'>
@@ -90,7 +90,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketinginactive} width={30} />
+            <Image src={marketinginactive} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center'>
@@ -99,7 +99,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketinginactive} width={30} />
+            <Image src={marketinginactive} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center'>
@@ -108,7 +108,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketinginactive} width={30} />
+            <Image src={marketinginactive} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center'>

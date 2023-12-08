@@ -6,7 +6,7 @@ const Writerimg = () => {
   return (
     <>
         <div className='w-[80%] relative left-[-7rem]'>
-        <Image src={assuringImg} />
+        <Image src={assuringImg} alt="market" />
         </div>
     </>
   )

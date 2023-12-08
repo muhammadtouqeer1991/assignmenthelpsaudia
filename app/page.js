@@ -10,10 +10,36 @@ import Subject from '@/components/Subject'
 import Ourwriters from '@/components/Ourwriters'
 import Faqs from '@/components/Faqs'
 import Clientsays from '@/components/Clientsays'
+import Process from '@/components/Process'
 
 export const metadata = {
   title: 'Assignment Help Saudia',
   description: '',
+  openGraph: {
+    title: 'Assignment Help Saudia',
+    description: '',
+  },
+  metadataBase: new URL('https://assignmenthelpsaudia.com'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/',
+      'de-DE': '/',
+    },
+  },
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      // noimageindex: true,
+      // 'max-video-preview': -1,
+      // 'max-image-preview': 'large',
+      // 'max-snippet': -1,
+    },
+  },
 }
 
 export default function Home() {
@@ -30,6 +56,7 @@ export default function Home() {
       <Ourwriters />
       <Faqs />
       <Clientsays />
+      <Process />
     </>
   )
 }
