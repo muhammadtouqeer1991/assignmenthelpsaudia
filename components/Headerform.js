@@ -5,7 +5,7 @@ import arrow from '../public/assets/arrow.svg';
 const Headerform = () => {
   return (
     <>
-    <div className='relative w-[550px]'>
+    <div className='relative md:w-[550px]'>
       <div className=' bg-[#282B2F] py-3 px-3 rounded h-fit'>
       <form>
         <div style={{background:'linear-gradient(180deg, #28D07E 0%, rgba(40, 208, 126, 0.05) 100%);'}} className='text-center py-4 rounded'>

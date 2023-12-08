@@ -6,7 +6,7 @@ const Features = () => {
   return (
     <>
         <div className='py-7 bg-topbarcolor relative'>
-            <div className='container mx-auto flex items-center'>
+            <div className='container mx-auto flex items-center md:flex-row flex-col'>
                 <Featureinfo />
                 <Featureitems />
             </div>

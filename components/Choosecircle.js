@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Choosecircle = () => {
   return (
     <>
-        <div className='flex flex-col gap-4 relative left-[68px] z-10'>
+        <div className='md:flex hidden flex-col gap-4 relative left-[68px] z-10'>
             <div className='relative top-[-3rem] left-[2.3rem]'>
                 <Image src={dotcircle} alt="market" />
             </div>

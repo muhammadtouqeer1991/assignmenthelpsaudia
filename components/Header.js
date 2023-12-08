@@ -7,12 +7,12 @@ const Header = () => {
 return (
 <>
 <div className="headerSec bg-topbarcolor relative z-0 overflow-hidden">
-    <div className='flex container justify-between mx-auto py-7 pt-[3rem]'>
+    <div className='md:flex flex-col md:flex-row container justify-between mx-auto py-7 pt-[3rem]'>
         <Headerinfo />
         <Headerform />
         <Headerimg />
     </div>
-    <div className='w-[800px] h-[800px] rounded-full bg-navactive absolute top-[-6rem] right-[-13rem] z-[-2]'></div>
+    <div className='w-[800px] h-[800px] md:flex hidden rounded-full bg-navactive absolute top-[-6rem] right-[-13rem] z-[-2]'></div>
     <div className='absolute top-6 left-3'>
     <svg xmlns="http://www.w3.org/2000/svg" width="119" height="122" viewBox="0 0 119 122" fill="none">
 <g opacity="0.5">

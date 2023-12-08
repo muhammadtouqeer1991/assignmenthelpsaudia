@@ -6,7 +6,7 @@ import arrow from '../public/assets/arrow.svg';
 const Backboneinfo = () => {
 return (
 <>
-<div className='flex h-[500px] overflow-auto backbone'>
+<div className='flex flex-col md:flex-row h-[500px] overflow-auto backbone'>
 <div>
     <h5 className='text-[16px] font-semibold text-white'>Assuring Excellent Results with our Exclusive Help With Dissertation Writing</h5>
     <p className='text-white text-[16px] font-normal pt-2 pb-2'>You won’t be able to find many such platforms that guarantee you to gain brilliant results with their exclusive dissertation writing help services. However, we are here with our highly qualified writers offering the guarantee of attaining good grades with our services. Our exclusive services include:</p>

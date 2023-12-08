@@ -12,7 +12,7 @@ const Whychoose = () => {
                 <h4 className='text-[40px] text-center text-white font-bold'>Order us and Avail the Amazing Benefits that you Deserve!</h4>
                 <p className='text-white text-[16px] text-center font-normal'>Order us and Avail the Amazing Benefits that you Deserve!</p>
                 </div>
-                <div className='flex justify-between items-center'>
+                <div className='flex flex-col md:flex-row justify-between items-center pt-4 md:pt-0'>
                     <Choosebenifit />
                     <Choosecircle />
                     <Whychooseimg />

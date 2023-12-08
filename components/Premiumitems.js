@@ -12,7 +12,7 @@ import { LuCopyPlus } from "react-icons/lu";
 const Premiumitems = () => {
   return (
     <>
-    <div className='w-[1500px] mx-auto flex gap-7 items-center'>
+    <div className='md:w-[1500px] mx-auto flex-col md:flex-row flex gap-7 items-center'>
         <div className='text-center border-2 border-navactive py-16 px-5 rounded-[10px]'>
             <h6 className='text-[40px] text-left pb-8 text-white font-semibold leading-[44px]'>Our Premium Services</h6>
             <div className='flex justify-center items-center gap-5'>

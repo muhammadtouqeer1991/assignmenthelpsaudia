@@ -4,8 +4,8 @@ import Image from 'next/image';
 const Headerimg = () => {
   return (
     <>
-     <div className='w-[20%]'>
-      <Image src={headerGirl} className='max-w-[524px] relative right-[160px] z-[-1]' />
+     <div className='md:w-[20%] hidden md:flex'>
+      <Image src={headerGirl} className='md:max-w-[524px] relative md:right-[160px] z-[-1]' />
      </div>
     </>
   )

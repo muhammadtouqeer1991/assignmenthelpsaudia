@@ -5,20 +5,20 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Topinfo = () => {
-  return (
-    <>
-        <div className='flex gap-6'>
-            <Link href="#" className='flex items-center text-white gap-2 font-normal text-[18px]'>
-                <Image src={email} />
-                AssignmentHelpSaudia
-            </Link>
-            <Link href="#" className='flex items-center text-white gap-2 font-normal text-[18px]'>
-                <Image src={whatsapp} />
-                +44 161 381 0000
-            </Link>
-        </div>
-    </>
-  )
+return (
+<>
+    <div className='flex gap-6'>
+        <Link href="#" className='md:flex md:flex-row hidden items-center text-white gap-2 font-normal text-[18px]'>
+            <Image src={email} />
+            AssignmentHelpSaudia
+        </Link>
+        <Link href="#" className='md:flex md:flex-row hidden items-center text-white gap-2 font-normal text-[18px]'>
+            <Image src={whatsapp} />
+            +44 161 381 0000
+        </Link>
+    </div>
+</>
+)
 }
 
 export default Topinfo

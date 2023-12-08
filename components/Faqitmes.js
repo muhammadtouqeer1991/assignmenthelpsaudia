@@ -3,7 +3,7 @@ import React from 'react'
 const Faqitmes = () => {
   return (
     <>
-        <div className='flex-1 pl-12 pb-8'>
+        <div className='flex-1 md:pl-12 pb-8'>
             <div className='border-2 border-navactive rounded-[16px] py-4 px-4'>
                 <div className='flex items-center justify-between border-b-2 border-navactive pb-2'>
                     <div className='text-[20px] text-white font-bold'>Can I hire you to edit my dissertation?</div>

@@ -6,10 +6,10 @@ import { FaStar } from "react-icons/fa6";
 const Writeritems = () => {
 return (
 <>
-<div className='flex gap-8 pt-8'>
+<div className='md:flex flex-col md:flex-row  gap-8 pt-8'>
 
     <div className='w-full bg-topbarcolor rounded-[25px]'>
-        <div className='flex z-0 relative left-[4rem]'>
+        <div className='flex z-0 relative md:left-[4rem]'>
 
             <div className='absolute top-[-22.4px] left-[-2.9rem] z-[-1]'>
             <svg xmlns="http://www.w3.org/2000/svg" width="131" height="85" viewBox="0 0 131 85" fill="none">
@@ -24,14 +24,14 @@ return (
                 Joseph Brown
             </div>
         </div>
-        <div className='flex py-4 px-6 pt-0 gap-6'>
+        <div className='flex md:flex-row flex-col py-4 px-6 pt-0 gap-6'>
             <div className='flex-[80%]'>
                 <h5 className='text-[26px] text-white font-bold'>PhD in Law</h5>
                 <h6 className='text-[16px] font-normal text-white'>Years of Experience: 10+</h6>
                 <h6 className='text-white text-[16px] font-bold pt-2'>Area of expertise</h6>
                 <p className='text-[16px] text-white font-normal pt-2'>Doctorate from the University of Birmingham and having years of experience in practicing law, He is one of our most top-notch law dissertation writer.</p>
             </div>
-            <div className='flex  flex-col items-start relative top-[-4rem]'>
+            <div className='flex md:flex-auto flex-col items-start relative md:top-[-4rem]'>
                 <div className='flex justify-between gap-4 items-center w-full'>
                 <div className='flex gap-1'><FaStar color='#FED207' size={23} /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /></div>
                 <div>
@@ -69,14 +69,14 @@ return (
                 Joseph Brown
             </div>
         </div>
-        <div className='flex py-4 px-6 pt-0 gap-6'>
+        <div className='flex md:flex-row flex-col py-4 px-6 pt-0 gap-6'>
             <div className='flex-[80%]'>
                 <h5 className='text-[26px] text-white font-bold'>PhD in Law</h5>
                 <h6 className='text-[16px] font-normal text-white'>Years of Experience: 10+</h6>
                 <h6 className='text-white text-[16px] font-bold pt-2'>Area of expertise</h6>
                 <p className='text-[16px] text-white font-normal pt-2'>Doctorate from the University of Birmingham and having years of experience in practicing law, He is one of our most top-notch law dissertation writer.</p>
             </div>
-            <div className='flex  flex-col items-start relative top-[-4rem]'>
+            <div className='flex  flex-col items-start relative md:top-[-4rem]'>
                 <div className='flex justify-between gap-4 items-center w-full'>
                 <div className='flex gap-1'><FaStar color='#FED207' size={23} /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /></div>
                 <div>

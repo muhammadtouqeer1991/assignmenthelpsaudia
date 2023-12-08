@@ -6,7 +6,7 @@ const Aboutwriters = () => {
   return (
     <>
         <div className='bg-navcolor'>
-            <div className='container mx-auto flex items-end'>
+            <div className='container mx-auto md:flex-row flex-col flex items-end'>
                 <Writerimg />
                 <Writerinfo />
             </div>

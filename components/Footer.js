@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <div className='bg-navcolor py-16'>
-        <div className="container mx-auto flex justify-between gap-6">
+        <div className="container mx-auto flex md:flex-row flex-col justify-between gap-6">
           <Quicklinks />
           <Getintouch />
           <Follow />

@@ -6,10 +6,10 @@ import writerImg from '../public/assets/writerImg.png';
 const Clientitems = () => {
 return (
 <>
-<div className='pt-24 flex gap-20'>
+<div className='pt-24 flex md:flex-row flex-col gap-20'>
  <div className='bg-navactive py-5 px-5 rounded-[25px] relative h-fit'>
 
- <div style={{background:'radial-gradient(50% 50% at 50% 50%, rgba(22, 27, 33, 0.80) 0%, rgba(22, 27, 33, 0.78) 100%)',backdropFilter:'blur(20px)'}} className='py-4 px-6 rounded-[25px] relative top-[-3rem] right-[-2.6rem] border-2 border-navactive'>
+ <div style={{background:'radial-gradient(50% 50% at 50% 50%, rgba(22, 27, 33, 0.80) 0%, rgba(22, 27, 33, 0.78) 100%)',backdropFilter:'blur(20px)'}} className='py-4 px-6 rounded-[25px] relative top-[-3rem] md:right-[-2.6rem] border-2 border-navactive'>
     <div className='flex items-center'>
       <div>
         <h4 className='text-[16px] font-bold text-white'>Ian Wesley</h4>
@@ -20,7 +20,7 @@ return (
       </div>
 
       <div>
-        <div className='flex z-0 relative left-[4rem]'>
+        <div className='flex z-0 relative md:left-[4rem]'>
         <div className='absolute top-[-33.9px] left-[-3rem] z-[-1]'>
         <svg xmlns="http://www.w3.org/2000/svg" width="122" height="62" viewBox="0 0 131 85" fill="none">
         <path d="M43.5 84.5C43.5 54 41 10.5 0.115082 0L130.885 0L43.5 84.5Z" fill="#28D07E"/>
@@ -62,7 +62,7 @@ return (
 
  <div className='bg-navactive py-5 px-5 rounded-[25px] relative h-fit'>
 
- <div style={{background:'radial-gradient(50% 50% at 50% 50%, rgba(22, 27, 33, 0.80) 0%, rgba(22, 27, 33, 0.78) 100%)',backdropFilter:'blur(20px)'}} className='py-4 px-6 rounded-[25px] relative top-[-3rem] left-[-2.6rem] border-2 border-navactive'>
+ <div style={{background:'radial-gradient(50% 50% at 50% 50%, rgba(22, 27, 33, 0.80) 0%, rgba(22, 27, 33, 0.78) 100%)',backdropFilter:'blur(20px)'}} className='py-4 px-6 rounded-[25px] relative top-[-3rem] md:left-[-2.6rem] border-2 border-navactive'>
     <div className='flex items-center'>
       <div>
         <h4 className='text-[16px] font-bold text-white'>Ian Wesley</h4>
@@ -73,7 +73,7 @@ return (
       </div>
 
       <div>
-        <div className='flex z-0 relative left-[4rem]'>
+        <div className='flex z-0 relative md:left-[4rem]'>
         <div className='absolute top-[-33.9px] left-[-3rem] z-[-1]'>
         <svg xmlns="http://www.w3.org/2000/svg" width="122" height="62" viewBox="0 0 131 85" fill="none">
         <path d="M43.5 84.5C43.5 54 41 10.5 0.115082 0L130.885 0L43.5 84.5Z" fill="#28D07E"/>
@@ -91,7 +91,7 @@ return (
 
   </div>
 
-  <div className='absolute bottom-[-5rem] right-[-10px]'>
+  <div className='absolute bottom-[-5rem] md:right-[-10px] right-0'>
     <svg xmlns="http://www.w3.org/2000/svg" width="105" height="113" viewBox="0 0 105 113" fill="none">
     <g filter="url(#filter0_d_23_397)">
       <path d="M95 9.5C88.9451 35.7944 63 29.5 10 31L95 102V9.5Z" fill="#28D07E"/>

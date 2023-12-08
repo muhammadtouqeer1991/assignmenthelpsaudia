@@ -8,7 +8,7 @@ import paypal from '../public/assets/paypal.png';
 const Ctaaction = () => {
   return (
     <>
-        <div className='flex flex-wrap w-[500px] items-center gap-3'>
+        <div className='flex flex-wrap md:w-[500px] items-center gap-3'>
             <div>
                 <Image src={notgtp} alt="market" />
             </div>
