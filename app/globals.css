@@ -33,3 +33,12 @@
     width: 100%;
     z-index: 999;
 }
+
+.writerD .swiper-wrapper{
+padding-top: 2rem;
+padding-bottom: 3rem;
+}
+.clientitems .swiper-wrapper{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    }
