@@ -6,6 +6,36 @@ import React from 'react'
 import Faqs from '@/components/Faqs';
 import ReviewsItems from '@/components/ReviewsItems';
 
+export const metadata = {
+  title: 'Assignment Help Saudia',
+  description: '',
+  openGraph: {
+    title: 'Assignment Help Saudia',
+    description: '',
+  },
+  metadataBase: new URL('https://assignmenthelpsaudia.com'),
+  alternates: {
+    canonical: '/reviews',
+    languages: {
+      'en-US': '/',
+      'de-DE': '/',
+    },
+  },
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      // noimageindex: true,
+      // 'max-video-preview': -1,
+      // 'max-image-preview': 'large',
+      // 'max-snippet': -1,
+    },
+  },
+}
+
 const page = () => {
   return (
     <>
