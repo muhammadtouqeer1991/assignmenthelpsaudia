@@ -19,19 +19,19 @@ const Navitems = () => {
                 <BiHomeAlt size={25} />
                 Home
             </Link>
-            <Link href="/" className='py-7 flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[88%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white'>
+            <Link href="/about-us" className='py-7 flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[88%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white'>
                 <BiUserPin size={25} color='#28D07E' />
                 About
             </Link>
-            <Link href="/" className='py-7 flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[88%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white'>
+            <Link href="/services" className='py-7 flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[88%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white'>
                 <GrServices size={25} color='#28D07E' />
                 Services
             </Link>
-            <Link href="/" className='py-7 flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[88%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white'>
+            <Link href="/pricing" className='py-7 flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[88%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white'>
                 <ImPriceTags size={25} color='#28D07E' />
                 Pricing
             </Link>
-            <Link href="/" className='py-7 flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[88%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white'>
+            <Link href="/reviews" className='py-7 flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[88%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white'>
                 <RiUserHeartLine size={25} color='#28D07E' />
                 Reviews
             </Link>
