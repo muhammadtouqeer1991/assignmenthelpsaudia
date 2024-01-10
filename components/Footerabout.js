@@ -27,7 +27,7 @@ const Footerabout = () => {
             <Link href="#" className='flex flex-col justify-center items-center'><Image src={visa} alt="market" /></Link>
         </nav>
         <nav className='flex mt-3 text-white gap-2 flex-1'>
-            <Link href="#" className='flex flex-col justify-center items-center'><Image src={clutch} className='w-[100%]' /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><Image src={clutch} className='w-[100%]' alt="market" /></Link>
         </nav>
        </div>
         </div>

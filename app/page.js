@@ -43,6 +43,26 @@ export const metadata = {
 }
 
 export default function Home() {
+
+  const FaqItems = [
+    {
+      title:"Can I hire you to edit my dissertation?",
+      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+    },
+    {
+      title:"Can I hire you to edit my dissertation?",
+      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+    },
+    {
+      title:"Can I hire you to edit my dissertation?",
+      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+    },
+    {
+      title:"Can I hire you to edit my dissertation?",
+      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+    }
+  ];
+
   return (
     <>
       <Header />
@@ -54,7 +74,7 @@ export default function Home() {
       <Backbonecontent />
       <Subject />
       <Ourwriters />
-      <Faqs />
+      <Faqs FaqItems={FaqItems} />
       <Clientsays />
       <Process />
     </>

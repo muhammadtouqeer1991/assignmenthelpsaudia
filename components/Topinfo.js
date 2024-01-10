@@ -9,11 +9,11 @@ return (
 <>
     <div className='flex gap-6'>
         <Link href="#" className='md:flex md:flex-row hidden items-center text-white gap-2 font-normal text-[18px]'>
-            <Image src={email} />
+            <Image src={email} alt="market" />
             AssignmentHelpSaudia
         </Link>
         <Link href="#" className='md:flex md:flex-row hidden items-center text-white gap-2 font-normal text-[18px]'>
-            <Image src={whatsapp} />
+            <Image src={whatsapp} alt="market" />
             +44 161 381 0000
         </Link>
     </div>

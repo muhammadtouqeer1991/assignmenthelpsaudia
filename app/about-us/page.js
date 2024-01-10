@@ -1,3 +1,4 @@
+import Backboneabout from '@/components/Backboneabout'
 import Backbonecontent from '@/components/Backbonecontent'
 import BreadCrumb from '@/components/BreadCrumb'
 import Clientsays from '@/components/Clientsays'
@@ -39,14 +40,34 @@ export const metadata = {
 }
 
 const page = () => {
+
+  const FaqItems = [
+    {
+      title:"Can I hire you to edit my dissertation?",
+      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+    },
+    {
+      title:"Can I hire you to edit my dissertation?",
+      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+    },
+    {
+      title:"Can I hire you to edit my dissertation?",
+      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+    },
+    {
+      title:"Can I hire you to edit my dissertation?",
+      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+    }
+  ];
+
   return (
     <>
       <BreadCrumb title="About Us" para="Early in the 20th century, the MBA became popular in the educational programs have been made creation of this degree.Early in the 20th century," />
       <Features />
-      <Backbonecontent />
+      <Backboneabout />
       <Cta />
       <Clientsays />
-      <Faqs />
+      <Faqs FaqItems={FaqItems} />
       <div className='py-5 bg-navcolor'>
         <div className="container mx-auto">
             <div className='flex justify-between items-center'>

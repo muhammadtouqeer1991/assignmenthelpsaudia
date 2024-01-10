@@ -10,9 +10,9 @@ const Headerinfo = () => {
         <hr className='w-[295.002px] border-navactive mb-4 mt-1'/>
         <p className='pb-3 text-[16px] text-white'>Need cost-effective online assignment help services in Saudi Arabia? Call us! For a reasonable price, the subject experts in our team will provide plagiarism-free and customized assignment solutions for all subjects without delay.</p>
         <ul className='flex flex-col gap-3 text-white pt-2'>
-          <li className='flex gap-2 items-center'><Image src={arrow} /> Raise Your Grades with Assignment Help Pro</li>
-          <li className='flex gap-2 items-center'><Image src={arrow} /> Raise Your Grades with Assignment Help Pro</li>
-          <li className='flex gap-2 items-center'><Image src={arrow} /> Raise Your Grades with Assignment Help Pro</li>
+          <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Raise Your Grades with Assignment Help Pro</li>
+          <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Raise Your Grades with Assignment Help Pro</li>
+          <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Raise Your Grades with Assignment Help Pro</li>
         </ul>
         <div className='flex gap-4 pt-4 items-center'>
                 <Link href="#" className='py-3 px-8 bg-navactive rounded-[10px]'>Order Now</Link>

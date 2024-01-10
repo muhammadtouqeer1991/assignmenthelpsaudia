@@ -5,7 +5,7 @@ const Headerimg = () => {
   return (
     <>
      <div className='md:w-[20%] hidden md:flex'>
-      <Image src={headerGirl} className='md:max-w-[524px] relative md:right-[160px] z-[-1]' />
+      <Image src={headerGirl} className='md:max-w-[524px] relative md:right-[160px] z-[-1]' alt="market" />
      </div>
     </>
   )
