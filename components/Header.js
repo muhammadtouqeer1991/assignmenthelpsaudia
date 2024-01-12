@@ -3,13 +3,13 @@ import Headerinfo from './Headerinfo'
 import Headerform from './Headerform'
 import Headerimg from './Headerimg'
 
-const Header = () => {
+const Header = ({HeaderContent}) => {
 return (
 <>
 <div className="headerSec bg-topbarcolor relative z-0 overflow-hidden">
     <div className='md:flex flex-col md:flex-row container justify-between mx-auto py-7 pt-[3rem]'>
-        <Headerinfo />
-        <Headerform />
+        <Headerinfo HeaderContent={HeaderContent} />
+        <Headerform HeaderContent={HeaderContent} />
         <Headerimg />
     </div>
     <div className='w-[800px] h-[800px] md:flex hidden rounded-full bg-navactive absolute top-[-6rem] right-[-13rem] z-[-2]'></div>

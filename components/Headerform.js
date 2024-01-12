@@ -2,15 +2,15 @@ import Image from 'next/image'
 import React from 'react'
 import arrow from '../public/assets/arrow.svg';
 
-const Headerform = () => {
+const Headerform = ({HeaderContent}) => {
   return (
     <>
     <div className='relative md:w-[550px]'>
       <div className=' bg-[#282B2F] py-3 px-3 rounded h-fit'>
       <form>
         <div style={{background:'linear-gradient(180deg, #28D07E 0%, rgba(40, 208, 126, 0.05) 100%);'}} className='text-center py-4 rounded'>
-          <h4 className='font-bold text-[26px] text-white'>Get Help Instantly</h4>
-          <h6 className='text-[16px] text-white'>Raise Your Grades with Assignment Help Pro</h6> 
+          <h4 className='font-bold text-[26px] text-white'>{HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 'Get Help Instantly' : HeaderContent.formheading }</h4>
+          <h6 className='text-[16px] text-white'>{HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 'Raise Your Grades with Assignment Help Pro' : HeaderContent.formpara }</h6> 
         </div>
         <div className='flex gap-3 justify-between pt-3'>
           <input type="text" placeholder='Your Name' className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' />
@@ -27,11 +27,25 @@ const Headerform = () => {
         </div>
         <textarea className='w-full rounded-[10px] mt-2 py-4 px-4 bg-navcolor border-navactive border-2 text-white' placeholder='Message' cols={10} rows={5}></textarea>
         <div className='flex gap-3 justify-between pt-2 items-center'>
-          <ul className='flex flex-col gap-2 text-white pt-2'>
-            <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Unlimited Revisions</li>
-            <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Plagiarism Report</li>
-            <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Quality Review by PHD Writer</li>
-          </ul>
+        {HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 
+        <ul className='flex flex-col gap-2 text-white pt-2'>
+        <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Unlimited Revisions</li>
+        <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Plagiarism Report</li>
+        <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Quality Review by PHD Writer</li>
+      </ul>
+        :
+      <ul className='flex flex-col gap-2 text-white pt-2'>
+        {
+          HeaderContent.formoption.map((item,key) => {
+            return (
+              <li className='flex gap-2 items-center' key={key+1}><Image src={arrow} alt="market" /> {item.title}</li>
+            )
+          })
+        }
+        
+      </ul>
+        }
+          
           <button type='button' className='bg-navactive py-4 px-10 rounded-[10px] text-white'>Order Now</button>
         </div>
       </form>

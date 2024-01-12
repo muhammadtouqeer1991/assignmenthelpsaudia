@@ -15,10 +15,10 @@ import clutch from '../public/assets/clutch.png';
 const Footerabout = () => {
   return (
     <>
-        <div>
+        <div className='w-[80%]'>
         <h4 className='text-white font-bold text-[26px] pb-2'>About</h4>
         <hr className='w-28 border-navactive'/>
-        <p className='text-white pt-2'>Assignment Help Writers offers its assignment writing services purely for the help of students. Our  assignments are for reference purposes and help students</p>
+        <p className='text-white pt-2'>Assignment Help Saudi Arabia helps students with their assignment projects. By assigning expert and related academic writers, we help them create high quality and genuine assignments. We prohibit the use of our samples to violate any academic integrity rule and encourage the use of our samples for learning and guidance only. </p>
        <div className='flex'>
        <nav className='flex mt-3 text-white gap-2 flex-wrap flex-[20%]'>
             <Link href="#" className='flex flex-col justify-center items-center'><Image src={paYPAL2} alt="market" /></Link>
