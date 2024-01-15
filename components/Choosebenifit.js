@@ -13,31 +13,31 @@ return (
 <div className='bg-navactive rounded-[65.5px] relative py-4 px-10 pl-7 font-semibold pr-[8rem] md:left-[8rem]'>
 <h6>{WhychooseContent == null || WhychooseContent == '' || WhychooseContent == undefined ? 'Free Unlimited Revisions' : WhychooseContent.option[0].title}</h6>
 <div className='absolute top-0 right-[-1px] rounded-full bg-navcolor w-14 h-14 flex justify-center items-center'>
-    <Image src={revision} alt="market" />
+    <Image src={WhychooseContent.option[0].icon} alt="market" width={30} />
 </div>
 </div>
 <div className='bg-benifitcolor rounded-[65.5px] relative py-4 px-10 pl-7 font-semibold pr-[8rem] md:left-[4rem]'>
 <h6 className='text-white'>{WhychooseContent == null || WhychooseContent == '' || WhychooseContent == undefined ? '650+ Subject Specialist' : WhychooseContent.option[1].title}</h6>
 <div className='absolute top-0 right-[-1px] rounded-full bg-navactive w-14 h-14 flex justify-center items-center'>
-    <Image src={specialist} alt="market" />
+    <Image src={WhychooseContent.option[1].icon} alt="market" width={30} />
 </div>
 </div>
 <div className='bg-benifitcolor rounded-[65.5px] relative py-4 px-10 pl-7 font-semibold pr-[8rem]'>
 <h6 className='text-white'>{WhychooseContent == null || WhychooseContent == '' || WhychooseContent == undefined ? 'Complete Ownership' : WhychooseContent.option[2].title}</h6>
 <div className='absolute top-0 right-[-1px] rounded-full bg-navactive w-14 h-14 flex justify-center items-center'>
-    <Image src={ownership} alt="market" />
+    <Image src={WhychooseContent.option[2].icon} alt="market" width={30} />
 </div>
 </div>
 <div className='bg-benifitcolor rounded-[65.5px] relative py-4 px-10 pl-7 font-semibold pr-[8rem] md:left-[4rem]'>
 <h6 className='text-white'>{WhychooseContent == null || WhychooseContent == '' || WhychooseContent == undefined ? 'Free Plagiarism Report' : WhychooseContent.option[3].title}</h6>
 <div className='absolute top-0 right-[-1px] rounded-full bg-navactive w-14 h-14 flex justify-center items-center'>
-    <Image src={plagiarism} alt="market" />
+    <Image src={WhychooseContent.option[3].icon} alt="market" width={30} />
 </div>
 </div>
 <div className='bg-benifitcolor rounded-[65.5px] relative py-4 px-10 pl-7 font-semibold pr-[8rem] md:left-[8rem]'>
 <h6 className='text-white'>{WhychooseContent == null || WhychooseContent == '' || WhychooseContent == undefined ? 'Free Title and References' : WhychooseContent.option[4].title}</h6>
 <div className='absolute top-0 right-[-1px] rounded-full bg-navactive w-14 h-14 flex justify-center items-center'>
-    <Image src={reference} alt="market" />
+    <Image src={WhychooseContent.option[4].icon} alt="market" width={30} />
 </div>
 </div>
 </div>

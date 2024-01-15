@@ -7,14 +7,14 @@ import Image from 'next/image';
 const Topinfo = () => {
 return (
 <>
-    <div className='flex gap-6'>
-        <Link href="#" className='md:flex md:flex-row hidden items-center text-white gap-2 font-normal text-[18px]'>
+    <div className='flex gap-6 items-center'>
+        <Link href="#" className='md:flex md:flex-row hidden items-center text-white gap-2 font-normal text-[16px]'>
             <Image src={email} alt="market" />
-            AssignmentHelpSaudia
+            info@assignmenthelpsaudia.com
         </Link>
-        <Link href="#" className='md:flex md:flex-row hidden items-center text-white gap-2 font-normal text-[18px]'>
+        <Link href="#" className='md:flex md:flex-row hidden items-center text-white gap-2 font-normal text-[16px]'>
             <Image src={whatsapp} alt="market" />
-            +44 161 381 0000
+            +97 142 473 777
         </Link>
     </div>
 </>

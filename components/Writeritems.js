@@ -350,7 +350,7 @@ return (
 </div>
 <div className='flex md:flex-row flex-col py-4 px-6 pt-0 gap-6'>
 <div className='flex-[80%]'>
-<h5 className='text-[26px] text-white font-bold'>{item.designation}</h5>
+<h5 className='text-[20px] text-white font-bold'>{item.designation}</h5>
 <h6 className='text-[16px] font-normal text-white'>{item.experience}</h6>
 <h6 className='text-white text-[16px] font-bold pt-2'>{item.title}</h6>
 <p className='text-[16px] text-white font-normal pt-2'>{item.para}</p>

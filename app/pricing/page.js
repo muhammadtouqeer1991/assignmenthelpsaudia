@@ -37,26 +37,26 @@ const page = () => {
 
   const FaqItems = [
     {
-      title:"Can I hire you to edit my dissertation?",
-      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+      title:"What are your service charges per assignment?",
+      para:"Assignment Help Saudi Arabia is a fair and transparent service. We estimate your order price after considering all the elements and requirements of your order. Therefore, it is very difficult to tell the price of one assignment without knowing its specifics. However, rest assured that whatever price we calculate for your order will be very feasible and within your budget. "
     },
     {
-      title:"Can I hire you to edit my dissertation?",
-      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+      title:"Do you offer discounts?",
+      para:"Although our real service rates are highly affordable and cheap themselves, we make them even more accessible for you by offering various discounts and markdowns throughout the year. From holiday sales to first order discounts and many others, we provide various kinds of promotional and discounted offers for you."
     },
     {
-      title:"Can I hire you to edit my dissertation?",
-      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+      title:"Can I trust your service that there will be no hidden charges? ",
+      para:"Yes, you can certainly trust our service in this regard. We claim to be a genuine and credible help for students and strive to work by those principles. Our team will calculate your affordable order price at the commencement of the service, and this payment will be considered the final one that will not be changed throughout the service. "
     },
     {
-      title:"Can I hire you to edit my dissertation?",
-      para:"Of course! We have PhD dissertation helpers and former professors of well-known universities, who can edit your dissertation in a professional way. They thoroughly proofread the whole content according to your university guidelines and make the correction which definitely improves your grade."
+      title:"Do you offer value for money?",
+      para:"Our service is the best across Saudi Arabia due to various student-friendly reasons that help the educational objectives of the students. From hiring only qualified writers to meticulous attention to detail and service charges feasibility, we ensure that you get the best value for your money at every step with our service. "
     }
   ];
 
   return (
     <>
-     <BreadCrumb title="Pricing & plan" para="Early in the 20th century, the MBA became popular in the educational programs have been made creation of this degree.Early in the 20th century," />
+     <BreadCrumb title="Fly High in Your Academics With Our Affordable Assignment Writing Help" para="Ready to reach the stars? Let us be your partner in the journey of excellence. Hire us today at cheap rates and step forward for success. " />
      <PricingBox />
      <Faqs FaqItems={FaqItems} />
     </>

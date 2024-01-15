@@ -7,19 +7,19 @@ const Topsocial = () => {
   return (
     <>
         <div className='flex'>
-            <Link href="#" className='py-3 px-4 bg-[#527BDA]'>
+            <Link href="#" className='py-2 px-4 bg-[#527BDA]'>
                 <FaFacebookSquare fill='#fff' size={20} />
             </Link>
-            <Link href="#" className='py-3 px-4 bg-[#000]'>
+            <Link href="#" className='py-2 px-4 bg-[#000]'>
                 <FaSquareXTwitter fill='#fff' size={20} />
             </Link>
-            <Link href="#" className='py-3 px-4 bg-[#0086CF]'>
+            <Link href="#" className='py-2 px-4 bg-[#0086CF]'>
                 <FaLinkedin fill='#fff' size={20} />
             </Link>
-            <Link href="#" className='py-3 px-4 bg-[#F95151]'>
+            <Link href="#" className='py-2 px-4 bg-[#F95151]'>
                 <FaInstagramSquare fill='#fff' size={20} />
             </Link>
-            <Link href="#" className='py-3 px-4 bg-[#EF0014]'>
+            <Link href="#" className='py-2 px-4 bg-[#EF0014]'>
                 <FaPinterestSquare  fill='#fff' size={20} />
             </Link>
         </div>

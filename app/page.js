@@ -11,6 +11,23 @@ import Ourwriters from '@/components/Ourwriters'
 import Faqs from '@/components/Faqs'
 import Clientsays from '@/components/Clientsays'
 import Process from '@/components/Process'
+import CheapServicePackages from '../public/assets/CheapServicePackages.svg';
+import CustomAssignments from '../public/assets/CustomAssignments.svg';
+import FreeRevisions from '../public/assets/FreeRevisions.svg';
+import HighlyQualifiedWriters from '../public/assets/HighlyQualifiedWriters.svg';
+
+import Domainspecificwriterss from '../public/assets/Domainspecificwriterss.svg';
+import Freeplagiarismreportss from '../public/assets/Freeplagiarismreportss.svg';
+import Freerevisionss from '../public/assets/Freerevisionss.svg';
+import Fullconfidentialits from '../public/assets/Fullconfidentialits.svg';
+import Throughoutsupports from '../public/assets/Throughoutsupports.svg';
+
+import CaseStudiess from '../public/assets/CaseStudiess.svg';
+import Essayss from '../public/assets/Essayss.svg';
+import LiteratureReviews from '../public/assets/LiteratureReviews.svg';
+import Reportss from '../public/assets/Reportss.svg';
+import Thesiss from '../public/assets/Thesiss.svg';
+import Dissertations from '../public/assets/Dissertations.svg';
 
 export const metadata = {
   title: 'Assignment Help Saudia',
@@ -78,15 +95,19 @@ export default function Home() {
     subheading:"Why Are We the Right Choice? ",
     option:[
       {
+        icon:HighlyQualifiedWriters,
         title:"Highly Qualified Writers",
       },
       {
+        icon:CheapServicePackages,
         title:"Cheap Service Packages",
       },
       {
+        icon:CustomAssignments,
         title:"Custom Assignments ",
       },
       {
+        icon:FreeRevisions,
         title:"Free Revisions",
       },
     ]
@@ -113,18 +134,23 @@ export default function Home() {
     para:"We are the best assignment helper for you, considering the various benefits we provide to the students. ",
     option:[
       {
+        icon:Freerevisionss,
         title:"Free revisions",
       },
       {
+        icon:Fullconfidentialits,
         title:"Full confidentiality ",
       },
       {
+        icon:Throughoutsupports,
         title:"Throughout support ",
       },
       {
+        icon:Freeplagiarismreportss,
         title:"Free plagiarism reports ",
       },
       {
+        icon:Domainspecificwriterss,
         title:"Domain specific writers ",
       }
     ]
@@ -135,29 +161,35 @@ export default function Home() {
     para:"Serving You Beyond Bounds",
     option:[
       {
+        icon:Essayss,
         title:"Essays",
         para:"Concerned about the quality of your essay writing tasks? Let our essay experts resolve your problems with their exceptional essay-writing capabilities. From descriptive to narrative, they can craft any essay with quality results. "
       },
       {
+        icon:CaseStudiess,
         title:"Case Studies ",
         para:"Overwhelmed by the detailed task of your case study assignment? We can ease your stress with our commendable case study expertise. Order your case study sample today and write flawless content. "
       },
       {
+        icon:Reportss,
         title:"Reports ",
         para:"Is it difficult to conform to the writing specifications of your reports? Our writers are experienced in report writing and can create simplified samples for you to learn. Hire them today. "
       },
       {
+        icon:LiteratureReviews,
         title:"Literature Review",
         para:"Do you not have time to do comprehensive research for your literature review tasks? Hand over your assignment to our researchers and get holistic support in acquiring the latest and credible research references. "
       },
-      // {
-      //   title:"Thesis",
-      //   para:"Do you think thesis writing is out of your writing capabilities? Rely on our expert writers and researchers to develop high quality and authentic theses. We offer assistance for all the issues in your thesis development. "
-      // },
-      // {
-      //   title:"Dissertation",
-      //   para:"Are you facing trouble in your dissertation writing? We have highly qualified and professional dissertation developers who can assist you in creating accurate and well-researched dissertations at affordable rates. "
-      // }
+      {
+        icon:Thesiss,
+        title:"Thesis",
+        para:"Do you think thesis writing is out of your writing capabilities? Rely on our expert writers and researchers to develop high quality and authentic theses. We offer assistance for all the issues in your thesis development. "
+      },
+      {
+        icon:Dissertations,
+        title:"Dissertation",
+        para:"Are you facing trouble in your dissertation writing? We have highly qualified and professional dissertation developers who can assist you in creating accurate and well-researched dissertations at affordable rates. "
+      }
     ]
   }
 

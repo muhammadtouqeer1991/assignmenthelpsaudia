@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useRef } from 'react'
 import leftarrow from '../public/assets/leftarrow.svg';
 import rightarrow from '../public/assets/rightarrow.svg';
 import assignemnt from '../public/assets/assignemnt.svg';
@@ -8,8 +9,16 @@ import homework from '../public/assets/homework.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { LuCopyPlus } from "react-icons/lu";
+import { Swiper, SwiperSlide,useSwiper } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+// import required modules
+import { Pagination,Navigation } from 'swiper/modules';
 
 const Premiumitems = ({PremiumservicesContent}) => {
+
+const swiperRef = useRef();
+
 return (
 <>
 <div className='md:w-[1500px] mx-auto flex-col md:flex-row flex gap-7 items-center'>
@@ -22,6 +31,7 @@ PremiumservicesContent == null || PremiumservicesContent == undefined || Premium
 <Link href="#"><Image src={rightarrow} alt="market" /></Link>
 </div>
 </div>
+
 <div className='flex flex-col justify-center items-center text-center border-2 border-navactive py-6 px-5 rounded-[10px]' style={{background:'radial-gradient(50% 50% at 50% 50%, rgba(40, 208, 126, 0.40) 0%, rgba(40, 208, 126, 0.30) 100%)'}}>
 <Image src={assignemnt} alt="market" />
 <h5 className='text-[26px] text-white font-semibold pt-2 pb-1'>Assignments</h5>
@@ -63,21 +73,50 @@ PremiumservicesContent == null || PremiumservicesContent == undefined || Premium
 <Link href="#"><Image src={rightarrow} alt="market" /></Link>
 </div>
 </div>
+<Swiper
+onSwiper={(swiper) => {
+swiperRef.current = swiper;
+}}
+pagination={{
+clickable: true,
+}}
+slidesPerView={1}
+spaceBetween={10}
+navigation
+breakpoints={{
+640: {
+slidesPerView: 1,
+spaceBetween: 10,
+},
+768: {
+slidesPerView: 1,
+spaceBetween: 10,
+},
+1024: {
+slidesPerView: 4,
+spaceBetween: 10,
+},
+}}
+modules={[Pagination,Navigation]}
+className="mySwiper"
+>
 {
 PremiumservicesContent.option.map((item,key) => {
 return (
-<div className='flex flex-col justify-center items-center text-center border-2 border-navactive py-6 px-5 rounded-[10px]' style={{background:'radial-gradient(50% 50% at 50% 50%, rgba(40, 208, 126, 0.40) 0%, rgba(40, 208, 126, 0.30) 100%)'}} key={key+1}>
-<Image src={assignemnt} alt="market" />
-<h5 className='text-[26px] text-white font-semibold pt-2 pb-1'>{item.title}</h5>
-<p className='text-[14px] leading-normal text-white'>{item.para}</p>
-<div className='flex justify-end items-end w-full'>
-<Link href="#" className='mt-5 flex items-center gap-2 text-white'>Read more <LuCopyPlus /></Link>
-</div>
-</div>
+<SwiperSlide>
+    <div className='flex flex-col justify-center items-center text-center border-2 border-navactive py-6 px-5 rounded-[10px]' style={{background:'radial-gradient(50% 50% at 50% 50%, rgba(40, 208, 126, 0.40) 0%, rgba(40, 208, 126, 0.30) 100%)'}} key={key+1}>
+    <Image src={item.icon} alt="market" />
+    <h5 className='text-[26px] text-white font-semibold pt-2 pb-1'>{item.title}</h5>
+    <p className='text-[14px] leading-normal text-white'>{item.para}</p>
+    <div className='flex justify-end items-end w-full'>
+    <Link href="#" className='mt-5 flex items-center gap-2 text-white'>Read more <LuCopyPlus /></Link>
+    </div>
+    </div>
+</SwiperSlide>
 )
 })
 }
-
+</Swiper>
 {/* <div className='flex flex-col justify-center items-center text-center border-2 border-navactive py-6 px-5 rounded-[10px]'>
 <Image src={essay} alt="market" />
 <h5 className='text-[26px] text-white font-semibold pt-2 pb-1'>Essays</h5>

@@ -8,7 +8,7 @@ import proofread from '../public/assets/proofread.svg';
 const Featureitems = ({FeaturesContent}) => {
 return (
 <>
-<div className='flex justify-center items-center mx-auto  gap-10 bg-navcolor py-14 px-14 rounded-[16px] flex-wrap'>
+<div className='flex justify-center items-center mx-auto gap-10 bg-navcolor py-14 px-14 rounded-[16px] text-center'>
 {
 FeaturesContent == null || FeaturesContent == '' || FeaturesContent == undefined ? 
 <>
@@ -35,7 +35,7 @@ FeaturesContent == null || FeaturesContent == '' || FeaturesContent == undefined
 FeaturesContent.option.map((item,key) => {
 return (
 <div className='flex flex-col justify-center items-center gap-4 ' key={key+1}>
-    <Image src={writers} alt="market" />
+    <Image src={item.icon} alt="market" />
     <h5 className='text-white text-[14px] font-semibold'>{item.title}</h5>
 </div>
 )
