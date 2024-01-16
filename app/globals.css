@@ -42,3 +42,13 @@ padding-bottom: 3rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
     }
+
+.pricingBoxPath{
+clip-path: polygon(51% 63%, 0 0, 100% 0);
+height: 180px;
+background: #2C3539;
+position: absolute;
+left: 0;
+right: 0;
+bottom: -180.1px;
+}
