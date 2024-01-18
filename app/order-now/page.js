@@ -57,8 +57,6 @@ const page = () => {
   return (
     <>
      <BreadCrumb title="Soar to Excellence With the Best Assignment Help Saudi Arabia" para="Reach your academic potential to the maximum possible limits with our competent and skilled assignment writers. Order now and team up with us for your educational success. " />
-     <PricingBox />
-     <Faqs FaqItems={FaqItems} />
     </>
   )
 }
