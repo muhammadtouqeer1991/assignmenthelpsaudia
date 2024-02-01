@@ -14,10 +14,14 @@ import { usePathname } from 'next/navigation'
 
 const Navitems = () => {
     const pathname = usePathname();
+
+    const HamburgerBtn = () => {
+        alert("FIne");
+    }
 return (
 <>  
 <Link href="/"><Image src={brandLogo} width={251} alt="market" /></Link>
-<FaBars className='md:hidden lg:hidden sm:hidden' size={30} color='#fff' />
+<FaBars className='md:hidden lg:hidden sm:hidden' size={30} color='#fff' onClick={()=>HamburgerBtn()} />
 <nav className='md:flex hidden items-center border-b-[10px] border-navactive z-[1] md:w-[585px]'>
     <Link href="/" className={`${pathname == '/' ? 
     'pb-[1.5rem] pt-[1.2rem] flex flex-col justify-center items-center bg-navactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[86%] before:bg-navactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-12px] before:z-[-1] z-[1]' : 

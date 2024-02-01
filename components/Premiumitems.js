@@ -103,7 +103,7 @@ className="mySwiper"
 {
 PremiumservicesContent.option.map((item,key) => {
 return (
-<SwiperSlide>
+<SwiperSlide key={key+1}>
     <div className='flex flex-col justify-center items-center text-center border-2 border-navactive py-6 px-5 rounded-[10px]' style={{background:'radial-gradient(50% 50% at 50% 50%, rgba(40, 208, 126, 0.40) 0%, rgba(40, 208, 126, 0.30) 100%)'}} key={key+1}>
     <Image src={item.icon} alt="market" />
     <h5 className='text-[26px] text-white font-semibold pt-2 pb-1'>{item.title}</h5>

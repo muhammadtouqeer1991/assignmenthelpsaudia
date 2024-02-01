@@ -348,18 +348,20 @@ return (
 {item.name}
 </div>
 </div>
-<div className='flex md:flex-row flex-col py-4 px-6 pt-0 gap-6'>
-<div className='flex-[80%]'>
+<div className='flex md:flex-row flex-col py-4 px-6 pt-0 gap-6 md:h-[200px]'>
+
+<div className='pt-[2rem]'>
 <h5 className='text-[20px] text-white font-bold'>{item.designation}</h5>
 <h6 className='text-[16px] font-normal text-white'>{item.experience}</h6>
 <h6 className='text-white text-[16px] font-bold pt-2'>{item.title}</h6>
-<p className='text-[16px] text-white font-normal pt-2'>{item.para}</p>
+
 </div>
-<div className='flex  flex-col items-start relative md:top-[-4rem]'>
+
+<div className='flex  flex-col items-start relative md:top-[-4rem] md:w-[70%]'>
 <div className='flex justify-between gap-4 items-center w-full'>
 <div className='flex gap-1'><FaStar color='#FED207' size={23} /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /></div>
 <div>
-<button className='border-2 border-navactive py-3 px-8 rounded-[10px] text-[16px] text-white font-normal'>Hire Me</button>
+<button className='border-2 border-navactive py-3 px-8 rounded-[10px] text-[14px] text-white font-normal'>Hire Me</button>
 </div>
 </div>
 <div>
@@ -368,18 +370,28 @@ return (
 <p className='text-[16px] font-bold text-white pt-4'>{item.completeProject}</p>
 <p className='text-[16px] text-white font-normal pt-4 pb-4'>Expertise</p>
 
+</div>
+</div>
+
+</div>
+
+<div className='py-4 px-6 pt-0'>
+<p className='text-[16px] text-white font-normal pt-2'>{item.para}</p>
+</div>
+
+<div className='py-4 px-6'>
+    
 <ul className='flex flex-wrap items-center gap-2'>
 {
    item.Expertise.map((items,key) => {
     return (
-        <li className='bg-navcolor py-2 px-4 rounded-[16px] flex-1 text-[14px] text-white' key={key+1}>{items.title}</li> 
+        <li className={`bg-navcolor py-2 px-4 rounded-[16px] flex-[40%] text-[12px] text-white`} key={key+1}>{items.title}{items.title.length}</li> 
     )
    }) 
 }
 </ul>
 </div>
-</div>
-</div>
+
 </div>
 </SwiperSlide>
 )

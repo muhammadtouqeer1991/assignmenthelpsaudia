@@ -279,7 +279,7 @@ export default function Home() {
         title:"What Can He Help With?",
         para:" Are coding assignments getting out of your comprehension abilities? No need to worry, as our expert and masters in computer science tutor is here to provide effective solutions. From coding to algorithms to software technicalities, he is a pro in all. ",
         successrate:"Rated: 96% success rate",
-        completeProject:"400+ projects have been delivered",
+        completeProject:"400+ Projects Delivered",
         Expertise:[
           {
             title:"Programming languages",
@@ -302,7 +302,7 @@ export default function Home() {
         title:"What Can She Help With?",
         para:"Do you need assignment help from an industry professional for your business management assignments? Our expert writer, Kiley Rein, is an accomplished assignment maker who has been offering holistic help to students regarding their business studies. Hire her and get quality samples. ",
         successrate:"Rated: 95% success rate",
-        completeProject:"200+ projects have been delivered",
+        completeProject:"200+ Projects Delivered",
         Expertise:[
           {
             title:"Business strategy",
@@ -348,7 +348,7 @@ export default function Home() {
         title:"What Can She Help With?",
         para:"Give your economics assignments excellent help from a professional assignment maker, Fatima Noor, who holds a Ph.D. in economics. She can create flawless assignments and help you learn complex topics easily. ",
         successrate:"Rated: 98% success rate",
-        completeProject:"550+ projects have been delivered",
+        completeProject:"550+ Projects Delivered",
         Expertise:[
           {
             title:"Economics Theory",
@@ -371,7 +371,7 @@ export default function Home() {
         title:"What Can He Help With?",
         para:"Are you seeking help with your literature coursework? Abdullah is our top writer regarding all types of literature assignments. He can write exceptional quality essays and other assignments. ",
         successrate:"Rated: 97% success rate",
-        completeProject:"600+ projects have been delivered",
+        completeProject:"600+ Projects Delivered",
         Expertise:[
           {
             title:"Literacy analysis",

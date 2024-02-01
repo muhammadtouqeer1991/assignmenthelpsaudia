@@ -10,7 +10,7 @@ return (
         <p className='text-white text-[16px] text-center'>{SubjectContent == null || SubjectContent == '' || SubjectContent == undefined ? 'From multiple domains of study, we have collectively established a team of experts based on core subjects' : SubjectContent.para}</p>
     </div>
     <div className='container mx-auto'>
-        <Subjectitems />
+        <Subjectitems SubjectContentitems={SubjectContent.items} />
     </div>
 </div>
 </>

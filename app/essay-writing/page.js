@@ -493,6 +493,43 @@ const WhychooseContent = {
     heading:"Frequently Asked Question",
     para:"Searching for pay to write my essay in Riyadh? Connect with us today and ease your essay worries. For any queries, refer to our FAQ section or call us. ",
   }
+
+
+  const ClientsaysContent = {
+    heading:"Testimonials: The Trust Clients Put In Our Essay Writers Ksa",
+    para:"Students in Riyadh and across the various regions of the KSA rely on our expertise to cater to their academic needs. ",
+    option:[
+      {
+        para:"It was really a great experience hiring Assignment Help Saudi Arabia for my linguistic essay, as they delivered top-notch content with efficient service. The whole process was smooth, and I found it very easy to hire them, considering their responsive and active service. Thank you for the great work. "
+      },
+      {
+        para:"I highly recommend Assignment Help Saudi Arabia to all students as I had their help last week, and I got an A+ on my essay due to their commendable work. From the intro to the conclusion, every word they wrote was impressive and helped me acquire my desired grade. Thanks. "
+      }
+    ]
+  }
+
+  const ProcessContent = {
+    heading:"Require Peerless Help With Essay Writing? Hire Our Professional Team Today!",
+    option:[
+      {
+        title:"Provide Your Details ",
+        para:"Contact our service and provide all your essay requirements and assignment details.",
+      },
+      {
+        title:"Processing ",
+        para:"We will assign a proficient subject specific writer on the basis of the information provided. ",
+      },
+      {
+        title:"Quality Assurance ",
+        para:"Once the first draft is ready, it will undergo editing, proofreading and plagiarism checks. ",
+      },
+      {
+        title:"Delivery ",
+        para:"As soon as we receive ‘all correct’ from the QA team, we process your delivery on time. ",
+      }
+    ]
+  }
+
   return (
     <>
     <Header HeaderContent={HeaderContent} />
@@ -504,8 +541,8 @@ const WhychooseContent = {
       <Cta CtaContent={CtaContent} />
       <Ourwriters OurwritersContent={OurwritersContent} />
       <Faqs FaqItems={FaqItems} FaqHeading={FaqHeading} />
-      <Clientsays />
-      <Process />
+      <Clientsays ClientsaysContent={ClientsaysContent} />
+      <Process ProcessContent={ProcessContent} />
     </>
   )
 }

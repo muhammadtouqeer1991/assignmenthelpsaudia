@@ -1,5 +1,6 @@
 import BreadCrumb from '@/components/BreadCrumb'
 import Faqs from '@/components/Faqs'
+import OrderForm from '@/components/OrderForm'
 import PricingBox from '@/components/PricingBox'
 import React from 'react'
 
@@ -57,6 +58,7 @@ const page = () => {
   return (
     <>
      <BreadCrumb title="Soar to Excellence With the Best Assignment Help Saudi Arabia" para="Reach your academic potential to the maximum possible limits with our competent and skilled assignment writers. Order now and team up with us for your educational success. " />
+     <OrderForm />
     </>
   )
 }

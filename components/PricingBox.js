@@ -19,7 +19,7 @@ return (
 <div className='flex-1 relative top-[-9rem]'>
 <div className='text-center py-7 px-5 bg-[#2C3539] rounded-tr-[20px] rounded-tl-[20px] relative'>
     <h5 className='text-white text-[40px] font-bold pb-3'>Passing</h5>
-    <Image src={basic} className='block m-auto' />
+    <Image src={basic} className='block m-auto' alt="basic" />
     <h6 className='text-[26px] font-semibold text-navactive pt-3'>£8.90</h6>
     <p className='text-[16px] text-white pt-2'>50% - 60%</p>
     <p className='text-[16px] text-white'>for 100 words</p>
@@ -29,7 +29,7 @@ return (
 <div className='flex-1 relative top-[-9rem]'>
 <div className='text-center py-7 px-5 bg-[#2C3539] rounded-tr-[20px] rounded-tl-[20px] relative'>
     <h5 className='text-white text-[40px] font-bold pb-3'>Passing</h5>
-    <Image src={basic} className='block m-auto' />
+    <Image src={basic} className='block m-auto' alt="basic" />
     <h6 className='text-[26px] font-semibold text-navactive pt-3'>£8.90</h6>
     <p className='text-[16px] text-white pt-2'>50% - 60%</p>
     <p className='text-[16px] text-white'>for 100 words</p>
@@ -39,7 +39,7 @@ return (
 <div className='flex-1 relative top-[-9rem]'>
 <div className='text-center py-7 px-5 bg-[#2C3539] rounded-tr-[20px] rounded-tl-[20px] relative'>
     <h5 className='text-white text-[40px] font-bold pb-3'>Passing</h5>
-    <Image src={basic} className='block m-auto' />
+    <Image src={basic} className='block m-auto' alt="basic" />
     <h6 className='text-[26px] font-semibold text-navactive pt-3'>£8.90</h6>
     <p className='text-[16px] text-white pt-2'>50% - 60%</p>
     <p className='text-[16px] text-white'>for 100 words</p>
