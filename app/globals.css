@@ -54,3 +54,65 @@ bottom: -180.1px;
 .swiper-slide{
     height: auto !important;
 }
+
+.serviceHover:hover ul.dropdown{
+    display: block;
+    position: absolute;
+    bottom: -8.2rem;
+    background: #28D07E;
+    padding: 1rem 1rem;
+    min-width: 320px;
+    z-index: 1;
+}
+.serviceHover:hover ul.dropdown li a{
+    display: block;
+    border-bottom: 1px solid #fbf9f9;
+}
+.serviceHover:hover ul.dropdown li a:hover{
+    color: #285C47;
+}
+.ordersummary {
+    position: sticky;
+    /* top: 163px; */
+    border: 1px solid #3333;
+    padding: 20px 35px;
+    border-radius: 20px;
+    background: #2C3238;
+    margin: 12px 0;
+    color: #fff;
+}
+.ordersummary h3 {
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+.academic_paper ul li {
+    font-size: 14px;
+    padding: 5px 0;
+    display: block;
+}
+.basic_price h4 {
+    font-size: 20px;
+    color: #28D07E;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.academic_paper h4 {
+    font-size: 20px;
+    color: #28D07E;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.basic_price ul li.borderdata{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.maiChoose .itemchoose:hover{
+    background: #28D07E;
+}
+.mainFeatures div img:hover{
+    filter: grayscale(1);
+}

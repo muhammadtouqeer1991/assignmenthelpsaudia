@@ -22,7 +22,7 @@ return (
 <>  
 <Link href="/"><Image src={brandLogo} width={251} alt="market" /></Link>
 <FaBars className='md:hidden lg:hidden sm:hidden' size={30} color='#fff' onClick={()=>HamburgerBtn()} />
-<nav className='md:flex hidden items-center border-b-[10px] border-navactive z-[1] md:w-[585px]'>
+<nav className='md:flex hidden items-center border-b-[10px] border-navactive z-[1] md:w-[610px]'>
     <Link href="/" className={`${pathname == '/' ? 
     'pb-[1.5rem] pt-[1.2rem] flex flex-col justify-center items-center bg-navactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[86%] before:bg-navactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-12px] before:z-[-1] z-[1]' : 
     
@@ -37,6 +37,20 @@ return (
     'pb-[1.5rem] pt-[1.2rem]  flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[86%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white' } `}>
         <BiUserPin size={25} color={`${pathname == '/about-us' ? '':'#28D07E' } `} />
         About
+    </Link>
+
+    <Link href="javascript:;" className={`serviceHover ${pathname == '/blog' ? 
+    'pb-[1.5rem] pt-[1.2rem]  flex flex-col justify-center items-center bg-navactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[86%] before:bg-navactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-12px] before:z-[-1] z-[1]' : 
+    
+    'pb-[1.5rem] pt-[1.2rem]  flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[86%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white' } `}>
+        <GrServices size={25} color={`${pathname == '/blog' ? '':'#28D07E' } `} />
+        Services
+        <ul className='dropdown hidden'>
+            <li><Link href="/essay-writing">Essay Writing</Link></li>
+            <li><Link href="/cipd-assignment-help-ksa">CIPD Assignment Help KSA</Link></li>
+            <li><Link href="#">Homework Help KSA</Link></li>
+            <li><Link href="#">Personal Statement Writing</Link></li>
+        </ul>
     </Link>
    
     <Link href="/pricing" className={`${pathname == '/pricing' ?
@@ -54,14 +68,6 @@ return (
         Reviews
     </Link>
 
-    <Link href="/blog" className={`${pathname == '/blog' ? 
-    'pb-[1.5rem] pt-[1.2rem]  flex flex-col justify-center items-center bg-navactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[86%] before:bg-navactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-12px] before:z-[-1] z-[1]' : 
-    
-    'pb-[1.5rem] pt-[1.2rem]  flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[86%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white' } `}>
-        <GrServices size={25} color={`${pathname == '/blog' ? '':'#28D07E' } `} />
-        Blog
-    </Link>
-    
 </nav>
 <nav className='md:flex hidden justify-end flex-1 gap-4 items-center'>
     <Link href="/order-now" className='bg-navactive py-3 px-6 rounded-[11px] font-bold text-dark'>

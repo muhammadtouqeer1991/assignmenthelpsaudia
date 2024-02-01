@@ -8,7 +8,7 @@ import proofread from '../public/assets/proofread.svg';
 const Featureitems = ({FeaturesContent}) => {
 return (
 <>
-<div className='flex justify-center items-center mx-auto gap-10 bg-navcolor py-14 px-14 rounded-[16px] text-center'>
+<div className='flex justify-center items-center mx-auto gap-10 bg-navcolor py-14 px-14 rounded-[16px] text-center mainFeatures'>
 {
 FeaturesContent == null || FeaturesContent == '' || FeaturesContent == undefined ? 
 <>
