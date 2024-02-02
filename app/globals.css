@@ -116,3 +116,13 @@ bottom: -180.1px;
 .mainFeatures div img:hover{
     filter: grayscale(1);
 }
+
+.submainitems div div.active:hover{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(40, 208, 126, 0.60) 0%, rgba(40, 208, 126, 0.30) 100%);
+}
+.fixedbtnwhatsapp{
+    position: fixed;
+    bottom: 1em;
+    left: 2rem;
+    z-index: 3;
+}

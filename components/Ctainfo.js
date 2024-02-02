@@ -9,8 +9,8 @@ return (
 <hr className='w-[168.012px] border-2 border-navactive mt-2 mb-2' />
 <h3 className='text-[26px] font-bold text-white'>{CtaContent == null || CtaContent == '' || CtaContent == undefined ? 'Ace Your Online Exams & Score Top Grade' : CtaContent.subheading}</h3>
 <div className='flex gap-4 pt-4 items-center pb-5 md:pb-0'>
-    <Link href="#" className='py-3 px-8 bg-navactive rounded-[10px]'>Order Now</Link>
-    <Link href="#" className='py-3 px-8 border-2 border-navactive text-white rounded-[10px]'>Live Chat</Link>
+    <Link href="/order-now" className='py-3 px-8 bg-navactive rounded-[10px]'>Order Now</Link>
+    <Link href="javascript:void(Tawk_API.toggle())" className='py-3 px-8 border-2 border-navactive text-white rounded-[10px]'>Live Chat</Link>
 </div>
 </div>
 </>

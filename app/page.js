@@ -325,7 +325,7 @@ export default function Home() {
         title:"What Can He Help With?",
         para:"Are you afraid of getting low marks due to the writing quality of your law assignment? Let us handle your worries in the most effective manner with our exemplary assignment assistant, John Sean. He is a law expert and can offer satisfactory help. ",
         successrate:"Rated: 95.8% success rate",
-        completeProject:"450+ projects have been delivered",
+        completeProject:"450+ Projects Delivered",
         Expertise:[
           {
             title:"Legal education",
@@ -423,9 +423,13 @@ export default function Home() {
     para:"Students from Riyadh to Mecca trust our assignment writing expertise and you can witness that from their feedback. ",
     option:[
       {
+        name:"Aazra Sheikh",
+        location:"Riyadh",
         para:"It was really a very fruitful experience that I got by working with the laudable team of Assignment Help Saudi Arabia. They helped me effectively regarding my thesis and supported me with their worthy advice at every step. From abstract to conclusion, I found the service very satisfactory. I highly recommend them. "
       },
       {
+        location:"Jeddah",
+        name:"Meraj ul haq",
         para:"It was surely a five star rating from my side for this team, as they are splendid in their professionalism. They created a matchless quality assignment for me on an urgent basis with accurate conformance with my requirements and the assignment brief. The service charges were also very feasible. Recommended! "
       }
     ]

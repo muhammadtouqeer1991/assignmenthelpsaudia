@@ -26,8 +26,8 @@ return (
 </ul>  }
 
 <div className='flex gap-4 pt-4 items-center'>
-<Link href="#" className='py-3 px-8 bg-navactive rounded-[10px]'>Order Now</Link>
-<Link href="#" className='py-3 px-8 border-2 border-navactive text-white rounded-[10px]'>Live Chat</Link>
+<Link href="/order-now" className='py-3 px-8 bg-navactive rounded-[10px]'>Order Now</Link>
+<Link href="javascript:void(Tawk_API.toggle())" className='py-3 px-8 border-2 border-navactive text-white rounded-[10px]'>Live Chat</Link>
 </div>
 </div>
 </>

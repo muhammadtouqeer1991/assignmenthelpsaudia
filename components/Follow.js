@@ -14,9 +14,9 @@ const Follow = () => {
         <h4 className='text-white font-normal text-center text-[16px] pt-[2rem]'>Follow Us On</h4>
         <nav className='flex  text-white gap-2 justify-center'>
             <Link href="#" className='flex flex-col justify-center items-center'><FaFacebook size={30} /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><FaFacebook size={30} /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><FaFacebook size={30} /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><FaFacebook size={30} /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><FaLinkedinIn size={30} /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><TiSocialInstagramCircular size={30} /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><AiFillTwitterCircle size={30} /></Link>
         </nav>
         </div> 
     </>

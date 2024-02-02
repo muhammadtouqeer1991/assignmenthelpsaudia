@@ -10,7 +10,6 @@ const Topbar = () => {
           <Topinfo />
           <Topsocial />
         </div>
-        {/* <div className='w-[430px] h-[90px] md:flex hidden absolute top-[-15px] right-0 bg-navactive rounded-tl-full z-[-1]'></div> */}
        </div>
     </>
   )

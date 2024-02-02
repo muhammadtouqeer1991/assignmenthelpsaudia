@@ -558,9 +558,13 @@ const page = () => {
     para:"Students in Riyadh and across the KSA prefer to hire our Saudi CIPD assignments due to our high level of expertise and transparent service processing. ",
     option:[
       {
+        name:"Abdul Saud",
+        location:"Jeddah",
         para:"I hired Assignment Help Saudi Arabia for my CIPD level 5 assignments. They created two assignments and both were exemplary in quality and accuracy. From well-researched material to flawless content, all aspects of the document were commendable. I am so thankful for their help. "
       },
       {
+        name:"Alvina Sheikh",
+        location:"Riyadh",
         para:"Assignment Help Saudi Arabia delivered an exceptional assignment for my HR management assignment recently. The writer was really an expert in the field as he helped me throughout the content development with valuable advice. Due to the immense help and timely assistance, I was able to submit this complex assignment on time and with quality work. Highly appreciated!"
       }
     ]
@@ -570,20 +574,20 @@ const page = () => {
     heading:"From Complexity to Clarity, We Can Assist You the Best. Hire Us Now!",
     option:[
       {
-        title:"Sign Up ",
-        para:"Sign up for our service through our web form or call us on the provided WhatsApp number.  ",
+        title:"Place Order",
+        para:"You can place your order through our 24/7 active online channels including WhatsApp number and chat support. ",
       },
       {
-        title:"Hire Expert ",
-        para:"On the basis of your CIPD assignment requirements, pick the best writer from our team. ",
+        title:"Provide Info",
+        para:"After order registration, provide our team with all the necessary details regarding your assignment and academics. ",
       },
       {
-        title:"Order processing and QA",
-        para:"Our writer will create your assignment and the QA team will edit and proofread it meticulously. ",
+        title:"Processing",
+        para:"Our team will assign a relevant and experienced writer based on your order specifications. ",
       },
       {
-        title:"Delivery and Feedback",
-        para:"As the order gets completed, we will deliver it for your feedback. You can contact us for any updates or changes within due time. ",
+        title:"QA and Delivery ",
+        para:"After the draft completion, our quality assurance team will review it for further improvements and then will send it to you. ",
       }
     ]
   }

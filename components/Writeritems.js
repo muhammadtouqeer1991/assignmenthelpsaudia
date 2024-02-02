@@ -333,7 +333,7 @@ OurwritersContent.option.map((item,key) => {
 return (
 <SwiperSlide key={key+1}>
 <div className='w-full bg-topbarcolor rounded-[25px]'>
-<div className='flex z-0 relative left-[4rem]'>
+<div className='flex z-0 relative left-[4rem]' >
 
 <div className='absolute top-[-22.4px] left-[-2.9rem] z-[-1]'>
 <svg xmlns="http://www.w3.org/2000/svg" width="131" height="85" viewBox="0 0 131 85" fill="none">
@@ -344,48 +344,34 @@ return (
 <div className='rounded-full w-[260px] h-[187px] bg-navactive flex justify-center items-center relative top-[-1.4rem] left-[-0.2rem]'>
 <Image src={writerImg} width={120} alt="market" />
 </div>
-<div className='bg-navactive w-full relative left-[-3rem] z-[-1] h-20 flex justify-center items-center text-[26px] text-white font-bold rounded-tr-[20px]'>
+<div className='bg-navactive w-full relative left-[-3rem] z-[-1] h-20 flex justify-center items-center text-[26px] text-white font-bold rounded-tr-[20px] flex-col'>
 {item.name}
+<div className='flex gap-0'><FaStar color='#FED207' size={18} /><FaStar color='#FED207' size={18}  /><FaStar color='#FED207' size={18}  /><FaStar color='#FED207' size={18}  /><FaStar color='#FED207' size={18}  /></div>
 </div>
 </div>
 <div className='flex md:flex-row flex-col py-4 px-6 pt-0 gap-6 md:h-[200px]'>
 
-<div className='pt-[2rem]'>
-<h5 className='text-[20px] text-white font-bold'>{item.designation}</h5>
-<h6 className='text-[16px] font-normal text-white'>{item.experience}</h6>
-<h6 className='text-white text-[16px] font-bold pt-2'>{item.title}</h6>
-
-</div>
-
-<div className='flex  flex-col items-start relative md:top-[-4rem] md:w-[70%]'>
-<div className='flex justify-between gap-4 items-center w-full'>
-<div className='flex gap-1'><FaStar color='#FED207' size={23} /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /></div>
+<div className='flex  flex-col items-end relative md:top-[-5.4rem] md:w-[77%]'>
 <div>
-<button className='border-2 border-navactive py-3 px-8 rounded-[10px] text-[14px] text-white font-normal'>Hire Me</button>
-</div>
-</div>
-<div>
-<h4 className='text-[16px] text-white font-normal pt-5'>{item.successrate}</h4>
-<h5 className='text-[16px] text-white font-normal pt-4'>Completed Projects</h5>
-<p className='text-[16px] font-bold text-white pt-4'>{item.completeProject}</p>
-<p className='text-[16px] text-white font-normal pt-4 pb-4'>Expertise</p>
-
+<h4 className='text-[16px] text-white font-normal pt-2'>{item.successrate}</h4>
+<p className='text-[16px] font-bold text-white pt-2'>{item.completeProject}</p>
+<p className='text-[16px] text-white font-normal pt-2 pb-4'>Expertise</p>
 </div>
 </div>
 
 </div>
-
-<div className='py-4 px-6 pt-0'>
+<div className='py-4 px-6 pt-0 mt-[-11rem] flex flex-col w-100'>
 <p className='text-[16px] text-white font-normal pt-2'>{item.para}</p>
 </div>
 
-<div className='py-4 px-6'>
+
+<div className='py-4 px-2 mt-[-1rem]'>
     
 <ul className='flex flex-wrap items-center gap-2'>
 {
    item.Expertise.map((items,key) => {
     return (
-        <li className={`bg-navcolor py-2 px-4 rounded-[16px] flex-[40%] text-[12px] text-white`} key={key+1}>{items.title}{items.title.length}</li> 
+        <li className={`bg-navcolor py-2 px-4 rounded-[16px] flex-[40%] text-[12px] text-white text-center`} key={key+1}>{items.title}{items.title.length}</li> 
     )
    }) 
 }

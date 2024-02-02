@@ -500,9 +500,13 @@ const WhychooseContent = {
     para:"Students in Riyadh and across the various regions of the KSA rely on our expertise to cater to their academic needs. ",
     option:[
       {
+        name:"Humna Shah",
+        location:"Jeddah",
         para:"It was really a great experience hiring Assignment Help Saudi Arabia for my linguistic essay, as they delivered top-notch content with efficient service. The whole process was smooth, and I found it very easy to hire them, considering their responsive and active service. Thank you for the great work. "
       },
       {
+        name:"Aazra Sheikh",
+        location:"Riyadh",
         para:"I highly recommend Assignment Help Saudi Arabia to all students as I had their help last week, and I got an A+ on my essay due to their commendable work. From the intro to the conclusion, every word they wrote was impressive and helped me acquire my desired grade. Thanks. "
       }
     ]
@@ -512,20 +516,20 @@ const WhychooseContent = {
     heading:"Require Peerless Help With Essay Writing? Hire Our Professional Team Today!",
     option:[
       {
-        title:"Provide Your Details ",
-        para:"Contact our service and provide all your essay requirements and assignment details.",
+        title:"Place Order",
+        para:"You can place your order through our 24/7 active online channels including WhatsApp number and chat support. ",
       },
       {
-        title:"Processing ",
-        para:"We will assign a proficient subject specific writer on the basis of the information provided. ",
+        title:"Provide Info",
+        para:"After order registration, provide our team with all the necessary details regarding your assignment and academics. ",
       },
       {
-        title:"Quality Assurance ",
-        para:"Once the first draft is ready, it will undergo editing, proofreading and plagiarism checks. ",
+        title:"Processing",
+        para:"Our team will assign a relevant and experienced writer based on your order specifications. ",
       },
       {
-        title:"Delivery ",
-        para:"As soon as we receive ‘all correct’ from the QA team, we process your delivery on time. ",
+        title:"QA and Delivery ",
+        para:"After the draft completion, our quality assurance team will review it for further improvements and then will send it to you. ",
       }
     ]
   }

@@ -126,9 +126,9 @@ return (
 <div style={{background:'radial-gradient(50% 50% at 50% 50%, rgba(22, 27, 33, 0.80) 0%, rgba(22, 27, 33, 0.78) 100%)',backdropFilter:'blur(20px)'}} className='py-4 px-6 rounded-[25px] relative top-[-3rem] md:right-[-2.6rem] border-2 border-navactive'>
 <div className='flex items-center'>
 <div>
-<h4 className='text-[16px] font-bold text-white'>Ian Wesley</h4>
+<h4 className='text-[16px] font-bold text-white'>{item.name}</h4>
 <div className='flex items-center justify-between gap-10'>
-  <h5 className='text-[16px] text-white'>Riyadh, Saudia Arabia </h5>
+  <h5 className='text-[16px] text-white'>{item.location}, Saudia Arabia </h5>
   <div className='flex gap-1'><FaStar color='#FED207' size={23} /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /><FaStar color='#FED207' size={23}  /></div>
 </div>
 </div>

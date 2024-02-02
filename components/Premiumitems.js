@@ -18,6 +18,8 @@ import { Pagination,Navigation } from 'swiper/modules';
 const Premiumitems = ({PremiumservicesContent}) => {
 
 const swiperRef = useRef();
+const navigationPrevRef = useRef(null)
+  const navigationNextRef = useRef(null)
 return (
 <>
 <div className='md:w-[1500px] mx-auto flex-col md:flex-row flex gap-7 items-center'>
@@ -68,8 +70,8 @@ PremiumservicesContent == null || PremiumservicesContent == undefined || Premium
 <div className='text-center border-2 border-navactive py-16 px-5 rounded-[10px]' style={{height:'401px',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
 <h6 className='text-[40px] text-left pb-8 text-white font-semibold leading-[44px]'>Our Premium Services</h6>
 <div className='flex justify-center items-center gap-5'>
-<Link href="javascript:;" ><Image src={leftarrow} alt="market" /></Link>
-<Link href="#"><Image src={rightarrow} alt="market" /></Link>
+<Link href="javascript:;" ref={navigationPrevRef}><Image src={leftarrow} alt="market" /></Link>
+<Link href="#" ref={navigationNextRef}><Image src={rightarrow} alt="market" /></Link>
 </div>
 </div>
 <Swiper
@@ -81,7 +83,14 @@ clickable: true,
 }}
 slidesPerView={1}
 spaceBetween={10}
-navigation
+navigation={{
+    prevEl: navigationPrevRef.current,
+    nextEl: navigationNextRef.current,
+  }}
+onBeforeInit={(swiper) => {
+swiper.params.navigation.prevEl = navigationPrevRef.current;
+swiper.params.navigation.nextEl = navigationNextRef.current;
+}}
 breakpoints={{
 640: {
 slidesPerView: 1,

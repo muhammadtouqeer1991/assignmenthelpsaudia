@@ -21,10 +21,10 @@ const Footerabout = () => {
         <p className='text-white pt-2'>Assignment Help Saudi Arabia helps students with their assignment projects. By assigning expert and related academic writers, we help them create high quality and genuine assignments. We prohibit the use of our samples to violate any academic integrity rule and encourage the use of our samples for learning and guidance only. </p>
        <div className='flex'>
        <nav className='flex mt-3 text-white gap-2 flex-wrap flex-[20%]'>
-            <Link href="#" className='flex flex-col justify-center items-center'><Image src={paYPAL2} alt="market" /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><Image src={mastercard} alt="market" /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><Image src={bank} alt="market" /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><Image src={visa} alt="market" /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><Image src={paYPAL2} alt="market" width={120} /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><Image src={mastercard} alt="market" width={120} /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><Image src={bank} alt="market" width={120} /></Link>
+            <Link href="#" className='flex flex-col justify-center items-center'><Image src={visa} alt="market" width={120} /></Link>
         </nav>
         <nav className='flex mt-3 text-white gap-2 flex-1'>
             <Link href="#" className='flex flex-col justify-center items-center'><Image src={clutch} className='w-[100%]' alt="market" /></Link>
