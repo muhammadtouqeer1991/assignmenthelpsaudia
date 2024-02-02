@@ -122,6 +122,28 @@ para:"It was surely a five star rating from my side for this team, as they are s
 ]
 }
 
+const ProcessContent = {
+    heading:"Top Online Assignment Writing Help Saudi Arabia - Get Help Now!",
+    option:[
+      {
+        title:"Place Order",
+        para:"You can place your order through our 24/7 active online channels including WhatsApp number and chat support. ",
+      },
+      {
+        title:"Provide Info",
+        para:"After order registration, provide our team with all the necessary details regarding your assignment and academics. ",
+      },
+      {
+        title:"Processing",
+        para:"Our team will assign a relevant and experienced writer based on your order specifications. ",
+      },
+      {
+        title:"QA and Delivery ",
+        para:"After the draft completion, our quality assurance team will review it for further improvements and then will send it to you. ",
+      }
+    ]
+  }
+
 return (
 <>
 <BreadCrumb title="Hire the Best Team of Writers and Complete Your Assignment Smartly" para="Want to polish your assignment writing skills? Employ Assignment Help Saudi Arabia and acquire assistance from adept writers and academic specialists for all your educational requirements." />
@@ -145,7 +167,7 @@ return (
     </div>
 </div>
 </div>
-<Process />
+<Process ProcessContent={ProcessContent} />
 </>
 )
 }
