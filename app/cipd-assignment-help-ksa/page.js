@@ -31,6 +31,11 @@ import Dissertations from '../../public/assets/Dissertations.svg';
 import Domainspecificwriterss from '../../public/assets/Domainspecificwriterss.svg';
 import Freeplagiarismreportss from '../../public/assets/Freeplagiarismreportss.svg';
 
+import PlaceOrder from '../../public/assets/PlaceOrder.svg';
+import Processing from '../../public/assets/Processing.svg';
+import ProvideInfo from '../../public/assets/ProvideInfo.svg';
+import QAandDelivery from '../../public/assets/QAandDelivery.svg';
+
 export const metadata = {
   title: 'Assignment Help Saudia',
   description: '',
@@ -574,18 +579,22 @@ const page = () => {
     heading:"From Complexity to Clarity, We Can Assist You the Best. Hire Us Now!",
     option:[
       {
+        image:PlaceOrder,
         title:"Place Order",
         para:"You can place your order through our 24/7 active online channels including WhatsApp number and chat support. ",
       },
       {
+        image:ProvideInfo,
         title:"Provide Info",
         para:"After order registration, provide our team with all the necessary details regarding your assignment and academics. ",
       },
       {
+        image:Processing,
         title:"Processing",
         para:"Our team will assign a relevant and experienced writer based on your order specifications. ",
       },
       {
+        image:QAandDelivery,
         title:"QA and Delivery ",
         para:"After the draft completion, our quality assurance team will review it for further improvements and then will send it to you. ",
       }

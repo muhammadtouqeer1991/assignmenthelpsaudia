@@ -1,31 +1,92 @@
+"use client"
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 import arrow from '../public/assets/arrow.svg';
+import moment from 'moment';
+import Moment from 'react-moment';
+import { useRouter } from 'next/navigation';
 
 const Headerform = ({HeaderContent}) => {
+
+  const { push } = useRouter();
+
+  const [Name,setName]=useState('');
+  const [Email,setEmail]=useState('');
+  const [pages,setPages]=useState('');
+  const [academic,setAcademic]=useState('');
+  const [deadline,setDeadline]=useState('');
+  const [Price,setPrice]=useState('0');
+  const [Message,setMessage]=useState('');
+
+  const orderSubmit = (e) => {
+    e.preventDefault();
+    localStorage.clear();
+
+    localStorage.setItem('Name', Name);
+    localStorage.setItem('Email', Email);
+    localStorage.setItem('pages', pages);
+    localStorage.setItem('academic', academic);
+    localStorage.setItem('deadline', deadline);
+    localStorage.setItem('Amount', Price);
+    localStorage.setItem('Message', Message);
+
+    push('/order-now');
+
+
+}
+
 return (
 <>
 <div className='relative md:w-[550px]'>
   <div className=' bg-[#282B2F] py-3 px-3 rounded h-fit'>
-  <form>
+  <form onSubmit={orderSubmit} method='post'>
     <div style={{background:'linear-gradient(180deg, #28D07E 0%, rgba(40, 208, 126, 0.05) 100%);'}} className='text-center py-4 rounded'>
       <h4 className='font-bold text-[26px] text-white'>{HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 'Get Help Instantly' : HeaderContent.formheading }</h4>
       <h6 className='text-[16px] text-white'>{HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 'Raise Your Grades with Assignment Help Pro' : HeaderContent.formpara }</h6> 
     </div>
     <div className='flex gap-3 justify-between pt-3'>
-      <input type="text" placeholder='Your Name' className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' />
-      <input type="email" placeholder='Your Email Address'  className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' />
+      
+      <input type="text" placeholder='Your Name' name="Name" className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' onChange={e=>setName(e.target.value)} value={Name} required />
+      
+      <input type="email" placeholder='Your Email Address' name="Email"  className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' onChange={e=>setEmail(e.target.value)} value={Email} required  />
     </div>
-    <input type="tel" placeholder='Your Phone No'  className='w-full py-4 rounded-[10px] px-4 mt-2 bg-navcolor border-navactive border-2 text-white' />
+    <div className='flex gap-3 justify-between pt-3'>
+    <select className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' name="academic" onChange={e=>setAcademic(e.target.value)} value={academic} required >
+      <option value="" selected>Education Level</option>
+      <option value="high-school">High School</option>
+      <option value="College">College</option>
+      <option value="Undergraduate">Undergraduate</option>
+      <option value="Master">Master</option>
+      <option value="PhD">PhD</option>
+      <option value="Admission">Admission</option>
+      </select>
+    </div>
+    
     <div className='flex gap-3 justify-between pt-2'>
-      <select className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white'>
-        <option>No of Words</option>
+      <select className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' name="pages" onChange={e=>setPages(e.target.value)} value={pages} required >
+        <option value="">Select No of Pages</option>
+        {Array(200).fill(1).map((el, i) =>
+        <option key={i+1} value={i+1}>{i+1} Page(s) / {i+1 * 250} Words</option>
+        )}
       </select>
-      <select className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white'>
-        <option>Dissertation</option>
+      <select className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' name="deadline" onChange={e=>setDeadline(e.target.value)} value={deadline} required >
+      <option value="">Select Deadline</option>
+    <option value="20">20 Days / {moment().add(20, 'd').format('D MMM, YYYY')}</option>
+    <option value="15">15 Days / {moment().add(15, 'd').format('D MMM, YYYY')}</option>
+    <option value="10">10 Days / {moment().add(10, 'd').format('D MMM, YYYY')}</option>
+    <option value="7">7 Days / {moment().add(7, 'd').format('D MMM, YYYY')}</option>
+    <option value="6">6 Days / {moment().add(6, 'd').format('D MMM, YYYY')}</option>
+    <option value="5">5 Days / {moment().add(5, 'd').format('D MMM, YYYY')}</option>
+    <option value="4">4 Days / {moment().add(4, 'd').format('D MMM, YYYY')}</option>
+    <option value="3">3 Days / {moment().add(3, 'd').format('D MMM, YYYY')}</option>
+    <option value="2">2 Days / {moment().add(2, 'd').format('D MMM, YYYY')}</option>
+    <option value="24h">24 Hours / {moment().add(24, 'h').format('D MMM, YYYY')}</option>
+    <option value="12h">12 Hours / {moment().add(12, 'h').format('D MMM, YYYY')}</option>
+    <option value="6h">6 Hours / {moment().add(6, 'h').format('D MMM, YYYY')}</option>
       </select>
     </div>
-    <textarea className='w-full rounded-[10px] mt-2 py-4 px-4 bg-navcolor border-navactive border-2 text-white' placeholder='Message' cols={10} rows={5}></textarea>
+    <textarea className='w-full rounded-[10px] mt-2 py-4 px-4 bg-navcolor border-navactive border-2 text-white' name="Message" placeholder='Message' cols={10} rows={5} onChange={e=>setMessage(e.target.value)} value={Message} required></textarea>
+    <label htmlFor="" className='text-[20px] text-navactive'><b>Total Price: SAR <span>{Price}</span></b></label>
     <div className='flex gap-3 justify-between pt-2 items-center'>
     {HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 
     <ul className='flex flex-col gap-2 text-white pt-2'>
@@ -46,7 +107,7 @@ return (
   </ul>
     }
       
-      <button type='button' className='bg-navactive py-4 px-10 rounded-[10px] text-white'>Order Now</button>
+      <button type='submit' className='bg-navactive py-4 px-10 rounded-[10px] text-white'>Order Now</button>
     </div>
   </form>
   </div>

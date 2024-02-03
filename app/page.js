@@ -29,6 +29,20 @@ import Reportss from '../public/assets/Reportss.svg';
 import Thesiss from '../public/assets/Thesiss.svg';
 import Dissertations from '../public/assets/Dissertations.svg';
 
+import AbdullahFahad from '../public/assets/AbdullahFahad.webp';
+import AhmedSultan from '../public/assets/AhmedSultan.webp';
+import FatimaNoor from '../public/assets/FatimaNoor.webp';
+import HamzaSaleh from '../public/assets/HamzaSaleh.webp';
+import MahaAmal from '../public/assets/MahaAmal.webp';
+
+import AazraSheikh from '../public/assets/AazraSheikh.webp';
+import Merajulhaq from '../public/assets/Merajulhaq.webp';
+
+import PlaceOrder from '../public/assets/PlaceOrder.svg';
+import Processing from '../public/assets/Processing.svg';
+import ProvideInfo from '../public/assets/ProvideInfo.svg';
+import QAandDelivery from '../public/assets/QAandDelivery.svg';
+
 export const metadata = {
   title: 'Assignment Help Saudia',
   description: '',
@@ -273,6 +287,7 @@ export default function Home() {
     heading:"Well-Versed Assignment Writers in Saudi Arabia - Pick the Best One for Your Studies",
     option:[
       {
+        image:HamzaSaleh,
         name:"Hamza Saleh ",
         designation:"Masters in Computer Science",
         experience:"Years Of Experience: 5 ",
@@ -296,6 +311,7 @@ export default function Home() {
         ]
       },
       {
+        image:MahaAmal,
         name:"Maha Amal ",
         designation:"Masters in Business Administration",
         experience:"Years Of Experience: 4.5 ",
@@ -319,6 +335,7 @@ export default function Home() {
         ]
       },
       {
+        image:AhmedSultan,
         name:"Ahmed Sultan",
         designation:"MPhil in Law",
         experience:"Years Of Experience: 6 ",
@@ -342,6 +359,7 @@ export default function Home() {
         ]
       },
       {
+        image:FatimaNoor,
         name:"Fatima Noor ",
         designation:"PhD in Economics ",
         experience:"Years Of Experience: 7 ",
@@ -365,6 +383,7 @@ export default function Home() {
         ]
       },
       {
+        image:AbdullahFahad,
         name:"Abdullah Fahad ",
         designation:"Masters in Literature ",
         experience:"Years Of Experience: 6 ",
@@ -423,11 +442,13 @@ export default function Home() {
     para:"Students from Riyadh to Mecca trust our assignment writing expertise and you can witness that from their feedback. ",
     option:[
       {
+        image:AazraSheikh,
         name:"Aazra Sheikh",
         location:"Riyadh",
         para:"It was really a very fruitful experience that I got by working with the laudable team of Assignment Help Saudi Arabia. They helped me effectively regarding my thesis and supported me with their worthy advice at every step. From abstract to conclusion, I found the service very satisfactory. I highly recommend them. "
       },
       {
+        image:Merajulhaq,
         location:"Jeddah",
         name:"Meraj ul haq",
         para:"It was surely a five star rating from my side for this team, as they are splendid in their professionalism. They created a matchless quality assignment for me on an urgent basis with accurate conformance with my requirements and the assignment brief. The service charges were also very feasible. Recommended! "
@@ -439,18 +460,22 @@ export default function Home() {
     heading:"Top Online Assignment Writing Help Saudi Arabia - Get Help Now!",
     option:[
       {
+        image:PlaceOrder,
         title:"Place Order",
         para:"You can place your order through our 24/7 active online channels including WhatsApp number and chat support. ",
       },
       {
+        image:ProvideInfo,
         title:"Provide Info",
         para:"After order registration, provide our team with all the necessary details regarding your assignment and academics. ",
       },
       {
+        image:Processing,
         title:"Processing",
         para:"Our team will assign a relevant and experienced writer based on your order specifications. ",
       },
       {
+        image:QAandDelivery,
         title:"QA and Delivery ",
         para:"After the draft completion, our quality assurance team will review it for further improvements and then will send it to you. ",
       }

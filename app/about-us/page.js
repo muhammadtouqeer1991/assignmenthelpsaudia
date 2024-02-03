@@ -11,6 +11,19 @@ import React from 'react'
 
 import HighlyQualifiedWriters from '../../public/assets/HighlyQualifiedWriters.svg';
 
+import Academicwritingsupport from '../../public/assets/Academicwritingsupport.svg';
+import Feedbackforimprovements from '../../public/assets/Feedbackforimprovements.svg';
+import Fieldbestwriters from '../../public/assets/Fieldbestwriters.svg';
+import Leaningrichassignments from '../../public/assets/Leaningrichassignments.svg';
+
+import AazraSheikh from '../../public/assets/AazraSheikh.webp';
+import Merajulhaq from '../../public/assets/Merajulhaq.webp';
+
+import PlaceOrder from '../../public/assets/PlaceOrder.svg';
+import Processing from '../../public/assets/Processing.svg';
+import ProvideInfo from '../../public/assets/ProvideInfo.svg';
+import QAandDelivery from '../../public/assets/QAandDelivery.svg';
+
 export const metadata = {
 title: 'Assignment Help Saudia',
 description: '',
@@ -50,19 +63,19 @@ heading:"Assignment Help Saudi Arabia",
 subheading:"Why We Are the Best for Your Academics?",
 option:[
 {
-icon:HighlyQualifiedWriters,
+icon:Fieldbestwriters,
 title:"Field best writers",
 },
 {
-icon:HighlyQualifiedWriters,
+icon:Leaningrichassignments,
 title:"Leaning rich assignments ",
 },
 {
-icon:HighlyQualifiedWriters,
+icon:Academicwritingsupport,
 title:"Academic writing support",
 },
 {
-icon:HighlyQualifiedWriters,
+icon:Feedbackforimprovements,
 title:"Feedback for improvements ",
 },
 ]
@@ -110,11 +123,13 @@ heading:"Testimonials: Witness Our Service Dedication",
 para:"Students from Riyadh to Mecca trust our assignment writing expertise and you can witness that from their feedback. ",
 option:[
 {
+  image:AazraSheikh,
 name:"Malak",
 location:"Riyadh",
 para:"It was really a very fruitful experience that I got by working with the laudable team of Assignment Help Saudi Arabia. They helped me effectively regarding my thesis and supported me with their worthy advice at every step. From abstract to conclusion, I found the service very satisfactory. I highly recommend them. "
 },
 {
+  image:Merajulhaq,
 name:"Youssef",
 location:"Jeddah",
 para:"It was surely a five star rating from my side for this team, as they are splendid in their professionalism. They created a matchless quality assignment for me on an urgent basis with accurate conformance with my requirements and the assignment brief. The service charges were also very feasible. Recommended! "
@@ -126,18 +141,22 @@ const ProcessContent = {
     heading:"Top Online Assignment Writing Help Saudi Arabia - Get Help Now!",
     option:[
       {
+        image:PlaceOrder,
         title:"Place Order",
         para:"You can place your order through our 24/7 active online channels including WhatsApp number and chat support. ",
       },
       {
+        image:ProvideInfo,
         title:"Provide Info",
         para:"After order registration, provide our team with all the necessary details regarding your assignment and academics. ",
       },
       {
+        image:Processing,
         title:"Processing",
         para:"Our team will assign a relevant and experienced writer based on your order specifications. ",
       },
       {
+        image:QAandDelivery,
         title:"QA and Delivery ",
         para:"After the draft completion, our quality assurance team will review it for further improvements and then will send it to you. ",
       }

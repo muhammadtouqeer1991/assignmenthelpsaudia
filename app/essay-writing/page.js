@@ -13,6 +13,32 @@ import Whychoose from '@/components/Whychoose'
 import React from 'react'
 import Freerevisionss from '../../public/assets/Freerevisionss.svg';
 
+import BachelorsEssays from '../../public/assets/BachelorsEssays.svg';
+import CollegeEssays from '../../public/assets/CollegeEssays.svg';
+import HighSchoolEssays from '../../public/assets/HighSchoolEssays.svg';
+import MastersEssays from '../../public/assets/MastersEssays.svg';
+
+import Affordableservicerates from '../../public/assets/Affordableservicerates.svg';
+import Fullconfidentialityforyourdata from '../../public/assets/Fullconfidentialityforyourdata.svg';
+import Highlyqualifiedsubjectwriters from '../../public/assets/Highlyqualifiedsubjectwriters.svg';
+import Ontimedeliveries from '../../public/assets/Ontimedeliveries.svg';
+import Plagiarismfreeguarantee from '../../public/assets/Plagiarismfreeguarantee.svg';
+
+
+import AbdullahFahad from '../../public/assets/AbdullahFahad.webp';
+import AhmedSultan from '../../public/assets/AhmedSultan.webp';
+import FatimaNoor from '../../public/assets/FatimaNoor.webp';
+import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
+import MahaAmal from '../../public/assets/MahaAmal.webp';
+
+import AazraSheikh from '../../public/assets/AazraSheikh.webp';
+import humnaShah from '../../public/assets/humnaShah.webp';
+
+import PlaceOrder from '../../public/assets/PlaceOrder.svg';
+import Processing from '../../public/assets/Processing.svg';
+import ProvideInfo from '../../public/assets/ProvideInfo.svg';
+import QAandDelivery from '../../public/assets/QAandDelivery.svg';
+
 export const metadata = {
   title: 'Assignment Help Saudia',
   description: '',
@@ -79,19 +105,19 @@ const page = () => {
         subheading:"We Offer Comprehensive Assistance for All Academic Stages",
         option:[
           {
-            icon:'',
+            icon:HighSchoolEssays,
             title:"High School Essays ",
           },
           {
-            icon:'',
+            icon:CollegeEssays,
             title:"College Essays",
           },
           {
-            icon:'',
+            icon:BachelorsEssays,
             title:"Bachelor’s Essays",
           },
           {
-            icon:'',
+            icon:MastersEssays,
             title:"Master’s Essays",
           },
         ]
@@ -167,23 +193,23 @@ const WhychooseContent = {
     para:"We are the most fitting option for your essay needs; hire us and experience the difference. ",
     option:[
       {
-        icon:Freerevisionss,
+        icon:Highlyqualifiedsubjectwriters,
         title:"Highly qualified subject-specific writers",
       },
       {
-        icon:Freerevisionss,
+        icon:Plagiarismfreeguarantee,
         title:"Plagiarism free content guarantee ",
       },
       {
-        icon:Freerevisionss,
+        icon:Ontimedeliveries,
         title:"On-time essay deliveries ",
       },
       {
-        icon:Freerevisionss,
+        icon:Fullconfidentialityforyourdata,
         title:"Full confidentiality for your data ",
       },
       {
-        icon:Freerevisionss,
+        icon:Affordableservicerates,
         title:"Affordable service rates ",
       }
     ]
@@ -239,6 +265,7 @@ const WhychooseContent = {
     heading:"Craft Impactful Essays With Our Wordsmiths - Pick the Most Fitting One for You Now!",
     option:[
       {
+        image:HamzaSaleh,
         name:"Hamza Saleh ",
         designation:"Master’s in Literature",
         experience:"Years Of Experience: 5 ",
@@ -262,6 +289,7 @@ const WhychooseContent = {
         ]
       },
       {
+        image:MahaAmal,
         name:"Maha Amal ",
         designation:"Master’s in Philosophy",
         experience:"Years Of Experience: 4.5 ",
@@ -285,6 +313,7 @@ const WhychooseContent = {
         ]
       },
       {
+        image:AhmedSultan,
         name:"Ahmed Sultan",
         designation:"PhD in History ",
         experience:"Years Of Experience: 6 ",
@@ -308,6 +337,7 @@ const WhychooseContent = {
         ]
       },
       {
+        image:FatimaNoor,
         name:"Fatima Noor ",
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
@@ -331,6 +361,7 @@ const WhychooseContent = {
         ]
       },
       {
+        image:AbdullahFahad,
         name:"Abdullah Fahad ",
         designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
@@ -354,6 +385,7 @@ const WhychooseContent = {
         ]
       },
       {
+        image:AbdullahFahad,
         name:"Abdullah Fahad ",
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
@@ -377,6 +409,7 @@ const WhychooseContent = {
         ]
       },
       {
+        image:AbdullahFahad,
         name:"Abdullah Fahad ",
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
@@ -400,6 +433,7 @@ const WhychooseContent = {
         ]
       },
       {
+        image:AbdullahFahad,
         name:"Abdullah Fahad ",
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
@@ -423,6 +457,7 @@ const WhychooseContent = {
         ]
       },
       {
+        image:AbdullahFahad,
         name:"Abdullah Fahad ",
         designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
@@ -446,6 +481,7 @@ const WhychooseContent = {
         ]
       },
       {
+        image:AbdullahFahad,
         name:"Abdullah Fahad ",
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",
@@ -500,11 +536,13 @@ const WhychooseContent = {
     para:"Students in Riyadh and across the various regions of the KSA rely on our expertise to cater to their academic needs. ",
     option:[
       {
+        image:humnaShah,
         name:"Humna Shah",
         location:"Jeddah",
         para:"It was really a great experience hiring Assignment Help Saudi Arabia for my linguistic essay, as they delivered top-notch content with efficient service. The whole process was smooth, and I found it very easy to hire them, considering their responsive and active service. Thank you for the great work. "
       },
       {
+        image:AazraSheikh,
         name:"Aazra Sheikh",
         location:"Riyadh",
         para:"I highly recommend Assignment Help Saudi Arabia to all students as I had their help last week, and I got an A+ on my essay due to their commendable work. From the intro to the conclusion, every word they wrote was impressive and helped me acquire my desired grade. Thanks. "
@@ -516,18 +554,22 @@ const WhychooseContent = {
     heading:"Require Peerless Help With Essay Writing? Hire Our Professional Team Today!",
     option:[
       {
+        image:PlaceOrder,
         title:"Place Order",
         para:"You can place your order through our 24/7 active online channels including WhatsApp number and chat support. ",
       },
       {
+        image:ProvideInfo,
         title:"Provide Info",
         para:"After order registration, provide our team with all the necessary details regarding your assignment and academics. ",
       },
       {
+        image:Processing,
         title:"Processing",
         para:"Our team will assign a relevant and experienced writer based on your order specifications. ",
       },
       {
+        image:QAandDelivery,
         title:"QA and Delivery ",
         para:"After the draft completion, our quality assurance team will review it for further improvements and then will send it to you. ",
       }

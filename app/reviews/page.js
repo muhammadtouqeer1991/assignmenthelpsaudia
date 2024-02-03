@@ -7,6 +7,13 @@ import Faqs from '@/components/Faqs';
 import ReviewsItems from '@/components/ReviewsItems';
 import HighlyQualifiedWriters from '../../public/assets/HighlyQualifiedWriters.svg';
 
+import Abdullah from '../../public/assets/Abdullah.webp';
+import Hameed from '../../public/assets/Hameed.webp';
+import Hessa from '../../public/assets/Hessa.webp';
+import MuhammadKhalid from '../../public/assets/MuhammadKhalid.webp';
+import MuhammadRashid from '../../public/assets/MuhammadRashid.webp';
+import Sheikha from '../../public/assets/Sheikha.webp';
+
 export const metadata = {
   title: 'Assignment Help Saudia',
   description: '',
@@ -64,31 +71,37 @@ const page = () => {
 
   const myReview = [
     {
+      image:MuhammadRashid,
       name:"Muhammad Rashid",
       location:"Riyadh",
       para:"I have recently worked with Assignment Help Saudi Arabia, and the experience was truly worth my money and time. I got their assistance for my chemistry project, and they delivered it with perfection. From content quality to the extensive research they have done, all support facets were impressive. Thanks. ",
     },
     {
+      image:Abdullah,
       name:"Abdullah",
       location:"Jeddah",
       para:"My instructor recently assigned me a physics assignment that consisted of long and complex numerical problems, so I got the help of Assignment Help Saudi Arabia to save some time and ensure accuracy. The service assisted me well and helped me solve all my numerical problems with efficient and expert support. Thank you. ",
     },
     {
+      image:Sheikha,
       name:"Sheikha",
       location:"Riyadh",
       para:"Assignment Help Saudi Arabia proved to be really great for my geography subject assignment. It was perfectly structured and free from any grammatical errors. The writer they assigned was very efficient and offered me right on time support for every problem. Really appreciated. ",
     },
     {
+      image:Hameed,
       name:"Hameed",
       location:"Jeddah",
       para:"My friend referred Assignment Help Saudi Arabia to me last week, and this really changed my whole study routine. Since I hired them, I have been getting immense help and convenience concerning my writing projects. Also, this service is affordable and offers quick service. ",
     },
     {
+      image:Hessa,
       name:"Hessa",
       location:"Riyadh",
       para:"My case study assignment was developed by the skilled writer of Assignment Help Saudi Arabia and the result was just flawless. The structure was exactly according to my specifications, and the arguments were well-supported. I am thankful for the quality work they provided. ",
     },
     {
+      image:MuhammadKhalid,
       name:"Muhammad Khalid",
       location:"Jeddah",
       para:"The experience I got from Assignment Help Saudi Arabia is just beyond impressive. They created an exceptional quality assignment for my business course. The research was extensive, and the gathered information was very well put together in the content. Thank you. ",
