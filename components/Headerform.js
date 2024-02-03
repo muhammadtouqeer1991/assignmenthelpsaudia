@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import arrow from '../public/assets/arrow.svg';
 import moment from 'moment';
 import Moment from 'react-moment';
@@ -33,6 +33,17 @@ const Headerform = ({HeaderContent}) => {
     push('/order-now');
 
 
+}
+
+useEffect(() => {
+  getData(pages,academic,deadline);
+},[pages,academic,deadline]);
+
+const getData = async (pages,academic,deadline) => {
+  const query = await fetch(`https://assignmenthelpsaudia.topwebsite.live/priceChange.php?pages=${pages}&academic=${academic}&deadline=${deadline}`);
+  const response = await query.json();
+  console.log("response",response);
+  setPrice(response);
 }
 
 return (

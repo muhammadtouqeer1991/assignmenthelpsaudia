@@ -66,7 +66,7 @@ useEffect(() => {
 },[pages,academic,deadline]);
 
 const getData = async (pages,academic,deadline) => {
-    const query = await fetch(`https://essayroo.com.au/priceChange.php?pages=${pages}&academic=${academic}&deadline=${deadline}`);
+    const query = await fetch(`https://assignmenthelpsaudia.topwebsite.live/priceChange.php?pages=${pages}&academic=${academic}&deadline=${deadline}`);
     const response = await query.json();
     setAmount(response);
 }
@@ -99,7 +99,7 @@ method: 'POST',
 body: formData
 };
 
-fetch(`https://essayroo.com.au/orderForm.php`, requestOptions)
+fetch(`https://assignmenthelpsaudia.topwebsite.live/orderForm.php`, requestOptions)
 .then(response => response.json())
 .then(dataex => {
 if(dataex.code == '200'){
@@ -174,7 +174,7 @@ return (
 
 <option value="Undergraduate">Undergraduate</option>
 
-<option value="Master">Master's</option>
+<option value="Master">Masters</option>
 
 <option value="PhD">Ph.D</option>
 
@@ -339,7 +339,7 @@ return (
 <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
 <option value="Cook Islands">Cook Islands</option>
 <option value="Costa Rica">Costa Rica</option>
-<option value="Cote D'ivoire">Cote D'ivoire</option>
+<option value="Cote D'ivoire">Cote Divoire</option>
 <option value="Croatia">Croatia</option>
 <option value="Cuba">Cuba</option>
 <option value="Cyprus">Cyprus</option>
@@ -401,11 +401,11 @@ return (
 <option value="Kazakhstan">Kazakhstan</option>
 <option value="Kenya">Kenya</option>
 <option value="Kiribati">Kiribati</option>
-<option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+<option value="Korea, Democratic Peoples Republic of">Korea, Democratic Peoples Republic of</option>
 <option value="Korea, Republic of">Korea, Republic of</option>
 <option value="Kuwait">Kuwait</option>
 <option value="Kyrgyzstan">Kyrgyzstan</option>
-<option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+<option value="Lao Peoples Democratic Republic">Lao Peoples Democratic Republic</option>
 <option value="Latvia">Latvia</option>
 <option value="Lebanon">Lebanon</option>
 <option value="Lesotho">Lesotho</option>
