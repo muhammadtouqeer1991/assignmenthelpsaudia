@@ -6,6 +6,7 @@ import moment from 'moment';
 import Moment from 'react-moment';
 import { useRouter } from 'next/navigation';
 import LoadingSpinner from './LoadingSpinner';
+import Swal from 'sweetalert2';
 
 const OrderForm = () => {
 
@@ -66,7 +67,7 @@ useEffect(() => {
 },[pages,academic,deadline]);
 
 const getData = async (pages,academic,deadline) => {
-    const query = await fetch(`https://assignmenthelpsaudia.topwebsite.live/priceChange.php?pages=${pages}&academic=${academic}&deadline=${deadline}`);
+    const query = await fetch(`https://assignmenthelp.sa.com/priceChange.php?pages=${pages}&academic=${academic}&deadline=${deadline}`);
     const response = await query.json();
     setAmount(response);
 }
@@ -99,9 +100,10 @@ method: 'POST',
 body: formData
 };
 
-fetch(`https://assignmenthelpsaudia.topwebsite.live/orderForm.php`, requestOptions)
+fetch(`https://assignmenthelp.sa.com/orderForm.php`, requestOptions)
 .then(response => response.json())
 .then(dataex => {
+    console.log("dataex",dataex);
 if(dataex.code == '200'){
 Swal.fire(
 'Good job!',

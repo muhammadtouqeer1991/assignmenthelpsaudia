@@ -39,17 +39,17 @@ return (
     About
 </Link>
 
-<Link href="#" className={`serviceHover ${pathname == '/essay-writing' || pathname == '/cipd-assignment-help-ksa' || pathname == '/homework-help-ksa' || pathname == '/personal-statement-writing' ? 
+<Link href="#" className={`serviceHover ${pathname == '/essay-writing' || pathname == '/cipd-assignment' || pathname == '/homework-help' || pathname == '/personal-statement' ? 
 'pb-[1.5rem] pt-[1.2rem]  flex flex-col justify-center items-center bg-navactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[86%] before:bg-navactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-12px] before:z-[-1] z-[1]' : 
 
 'pb-[1.5rem] pt-[1.2rem]  flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[86%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white' } `}>
-    <GrServices size={25} color={`${pathname == '/essay-writing' || pathname == '/cipd-assignment-help-ksa' || pathname == '/homework-help-ksa' || pathname == '/personal-statement-writing' ? '':'#28D07E' } `} />
+    <GrServices size={25} color={`${pathname == '/essay-writing' || pathname == '/cipd-assignment' || pathname == '/homework-help' || pathname == '/personal-statement' ? '':'#28D07E' } `} />
     Services
     <ul className='dropdown hidden'>
         <li><Link href="/essay-writing">Essay Writing</Link></li>
-        <li><Link href="/cipd-assignment-help-ksa">CIPD Assignment Help KSA</Link></li>
-        <li><Link href="/homework-help-ksa">Homework Help KSA</Link></li>
-        <li><Link href="/personal-statement-writing">Personal Statement Writing</Link></li>
+        <li><Link href="/cipd-assignment">CIPD Assignment</Link></li>
+        <li><Link href="/homework-help">Homework Help</Link></li>
+        <li><Link href="/personal-statement">Personal Statement</Link></li>
     </ul>
 </Link>
 
@@ -73,7 +73,7 @@ return (
 <Link href="/order-now" className='bg-navactive py-3 px-6 rounded-[11px] font-bold text-dark'>
     Order Now
 </Link>
-<Link href="#" className='flex gap-1 items-center border-navactive border-2 py-[9px] px-8 rounded-[11px] text-white font-bold'>
+<Link href="/login/" className='flex gap-1 items-center border-navactive border-2 py-[9px] px-8 rounded-[11px] text-white font-bold'>
 <FiUserCheck size={25} color='#28D07E' />
 Login
 </Link>

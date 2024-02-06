@@ -50,7 +50,7 @@ export const metadata = {
     title: 'Assignment Help Saudia',
     description: '',
   },
-  metadataBase: new URL('https://assignmenthelpsaudia.com'),
+  metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
     canonical: '/',
     languages: {
@@ -76,7 +76,7 @@ export const metadata = {
 export default function Home() {
 
   const HeaderContent = {
-    heading:"Get Optimal Coursework Help With Our Assignment Writing Service KSA",
+    heading:"Get Optimal Assignment Help With Our Assignment Writing Service KSA",
     para:"Stressing out due to assignment burden? Get excellent convenience from our Assignment Assistance in Saudi Arabia for all subjects. We offer exemplary academic writing help from top writers in the relevant fields. Hire us today and acquire the following: ",
     option:[
       {

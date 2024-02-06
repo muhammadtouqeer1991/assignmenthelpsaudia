@@ -36,6 +36,27 @@ import Processing from '../../public/assets/Processing.svg';
 import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
+import Assignmentwriting from '../../public/assets/Assignmentwriting.svg';
+import Editing from '../../public/assets/Editing.svg';
+import Proofreading from '../../public/assets/Proofreading.svg';
+import Researchhelpandguidance from '../../public/assets/Researchhelpandguidance.svg';
+
+import AbdullahFahad from '../../public/assets/AbdullahFahad.webp';
+import AhmedSultan from '../../public/assets/AhmedSultan.webp';
+import FatimaNoor from '../../public/assets/FatimaNoor.webp';
+import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
+import MahaAmal from '../../public/assets/MahaAmal.webp';
+
+import Comprehensivesupporttasks from '../../public/assets/Comprehensivesupporttasks.svg';
+import Excellentserviceaccessibility from '../../public/assets/Excellentserviceaccessibility.svg';
+import Highoriginalityguaranteed from '../../public/assets/Highoriginalityguaranteed.svg';
+import Professionalfieldspecificwriters from '../../public/assets/Professionalfieldspecificwriters.svg';
+import Timelydeliveriesguaranteed from '../../public/assets/Timelydeliveriesguaranteed.svg';
+
+
+import AazraSheikh from '../../public/assets/AazraSheikh.webp';
+import Abdullah from '../../public/assets/Abdullah.webp';
+
 export const metadata = {
   title: 'Assignment Help Saudia',
   description: '',
@@ -43,12 +64,12 @@ export const metadata = {
     title: 'Assignment Help Saudia',
     description: '',
   },
-  metadataBase: new URL('https://assignmenthelpsaudia.com'),
+  metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
-    canonical: '/services',
+    canonical: '/cipd-assignment-help-ksa',
     languages: {
-      'en-US': '/',
-      'de-DE': '/',
+      'en-US': '/cipd-assignment-help-ksa',
+      'de-DE': '/cipd-assignment-help-ksa',
     },
   },
   robots: {
@@ -102,19 +123,19 @@ const page = () => {
         subheading:"At Your Service for Every Assignment Need",
         option:[
           {
-            icon:HighlyQualifiedWriters,
+            icon:Assignmentwriting,
             title:"Assignment writing",
           },
           {
-            icon:CheapServicePackages,
+            icon:Editing,
             title:"Editing ",
           },
           {
-            icon:CustomAssignments,
+            icon:Proofreading,
             title:"Proofreading ",
           },
           {
-            icon:FreeRevisions,
+            icon:Researchhelpandguidance,
             title:"Research help and guidance ",
           },
         ]
@@ -190,23 +211,23 @@ const page = () => {
         para:"Hire us and experience the service difference we offer to our clients.  ",
         option:[
           {
-            icon:Freerevisionss,
+            icon:Professionalfieldspecificwriters,
             title:"Professional field-specific writers ",
           },
           {
-            icon:Fullconfidentialits,
+            icon:Comprehensivesupporttasks,
             title:"Comprehensive support for all assignment tasks",
           },
           {
-            icon:Throughoutsupports,
+            icon:Highoriginalityguaranteed,
             title:"High originality guaranteed",
           },
           {
-            icon:Freeplagiarismreportss,
+            icon:Timelydeliveriesguaranteed,
             title:"Timely deliveries guaranteed",
           },
           {
-            icon:Domainspecificwriterss,
+            icon:Excellentserviceaccessibility,
             title:"Excellent service accessibility ",
           }
         ]
@@ -321,232 +342,242 @@ const page = () => {
     heading:"Bring Our CIPD Specialists On Board For a Matchless CIPD Assignment Help KSA ",
     option:[
       {
+        image:HamzaSaleh,
         name:"Hamza Saleh ",
-        designation:"Masters in Computer Science",
+        designation:"Master’s in Literature",
         experience:"Years Of Experience: 5 ",
         title:"What Can He Help With?",
-        para:"Need reliable backup support for your HR Management assignments? Hire our expert writer, Abdullah. He has been creating quality HR assignments for six years and can deliver the best content for all topics. ",
-        successrate:"Rating: 99%",
-        completeProject:"Projects completed: 1300+",
+        para:"Do you need authentic service for your literature essay assignments? Hire our commendable writer, Majid J. Majid holds advanced qualifications in literature studies and has been facilitating students across KSA for years. ",
+        successrate:"Customer Rating: 98% ",
+        completeProject:"Projects Completed: 1100+",
         Expertise:[
           {
-            title:"Strategic HR management",
+            title:"literary analysis",
           },
           {
-            title:"recruitment and selection",
+            title:"research skills",
           },
           {
-            title:"employee engagement",
+            title:"writing skills",
           },
           {
-            title:"performance management ",
+            title:"cultural and historical context ",
           },
         ]
       },
       {
+        image:MahaAmal,
         name:"Maha Amal ",
-        designation:"Masters in Business Administration",
+        designation:"Master’s in Philosophy",
         experience:"Years Of Experience: 4.5 ",
         title:"What Can She Help With?",
-        para:"Is it challenging to conform to the writing standards of Learning and Development course assignments? Let Saad, our very expert writer, tackle all these hurdles for you effectively. With CIPD level 7 qualification, he understands all these aspects well. ",
-        successrate:"Rating: 97%",
-        completeProject:"Projects completed: 1000+",
+        para:"Are the essay assignments of your philosophy course becoming an issue? Transform your challenges into competencies with our experienced writer, Nada T. She is a philosophy teacher and can help you greatly in your work. ",
+        successrate:"Customer Rating: 99% ",
+        completeProject:"Projects Completed: 1200+",
         Expertise:[
           {
-            title:"Design and Development of Learning Programs",
+            title:"analytical skills",
           },
           {
-            title:"Training Needs Analysis",
+            title:"critical thinking",
           },
           {
-            title:"Learning Delivery Methods",
+            title:"Interdisciplinary Understanding",
           },
           {
-            title:"Evaluation of Learning and Development",
-          },
-          {
-            title:"Learning Technologies and Digital Learning",
+            title:"problem solving",
           },
         ]
       },
       {
+        image:AhmedSultan,
         name:"Ahmed Sultan",
-        designation:"MPhil in Law",
+        designation:"PhD in History ",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"For clear and readable content preparation for your Organizational Development course assignments, consider hiring the expertise of our laudable helper, Ibrahim. He possesses advanced field qualifications and caters to all your needs professionally.",
-        successrate:"Rating: 98%",
-        completeProject:"Projects completed: 900+",
+        para:"Need professional means to edit your history essay? Fahad P. is our talented history writer offering comprehensive support regarding all the facets of essay development. Hire him today at cheap rates. ",
+        successrate:"Customer Rating: 97% ",
+        completeProject:"Projects Completed: 1000+",
         Expertise:[
           {
-            title:"Organizational Change",
+            title:"Historiography",
           },
           {
-            title:"Leadership and Organizational Development",
+            title:"attention to detail",
           },
           {
-            title:"Organizational Culture and Climate",
+            title:"Chronological Competence",
           },
           {
-            title:"Employee Engagement in Organizational Development",
+            title:"research skills",
           },
         ]
       },
       {
+        image:FatimaNoor,
         name:"Fatima Noor ",
-        designation:"PhD in Economics ",
+        designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
         title:"What Can She Help With?",
-        para:"If you are seeking assistance with your Employee Relations assignments, consider hiring our skilled assignment writer, Fatemah. She holds a CIPD-level 7 certificate and provides thorough help to students in their coursework.",
-        successrate:"Rating: 99%",
-        completeProject:"Projects completed: 1200+",
+        para:"For your linguistic essay assignments, you can hire our expert writer, Saif. he has been crafting quality essays on all topics for five years and possesses a strong grasp of all the standards of essay writing. ",
+        successrate:"Customer Rating: 99% ",
+        completeProject:"Projects Completed: 1100+",
         Expertise:[
           {
-            title:"Employee Communication",
+            title:"applied linguistics",
           },
           {
-            title:"Employee Involvement",
+            title:"linguistic anthropology",
           },
           {
-            title:"Grievance Handling",
+            title:"sociolinguistics",
           },
           {
-            title:"Disciplinary Procedures",
+            title:"pragmatics",
           },
         ]
       },
       {
+        image:AbdullahFahad,
         name:"Abdullah Fahad ",
-        designation:"Masters in Literature ",
+        designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Assignment Help Saudi Arabia can lend you a reliable helping hand in your Employment Law assignments through its field maven writer, Nura. With years of corporate exposure, she brings excellent insights to your content. ",
-        successrate:"Rating: 97%",
-        completeProject:"Projects completed: 1100+",
+        para:"Are you stressed due to the essay burden of your culture studies course? Forget all your worries when you have the expertise of our skilled helper, Rawa. She possesses a bachelor’s degree in the related field and crafts quality content on all topics.",
+        successrate:"Customer Rating: 96% ",
+        completeProject:"Projects Completed: 900+",
         Expertise:[
           {
-            title:"Employment Contracts",
+            title:"cultural theory",
           },
           {
-            title:"Discrimination and Equal Opportunities",
+            title:"globalisation studies",
           },
           {
-            title:"Unfair Dismissal, Redundancy",
+            title:"cultural history",
+          },
+          {
+            title:"cultural geography",
           },
         ]
       },
       {
-        name:"Abdullah Fahad ",
-        designation:"Masters in Literature ",
+        image:AbdullahFahad,
+        name:"Ryanah",
+        designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Finding your Diversity and Inclusion subject hard to cater to? Hire our laudable assignment maker, Maha and create perfect assignments effortlessly. She works as an HR professional and can provide valuable information for your learning. ",
-        successrate:"Rating: 99%",
-        completeProject:"Projects completed: 1000+",
+        para:"For your sociology essay assignments, hire our expert essay maker, Liala. With her advanced qualifications and field experience, she brings unique perspectives to your essay content. Get in touch today and get partnered with her.",
+        successrate:"Customer Rating: 98% ",
+        completeProject:"Projects Completed: 1000+",
         Expertise:[
           {
-            title:"The Business Case for Diversity",
+            title:"Social theory",
           },
           {
-            title:"Cultural Competence",
+            title:"research methods in sociology",
           },
           {
-            title:"Unconscious Bias",
+            title:"cultural sociology",
           },
           {
-            title:"Inclusive Leadership",
+            title:"social psychology",
           },
         ]
       },
       {
-        name:"Abdullah Fahad ",
-        designation:"Masters in Literature ",
+        image:AbdullahFahad,
+        name:"Hanan ",
+        designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Are you struggling to maintain a professional and cohesive tone in your Talent Management assignments? We can help you. Hire our competent writer, Maryam and forget all your worries. She can assist you thoroughly in crafting professional assignments. ",
-        successrate:"Rating: 99%",
-        completeProject:"Projects completed: 1400+",
+        para:"Fed up with constant low grades on your psychology essays? Let our essay helper, Rashid, take care of this issue. With a Master’s degree in psychology and professional exposure, he can deliver excellence to your essays. ",
+        successrate:"Customer Rating: 97% ",
+        completeProject:"Projects Completed: 980+",
         Expertise:[
           {
-            title:"Onboarding and Induction",
+            title:"Biological psychology",
           },
           {
-            title:"Succession Planning",
+            title:"Cognitive psychology",
           },
           {
-            title:"Performance Management",
+            title:"Social psychology",
           },
           {
-            title:"Leadership Development",
+            title:"research skills ",
           },
         ]
       },
       {
-        name:"Abdullah Fahad ",
-        designation:"Masters in Literature ",
+        image:AbdullahFahad,
+        name:"Sarah ",
+        designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Want to secure top grades in your Performance Management assignments? Our helper, Ahmad, offers high quality performance management Saudi CIPD assignments. Hire him today and add quality to your coursework. ",
-        successrate:"Rating: 97%",
-        completeProject:"Projects completed: 900+",
+        para:"If you are worried about your performance in your economics essays, contact us now and avail of the expertise of our skilled writer, Tariq. With his expert insights and extensive knowledge about the subject, he can help you develop quality essays. ",
+        successrate:"Customer Rating: 96% ",
+        completeProject:"Projects Completed: 980+",
         Expertise:[
           {
-            title:"Performance Appraisal",
+            title:"Econometrics",
           },
           {
-            title:"Setting Performance Objectives",
+            title:"microeconomics",
           },
           {
-            title:"Feedback and Coaching",
+            title:"macroeconomics",
           },
           {
-            title:"Performance Improvement Plans",
+            title:"development economics",
           },
         ]
       },
       {
-        name:"Abdullah Fahad ",
-        designation:"Masters in Literature ",
+        image:AbdullahFahad,
+        name:"Aziza ",
+        designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Polish and elevate the quality of your Reward Management assignments with comprehensive assistance from our peerless writer, Ali. He has a strong understanding of this subject and creates exemplary assignments. Hire him now. ",
-        successrate:"Rating: 99%",
-        completeProject:"Projects completed: 1000+",
+        para:"Confused about how to structure your marketing essays? Our essay helper, Amal, is an expert marketer offering holistic support to students in their essay assignments. Contact us to get her hired. ",
+        successrate:"Customer Rating: 99% ",
+        completeProject:"Projects Completed: 900+",
         Expertise:[
           {
-            title:"Compensation and Benefits",
+            title:"Consumer Behaviour",
           },
           {
-            title:"Job Evaluation",
+            title:"market research",
           },
           {
-            title:"Performance-related Pay",
+            title:"brand management",
           },
           {
-            title:"Total Reward Strategies",
+            title:"marketing analytics",
           },
         ]
       },
       {
-        name:"Abdullah Fahad ",
-        designation:"Masters in Literature ",
+        image:AbdullahFahad,
+        name:"Munira ",
+        designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Develop high grade HR Analytics assignments with holistic support from our top writer in this field, Suleman. He is proficient in crafting original, relevant and well-communicated assignments efficiently. Get in touch today and get him on board. ",
-        successrate:"Rating: 98%",
-        completeProject:"Projects completed: 990+",
+        para:"Searching for reliable essay writing help in Riyadh for your finance assignments? Ali is our best writer on this subject, providing high quality and accurate essays on all subject areas. With his knowledge, you can learn well. ",
+        successrate:"Customer Rating: 98% ",
+        completeProject:"Projects Completed: 1000+",
         Expertise:[
           {
-            title:"Data Collection and Management in HR",
+            title:"financial accounting",
           },
           {
-            title:"Descriptive Analytics in HR",
+            title:"corporate finance",
           },
           {
-            title:"Predictive Analytics in HR",
+            title:"investment management",
           },
           {
-            title:"Prescriptive Analytics in HR",
+            title:"business finance",
           },
         ]
       },
@@ -563,11 +594,13 @@ const page = () => {
     para:"Students in Riyadh and across the KSA prefer to hire our Saudi CIPD assignments due to our high level of expertise and transparent service processing. ",
     option:[
       {
+        image:Abdullah,
         name:"Abdul Saud",
         location:"Jeddah",
         para:"I hired Assignment Help Saudi Arabia for my CIPD level 5 assignments. They created two assignments and both were exemplary in quality and accuracy. From well-researched material to flawless content, all aspects of the document were commendable. I am so thankful for their help. "
       },
       {
+        image:AazraSheikh,
         name:"Alvina Sheikh",
         location:"Riyadh",
         para:"Assignment Help Saudi Arabia delivered an exceptional assignment for my HR management assignment recently. The writer was really an expert in the field as he helped me throughout the content development with valuable advice. Due to the immense help and timely assistance, I was able to submit this complex assignment on time and with quality work. Highly appreciated!"

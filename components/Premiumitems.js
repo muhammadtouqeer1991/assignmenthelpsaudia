@@ -78,9 +78,7 @@ PremiumservicesContent == null || PremiumservicesContent == undefined || Premium
 onSwiper={(swiper) => {
 swiperRef.current = swiper;
 }}
-pagination={{
-clickable: true,
-}}
+pagination={false}
 slidesPerView={1}
 spaceBetween={10}
 navigation={{
@@ -117,7 +115,7 @@ return (
     <h5 className='text-[26px] text-white font-semibold pt-2 pb-1'>{item.title}</h5>
     <p className='text-[14px] leading-normal text-white'>{item.para}</p>
     <div className='flex justify-end items-end w-full'>
-    <Link href="#" className='mt-5 flex items-center gap-2 text-white'>Read more <LuCopyPlus /></Link>
+    <Link href="/order-now" className='mt-5 flex items-center gap-2 text-white'>Order Now <LuCopyPlus /></Link>
     </div>
     </div>
 </SwiperSlide>

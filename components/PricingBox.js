@@ -16,65 +16,58 @@ return (
 
 <div className='flex-1 relative top-[-9rem]'>
 <div className='text-center py-7 px-5 bg-[#2C3539] rounded-tr-[20px] rounded-tl-[20px] relative'>
-    <h5 className='text-white text-[20px] font-bold pb-3'>High School</h5>
-    <Image src={basic} className='block m-auto' alt="basic" width={40} />
-    <h6 className='text-[26px] font-semibold text-navactive pt-3'>SAR 30</h6>
-    {/* <p className='text-[16px] text-white pt-2'>50% - 60%</p> */}
-    <p className='text-[16px] text-white'>for 100 words</p>
+    <h5 className='text-white text-[20px] font-bold pb-1'>High School</h5>
+    <h6 className='text-[26px] font-semibold text-navactive'>SAR 30</h6>
+    <p className='text-[16px] text-white'>for 250 words</p>
     <div className="pricingBoxPath"></div>
 </div>
 </div>
 
 <div className='flex-1 relative top-[-9rem]'>
 <div className='text-center py-7 px-5 bg-[#2C3539] rounded-tr-[20px] rounded-tl-[20px] relative'>
-    <h5 className='text-white text-[20px] font-bold pb-3'>College</h5>
-    <Image src={basic} className='block m-auto' alt="basic" width={40} />
-    <h6 className='text-[26px] font-semibold text-navactive pt-3'>SAR 30</h6>
+    <h5 className='text-white text-[20px] font-bold pb-2'>College</h5>
+    <h6 className='text-[26px] font-semibold text-navactive '>SAR 35</h6>
     {/* <p className='text-[16px] text-white pt-2'>50% - 60%</p> */}
-    <p className='text-[16px] text-white'>for 100 words</p>
+    <p className='text-[16px] text-white'>for 250 words</p>
     <div className="pricingBoxPath"></div>
 </div>
 </div>
 
 <div className='flex-1 relative top-[-9rem]'>
 <div className='text-center py-7 px-5 bg-[#2C3539] rounded-tr-[20px] rounded-tl-[20px] relative'>
-    <h5 className='text-white text-[20px] font-bold pb-3'>Undergraduate</h5>
-    <Image src={basic} className='block m-auto' alt="basic" width={40} />
-    <h6 className='text-[26px] font-semibold text-navactive pt-3'>SAR 30</h6>
+    <h5 className='text-white text-[20px] font-bold pb-2'>Undergraduate</h5>
+    <h6 className='text-[26px] font-semibold text-navactive'>SAR 40</h6>
     {/* <p className='text-[16px] text-white pt-2'>50% - 60%</p> */}
-    <p className='text-[16px] text-white'>for 100 words</p>
+    <p className='text-[16px] text-white'>for 250 words</p>
     <div className="pricingBoxPath"></div>
 </div>
 </div>
 
 <div className='flex-1 relative top-[-9rem]'>
 <div className='text-center py-7 px-5 bg-[#2C3539] rounded-tr-[20px] rounded-tl-[20px] relative'>
-    <h5 className='text-white text-[20px] font-bold pb-3'>Masters</h5>
-    <Image src={basic} className='block m-auto' alt="basic" width={40} />
-    <h6 className='text-[26px] font-semibold text-navactive pt-3'>SAR 30</h6>
+    <h5 className='text-white text-[20px] font-bold pb-2'>Masters</h5>
+    <h6 className='text-[26px] font-semibold text-navactive'>SAR 50</h6>
     {/* <p className='text-[16px] text-white pt-2'>50% - 60%</p> */}
-    <p className='text-[16px] text-white'>for 100 words</p>
+    <p className='text-[16px] text-white'>for 250 words</p>
     <div className="pricingBoxPath"></div>
 </div>
 </div>
 
 <div className='flex-1 relative top-[-9rem]'>
 <div className='text-center py-7 px-5 bg-[#2C3539] rounded-tr-[20px] rounded-tl-[20px] relative'>
-    <h5 className='text-white text-[20px] font-bold pb-3'>Ph.D.</h5>
-    <Image src={basic} className='block m-auto' alt="basic" width={40} />
-    <h6 className='text-[26px] font-semibold text-navactive pt-3'>SAR 30</h6>
+    <h5 className='text-white text-[20px] font-bold pb-2'>Ph.D.</h5>
+    <h6 className='text-[26px] font-semibold text-navactive'>SAR 60</h6>
     {/* <p className='text-[16px] text-white pt-2'>50% - 60%</p> */}
-    <p className='text-[16px] text-white'>for 100 words</p>
+    <p className='text-[16px] text-white'>for 250 words</p>
     <div className="pricingBoxPath"></div>
 </div>
 </div>
 <div className='flex-1 relative top-[-9rem]'>
 <div className='text-center py-7 px-5 bg-[#2C3539] rounded-tr-[20px] rounded-tl-[20px] relative'>
-    <h5 className='text-white text-[15px] font-bold pb-3'>Admission Essay</h5>
-    <Image src={basic} className='block m-auto' alt="basic" width={40} />
-    <h6 className='text-[26px] font-semibold text-navactive pt-3'>SAR 30</h6>
+    <h5 className='text-white text-[15px] font-bold pb-2'>Admission Essay</h5>
+    <h6 className='text-[26px] font-semibold text-navactive'>SAR 70</h6>
     {/* <p className='text-[16px] text-white pt-2'>50% - 60%</p> */}
-    <p className='text-[16px] text-white'>for 100 words</p>
+    <p className='text-[16px] text-white'>for 250 words</p>
     <div className="pricingBoxPath"></div>
 </div>
 </div>

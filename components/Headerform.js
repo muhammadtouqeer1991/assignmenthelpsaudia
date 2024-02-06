@@ -40,7 +40,7 @@ useEffect(() => {
 },[pages,academic,deadline]);
 
 const getData = async (pages,academic,deadline) => {
-  const query = await fetch(`https://assignmenthelpsaudia.topwebsite.live/priceChange.php?pages=${pages}&academic=${academic}&deadline=${deadline}`);
+  const query = await fetch(`https://assignmenthelp.sa.com/priceChange.php?pages=${pages}&academic=${academic}&deadline=${deadline}`);
   const response = await query.json();
   console.log("response",response);
   setPrice(response);

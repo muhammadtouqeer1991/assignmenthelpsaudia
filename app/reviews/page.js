@@ -21,12 +21,12 @@ export const metadata = {
     title: 'Assignment Help Saudia',
     description: '',
   },
-  metadataBase: new URL('https://assignmenthelpsaudia.com'),
+  metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
     canonical: '/reviews',
     languages: {
-      'en-US': '/',
-      'de-DE': '/',
+      'en-US': '/reviews',
+      'de-DE': '/reviews',
     },
   },
   robots: {

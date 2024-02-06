@@ -64,12 +64,12 @@ openGraph: {
 title: 'Assignment Help Saudia',
 description: '',
 },
-metadataBase: new URL('https://assignmenthelpsaudia.com'),
+metadataBase: new URL('https://assignmenthelp.sa.com'),
 alternates: {
-canonical: '/services',
+canonical: '/homework-help-ksa',
 languages: {
-'en-US': '/',
-'de-DE': '/',
+'en-US': '/homework-help-ksa',
+'de-DE': '/homework-help-ksa',
 },
 },
 robots: {

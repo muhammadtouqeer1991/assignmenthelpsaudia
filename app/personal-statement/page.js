@@ -64,12 +64,12 @@ openGraph: {
 title: 'Assignment Help Saudia',
 description: '',
 },
-metadataBase: new URL('https://assignmenthelpsaudia.com'),
+metadataBase: new URL('https://assignmenthelp.sa.com'),
 alternates: {
-canonical: '/services',
+canonical: '/personal-statement-writing',
 languages: {
-'en-US': '/',
-'de-DE': '/',
+'en-US': '/personal-statement-writing',
+'de-DE': '/personal-statement-writing',
 },
 },
 robots: {

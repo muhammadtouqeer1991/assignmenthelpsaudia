@@ -46,12 +46,12 @@ export const metadata = {
     title: 'Assignment Help Saudia',
     description: '',
   },
-  metadataBase: new URL('https://assignmenthelpsaudia.com'),
+  metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
-    canonical: '/services',
+    canonical: '/essay-writing',
     languages: {
-      'en-US': '/',
-      'de-DE': '/',
+      'en-US': '/essay-writing',
+      'de-DE': '/essay-writing',
     },
   },
   robots: {
@@ -386,7 +386,7 @@ const WhychooseContent = {
       },
       {
         image:AbdullahFahad,
-        name:"Abdullah Fahad ",
+        name:"Ryanah",
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
@@ -410,7 +410,7 @@ const WhychooseContent = {
       },
       {
         image:AbdullahFahad,
-        name:"Abdullah Fahad ",
+        name:"Hanan ",
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
@@ -434,7 +434,7 @@ const WhychooseContent = {
       },
       {
         image:AbdullahFahad,
-        name:"Abdullah Fahad ",
+        name:"Sarah ",
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
@@ -458,7 +458,7 @@ const WhychooseContent = {
       },
       {
         image:AbdullahFahad,
-        name:"Abdullah Fahad ",
+        name:"Aziza ",
         designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
@@ -482,7 +482,7 @@ const WhychooseContent = {
       },
       {
         image:AbdullahFahad,
-        name:"Abdullah Fahad ",
+        name:"Munira ",
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",

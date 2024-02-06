@@ -355,7 +355,7 @@ return (
 <div>
 <h4 className='text-[16px] text-white font-normal pt-2'>{item.successrate}</h4>
 <p className='text-[16px] font-bold text-white pt-2'>{item.completeProject}</p>
-<p className='text-[16px] text-white font-normal pt-2 pb-4'>Expertise</p>
+{/* <p className='text-[16px] text-white font-normal pt-2 pb-4'>Expertise</p> */}
 </div>
 </div>
 
@@ -371,7 +371,7 @@ return (
 {
    item.Expertise.map((items,key) => {
     return (
-        <li className={`bg-navcolor py-2 px-4 rounded-[16px] flex-[40%] text-[12px] text-white text-center`} key={key+1}>{items.title}{items.title.length}</li> 
+        <li className={`bg-navcolor py-2 px-4 rounded-[16px] flex-[40%] text-[12px] text-white text-center`} key={key+1}>{items.title}</li> 
     )
    }) 
 }
