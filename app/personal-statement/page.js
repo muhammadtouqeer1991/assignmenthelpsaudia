@@ -228,7 +228,7 @@ option:[
     },
     {
     icon:Opencommunicationchannelsdemo,
-    title:"Open communication channels (demo)",
+    title:"24/7 Customer Support",
     }
 ]
 }

@@ -216,7 +216,7 @@ const page = () => {
           },
           {
             icon:Comprehensivesupporttasks,
-            title:"Comprehensive support for all assignment tasks",
+            title:"Comprehensive support for all tasks",
           },
           {
             icon:Highoriginalityguaranteed,

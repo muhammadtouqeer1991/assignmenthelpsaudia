@@ -194,7 +194,7 @@ const WhychooseContent = {
     option:[
       {
         icon:Highlyqualifiedsubjectwriters,
-        title:"Highly qualified subject-specific writers",
+        title:"Highly qualified specific writers",
       },
       {
         icon:Plagiarismfreeguarantee,

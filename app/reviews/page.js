@@ -14,6 +14,12 @@ import MuhammadKhalid from '../../public/assets/MuhammadKhalid.webp';
 import MuhammadRashid from '../../public/assets/MuhammadRashid.webp';
 import Sheikha from '../../public/assets/Sheikha.webp';
 
+
+import Affordablerates from '../../public/assets/Affordablerates.svg';
+import Diverseservice from '../../public/assets/Diverseservice.svg';
+import Ontimehelp from '../../public/assets/Ontimehelp.svg';
+import Qualifiedwriters from '../../public/assets/Qualifiedwriters.svg';
+
 export const metadata = {
   title: 'Assignment Help Saudia',
   description: '',
@@ -51,19 +57,19 @@ const page = () => {
     subheading:"Your Academic Mentor",
     option:[
       {
-        icon:HighlyQualifiedWriters,
+        icon:Qualifiedwriters,
         title:"Qualified writers",
       },
       {
-        icon:HighlyQualifiedWriters,
+        icon:Ontimehelp,
         title:"On time help",
       },
       {
-        icon:HighlyQualifiedWriters,
+        icon:Diverseservice,
         title:"Diverse service",
       },
       {
-        icon:HighlyQualifiedWriters,
+        icon:Affordablerates,
         title:"Affordable rates",
       },
     ]

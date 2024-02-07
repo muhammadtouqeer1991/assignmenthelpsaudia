@@ -216,7 +216,7 @@ title:"Efficient service processing",
 },
 {
 icon:Exceptionalsupportalldomains,
-title:"Exceptional support for all academic domains",
+title:"Exceptional support for all academic",
 },
 {
 icon:Plagiarismfreecontent,
