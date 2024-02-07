@@ -44,11 +44,11 @@ import ProvideInfo from '../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../public/assets/QAandDelivery.svg';
 
 export const metadata = {
-  title: 'Assignment Help Saudia',
-  description: '',
+  title: 'Assignment Help in Saudi Arabia by KSA Assignment Helper',
+  description: 'Assignment Help Saudi Arabia: Best Assignment Writing Services by Top Assignment Writers in Saudi Arabia. Hire Expert KSA Assignment Helpers Online at Cheap',
   openGraph: {
-    title: 'Assignment Help Saudia',
-    description: '',
+    title: 'Assignment Help in Saudi Arabia by KSA Assignment Helper',
+    description: 'Assignment Help Saudi Arabia: Best Assignment Writing Services by Top Assignment Writers in Saudi Arabia. Hire Expert KSA Assignment Helpers Online at Cheap',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {

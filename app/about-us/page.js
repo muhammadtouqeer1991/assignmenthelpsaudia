@@ -25,10 +25,10 @@ import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
 export const metadata = {
-title: 'Assignment Help Saudia',
+title: 'About Company: Best #1 Assignment Help in Saudi Arabia',
 description: '',
 openGraph: {
-title: 'Assignment Help Saudia',
+title: 'About Company: Best #1 Assignment Help in Saudi Arabia',
 description: '',
 },
 metadataBase: new URL('https://assignmenthelp.sa.com'),

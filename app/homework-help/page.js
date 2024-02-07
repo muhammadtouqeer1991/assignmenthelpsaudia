@@ -58,18 +58,18 @@ import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
 
 export const metadata = {
-title: 'Assignment Help Saudia',
-description: '',
+title: '',
+description: 'Best #1 Homework Help in Saudi Arabia by Top Homework Helper KSA at Cheap. Get Expert Homework Help & Writing Services Online. Hire Pro Homework Writers.',
 openGraph: {
-title: 'Assignment Help Saudia',
-description: '',
+title: '',
+description: 'Best #1 Homework Help in Saudi Arabia by Top Homework Helper KSA at Cheap. Get Expert Homework Help & Writing Services Online. Hire Pro Homework Writers.',
 },
 metadataBase: new URL('https://assignmenthelp.sa.com'),
 alternates: {
-canonical: '/homework-help-ksa',
+canonical: '/homework-help',
 languages: {
-'en-US': '/homework-help-ksa',
-'de-DE': '/homework-help-ksa',
+'en-US': '/homework-help',
+'de-DE': '/homework-help',
 },
 },
 robots: {

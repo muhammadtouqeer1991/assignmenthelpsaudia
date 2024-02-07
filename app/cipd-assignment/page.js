@@ -58,18 +58,18 @@ import AazraSheikh from '../../public/assets/AazraSheikh.webp';
 import Abdullah from '../../public/assets/Abdullah.webp';
 
 export const metadata = {
-  title: 'Assignment Help Saudia',
-  description: '',
+  title: 'CIPD Assignment Help in Saudi Arabia for Level 3,5 and 7',
+  description: 'Best CIPD Assignment Writing Help for KSA Students at Cheap. Get Professional CIPD Diploma Assignments for Level 3,5 and 7. Hire #1 CIPD Writers / Helpers.',
   openGraph: {
-    title: 'Assignment Help Saudia',
-    description: '',
+    title: 'CIPD Assignment Help in Saudi Arabia for Level 3,5 and 7',
+    description: 'Best CIPD Assignment Writing Help for KSA Students at Cheap. Get Professional CIPD Diploma Assignments for Level 3,5 and 7. Hire #1 CIPD Writers / Helpers.',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
-    canonical: '/cipd-assignment-help-ksa',
+    canonical: '/cipd-assignment',
     languages: {
-      'en-US': '/cipd-assignment-help-ksa',
-      'de-DE': '/cipd-assignment-help-ksa',
+      'en-US': '/cipd-assignment',
+      'de-DE': '/cipd-assignment',
     },
   },
   robots: {

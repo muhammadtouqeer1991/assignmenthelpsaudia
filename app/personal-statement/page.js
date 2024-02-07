@@ -58,18 +58,18 @@ import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
 
 export const metadata = {
-title: 'Assignment Help Saudia',
-description: '',
+title: 'Hire Rated #1 Personal Statement Helper in Saudi Arabia',
+description: 'Need help with personal statement writing in Saudi Arabia at cheap. Hire Professional and Expert Personal Statement Writers online in KSA to write your SOP.',
 openGraph: {
-title: 'Assignment Help Saudia',
-description: '',
+title: 'Hire Rated #1 Personal Statement Helper in Saudi Arabia',
+description: 'Need help with personal statement writing in Saudi Arabia at cheap. Hire Professional and Expert Personal Statement Writers online in KSA to write your SOP.',
 },
 metadataBase: new URL('https://assignmenthelp.sa.com'),
 alternates: {
-canonical: '/personal-statement-writing',
+canonical: '/personal-statement',
 languages: {
-'en-US': '/personal-statement-writing',
-'de-DE': '/personal-statement-writing',
+'en-US': '/personal-statement',
+'de-DE': '/personal-statement',
 },
 },
 robots: {

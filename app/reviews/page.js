@@ -21,10 +21,10 @@ import Ontimehelp from '../../public/assets/Ontimehelp.svg';
 import Qualifiedwriters from '../../public/assets/Qualifiedwriters.svg';
 
 export const metadata = {
-  title: 'Assignment Help Saudia',
+  title: 'Assignment Help Saudi Arabia Reviews: 1000+ Happy Students',
   description: '',
   openGraph: {
-    title: 'Assignment Help Saudia',
+    title: 'Assignment Help Saudi Arabia Reviews: 1000+ Happy Students',
     description: '',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),

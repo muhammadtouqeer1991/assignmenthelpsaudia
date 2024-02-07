@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import brandLogo from '../public/assets/brandLogo.svg';
 import { BiHomeAlt,BiUserPin } from "react-icons/bi";
 import { GrServices } from "react-icons/gr";
@@ -14,15 +14,17 @@ import { usePathname } from 'next/navigation'
 
 const Navitems = () => {
 
+
+const [active, setActive] = useState(false);
 const pathname = usePathname();
 const HamburgerBtn = () => {
-    
+    setActive(!active);
 }
 return (
 <>  
 <Link href="/"><Image src={brandLogo} width={251} alt="market" /></Link>
 <FaBars className='md:hidden lg:hidden sm:hidden' size={30} color='#fff' onClick={()=>HamburgerBtn()} />
-<nav className={`mobileMenu md:flex hidden items-center border-b-[10px] border-navactive z-[1] md:w-[610px]`}>
+<nav className={`mobileMenu md:flex ${active == true ? 'mobileMenu' : 'hidden'} items-center border-b-[10px] border-navactive z-[1] md:w-[610px]`}>
 <Link href="/" className={`${pathname == '/' ? 
 'pb-[1.5rem] pt-[1.2rem] flex flex-col justify-center items-center bg-navactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[86%] before:bg-navactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-12px] before:z-[-1] z-[1]' : 
 
@@ -45,7 +47,8 @@ return (
 'pb-[1.5rem] pt-[1.2rem]  flex flex-col justify-center items-center bg-navinactive px-[30px] rounded-tr-[18px] relative md:before:absolute before:w-[81px] before:h-[86%] before:bg-navinactive before:skew-x-[17deg] before:top-[13px] before:bottom-0 before:right-[-13px] before:z-[-1] z-[-1] text-white' } `}>
     <GrServices size={25} color={`${pathname == '/essay-writing' || pathname == '/cipd-assignment' || pathname == '/homework-help' || pathname == '/personal-statement' ? '':'#28D07E' } `} />
     Services
-    <ul className='dropdown hidden'>
+    
+    <ul className={`dropdown hidden`}>
         <li><Link href="/essay-writing">Essay Writing</Link></li>
         <li><Link href="/cipd-assignment">CIPD Assignment</Link></li>
         <li><Link href="/homework-help">Homework Help</Link></li>

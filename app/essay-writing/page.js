@@ -40,11 +40,11 @@ import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
 export const metadata = {
-  title: 'Assignment Help Saudia',
-  description: '',
+  title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
+  description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
   openGraph: {
-    title: 'Assignment Help Saudia',
-    description: '',
+    title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
+    description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {

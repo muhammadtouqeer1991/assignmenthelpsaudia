@@ -172,3 +172,130 @@ bottom: -180.1px;
       transform: rotate(360deg);
     }
   }
+
+
+
+  /*media query */
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /*body{
+      background: pink;
+    }*/
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /*body{
+      background: yellow;
+    }*/
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 1024px to 1366px
+  */
+  
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    
+    /*body{
+      background: orange;
+    }*/
+  
+  
+  
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    .mobileMenu{
+        position: absolute;
+        top: 7.4rem;
+        left: 0;
+        right: 0;
+      }
+
+      .NavSec.active .mobileMenu{
+        position: absolute;
+        top: 4.5rem;
+        left: 0;
+        right: 0;
+      }
+  }
+  
+  
+  
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .mobileMenu{
+        position: absolute;
+        top: 7.4rem;
+        left: 0;
+        right: 0;
+      }
+
+      .NavSec.active nav.mobileMenu{
+        position: absolute;
+        top: 4.5rem;
+        left: 0;
+        right: 0;
+      }
+
+      a.serviceHover ul.dropdown {
+        position: static;
+        display: block;
+        padding: 1rem 0;
+        width: 100%;
+    }
+    a.serviceHover ul.dropdown li a{
+        border-bottom: 1px solid #28D07E;
+        display: flex;
+        padding: 10px 0;
+    }
+  
+  }

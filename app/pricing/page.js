@@ -4,10 +4,10 @@ import PricingBox from '@/components/PricingBox'
 import React from 'react'
 
 export const metadata = {
-  title: 'Assignment Help Saudia',
+  title: 'Pricing Plan: Affordable Assignment Help in Saudi Arabia',
   description: '',
   openGraph: {
-    title: 'Assignment Help Saudia',
+    title: 'Pricing Plan: Affordable Assignment Help in Saudi Arabia',
     description: '',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
