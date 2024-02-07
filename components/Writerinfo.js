@@ -1,8 +1,13 @@
+"use client"
 import React from 'react'
 import arrow from '../public/assets/arrow.svg';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation'
 const Writerinfo = ({AboutwritersContent}) => {
+
+    const pathname = usePathname();
+
 return (
 <>
 <div className='w-[100%] py-10 px-10 md:px-0'>
@@ -14,11 +19,12 @@ return (
 <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Raise Your Grades with Assignment Help Pro</li>
 <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Raise Your Grades with Assignment Help Pro</li>
 </ul> : 
-<ul className='flex flex-col gap-3 text-white pt-2'>
+<ul className={`flex ${pathname == '/' ? 'flex-col' : 'flex-row flex-wrap'} gap-3 text-white pt-2`}>
 {
 AboutwritersContent.option.map((item,key) => {
 return (
-<li className='flex gap-2 items-center' key={key+1}><Image src={arrow} alt="market" /> {item.title}</li>
+    pathname == '/' ? <li className='flex gap-2 items-center' key={key+1}><Image src={arrow} alt="market" /> {item.title}</li> : <li className='w-[30%] flex gap-2 items-center' key={key+1}><Image src={arrow} alt="market" /> {item.title}</li>
+
 )
 })
 }

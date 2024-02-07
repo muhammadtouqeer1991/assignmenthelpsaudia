@@ -34,7 +34,7 @@ const [details,setDetails]=useState('');
 const [email,setEmail]=useState('');
 const [country,setCountry]=useState('Saudi Arabia');
 const [phone,setPhone]=useState('');
-const [Amount,setAmount]=useState('');
+const [Amount,setAmount]=useState('0');
 const [name,setName]=useState('');
 
 const [Upload1,setUpload1]=useState('');
@@ -59,7 +59,7 @@ setEmail(EmailGet);
 setAcademic(academicGet);
 setPages(pagesGet);
 setDeadline(deadlineGet);
-setAmount(AmountGet);
+setAmount(AmountGet == null || AmountGet == '' ? 0 : AmountGet);
 },[NameGet,EmailGet,pagesGet,academicGet,deadlineGet,AmountGet]);
 
 useEffect(() => {
@@ -570,7 +570,7 @@ return (
 <li>Academic Level: <span class="float-right" id="AcademicLevel">{academic}</span></li>
 <li>Deadline: <span class="float-right" id="DeadlineData">{moment().add(deadline, 'd').format('D MMM, YYYY')}</span></li>
 <li class="pb-3">Pages:  <span id="NoFPages" style={{float:'right'}}>{pages == null || pages == '' ? '' : `${pages} Page(s) / ${pages * 250} Words`}</span> </li>
-<li class="borderdata pt-2"><b>Total:</b>SAR <span id="originalprice" style={{float:'right'}}>{Amount}</span></li>
+<li class="borderdata pt-2"><b>Total:</b><span style={{float:'right'}}>SAR <span id="originalprice" >{Amount}</span></span></li>
 
 </ul>
 <Image src={formbottm} alt="formbottm" />

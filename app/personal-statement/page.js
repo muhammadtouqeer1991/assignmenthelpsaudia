@@ -48,8 +48,8 @@ import FatimaNoor from '../../public/assets/FatimaNoor.webp';
 import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
 import MahaAmal from '../../public/assets/MahaAmal.webp';
 
-import AazraSheikh from '../../public/assets/AazraSheikh.webp';
-import Merajulhaq from '../../public/assets/Merajulhaq.webp';
+import Yasemin from '../../public/assets/Yasemin.webp';
+import Arham from '../../public/assets/Arham.webp';
 
 import PlaceOrder from '../../public/assets/PlaceOrder.svg';
 import Processing from '../../public/assets/Processing.svg';
@@ -470,14 +470,14 @@ heading:"Testimonials: Service Satisfaction That Shines From Words",
 para:"Assignment Help Saudi Arabia offers unlimited support for your educational ventures with satisfactory results. The proof is in our customer's words. ",
 option:[
 {
-  image:Merajulhaq,
-name:"Abdul Saud",
+  image:Yasemin,
+name:"Yasemin",
 location:"Jeddah",
 para:"It was very satisfying working with this service. The writer was very cooperative and helped me at every step. I was very worried about the quality and timely submission of my admission statement, but with this service's help, I was able to submit quality work way before the deadline. Thank you so much. "
 },
 {
-  image:AazraSheikh,
-name:"Alvina Sheikh",
+  image:Arham,
+name:"Arham",
 location:"Riyadh",
 para:"I highly recommend Assignment Help Saudi Arabia for its satisfactory work for my personal statement. The submission was due after two days, and I was really stressed about it; however, they assisted me instantly, and I got a well-prepared statement at the exact time as stated. I am really impressed with their service.  "
 }

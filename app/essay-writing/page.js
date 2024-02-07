@@ -85,8 +85,8 @@ const page = () => {
             title:"Affordable essay writing help packages ",
           },
         ],
-        formheading:"Top Essay Writing Service Ksa - Get Now!",
-        formpara:"Place your order today and leverage exceptional service (Demo)",
+        formheading:"Top Essay Writing Service KSA",
+        formpara:"Get now today!",
         formoption:[
           {
             title:"Within-budget rates ",
@@ -543,7 +543,7 @@ const WhychooseContent = {
       },
       {
         image:AazraSheikh,
-        name:"Aazra Sheikh",
+        name:"Ramsa",
         location:"Riyadh",
         para:"I highly recommend Assignment Help Saudi Arabia to all students as I had their help last week, and I got an A+ on my essay due to their commendable work. From the intro to the conclusion, every word they wrote was impressive and helped me acquire my desired grade. Thanks. "
       }

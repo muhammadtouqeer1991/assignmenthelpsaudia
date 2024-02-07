@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex justify-center items-center bg-navactive py-2 pb-2'>
-        <p>Copyright © 2024 Assignment Help Sa | All Rights Reserved</p>
+        <p>Copyright © 2024 Assignment Help Saudi Arabia | All Rights Reserved</p>
       </div>
     </>
   )

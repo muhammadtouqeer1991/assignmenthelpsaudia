@@ -46,6 +46,9 @@ import AhmedSultan from '../../public/assets/AhmedSultan.webp';
 import FatimaNoor from '../../public/assets/FatimaNoor.webp';
 import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
 import MahaAmal from '../../public/assets/MahaAmal.webp';
+import AlvinaSheikh from '../../public/assets/AlvinaSheikh.webp';
+
+
 
 import Comprehensivesupporttasks from '../../public/assets/Comprehensivesupporttasks.svg';
 import Excellentserviceaccessibility from '../../public/assets/Excellentserviceaccessibility.svg';
@@ -600,7 +603,7 @@ const page = () => {
         para:"I hired Assignment Help Saudi Arabia for my CIPD level 5 assignments. They created two assignments and both were exemplary in quality and accuracy. From well-researched material to flawless content, all aspects of the document were commendable. I am so thankful for their help. "
       },
       {
-        image:AazraSheikh,
+        image:AlvinaSheikh,
         name:"Alvina Sheikh",
         location:"Riyadh",
         para:"Assignment Help Saudi Arabia delivered an exceptional assignment for my HR management assignment recently. The writer was really an expert in the field as he helped me throughout the content development with valuable advice. Due to the immense help and timely assistance, I was able to submit this complex assignment on time and with quality work. Highly appreciated!"

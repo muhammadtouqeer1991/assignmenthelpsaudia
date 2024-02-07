@@ -51,6 +51,9 @@ import MahaAmal from '../../public/assets/MahaAmal.webp';
 import AazraSheikh from '../../public/assets/AazraSheikh.webp';
 import Merajulhaq from '../../public/assets/Merajulhaq.webp';
 
+import Aayan from '../../public/assets/Aayan.webp';
+import Asmaa from '../../public/assets/Asmaa.webp';
+
 import PlaceOrder from '../../public/assets/PlaceOrder.svg';
 import Processing from '../../public/assets/Processing.svg';
 import ProvideInfo from '../../public/assets/ProvideInfo.svg';
@@ -470,14 +473,14 @@ heading:"Testimonials: Appreciation From Our Clients",
 para:"Students of KSA trust our service expertise, and their positive reviews are the validation of it. ",
 option:[
 {
-    image:AazraSheikh,
-name:"Abdul Saud",
+    image:Asmaa,
+name:"Asmaa",
 location:"Jeddah",
 para:"I hired Assignment Help Saudi Arabia for my biology assignment last week. The way they handle your order is really impressive. From the start till the day I got my order, they were very cordial and professional. The content is also amazing, original, and perfectly conformed with my requirements. I highly recommend them."
 },
 {
-    image:Merajulhaq,
-name:"Alvina Sheikh",
+    image:Aayan,
+name:"Aayan",
 location:"Riyadh",
 para:"I rate Assignment Help Saudi Arabia 5 stars, considering their exemplary service. I hired them twice for my review paper assignments, and the experience was remarkable. Both times, the writer I got was very expert in their work and professionally handled all my queries. I am satisfied with this service and endorse their quality work. "
 }
