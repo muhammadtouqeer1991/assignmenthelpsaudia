@@ -35,6 +35,7 @@ export const metadata = {
       'de-DE': '/reviews',
     },
   },
+  verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
   // robots: {
   //   index: false,
   //   follow: false,

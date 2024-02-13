@@ -72,6 +72,7 @@ languages: {
 'de-DE': '/personal-statement',
 },
 },
+verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
 // robots: {
 // index: false,
 // follow: false,
