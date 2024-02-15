@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import brandLogo from '../public/assets/brandLogo.svg';
+import brandLogo from '../public/assets/brandLogo.webp';
 import { BiHomeAlt,BiUserPin } from "react-icons/bi";
 import { GrServices } from "react-icons/gr";
 import { ImPriceTags } from "react-icons/im";

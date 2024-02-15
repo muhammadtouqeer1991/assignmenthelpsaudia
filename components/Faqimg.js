@@ -1,5 +1,5 @@
 import React from 'react'
-import faqImg from '../public/assets/faqImg.png';
+import faqImg from '../public/assets/faqImg.webp';
 import Image from 'next/image';
 
 const Faqimg = () => {

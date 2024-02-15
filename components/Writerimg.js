@@ -1,5 +1,5 @@
 import React from 'react'
-import assuringImg from '../public/assets/assuringImg.png';
+import assuringImg from '../public/assets/assuringImg.webp';
 import Image from 'next/image';
 
 const Writerimg = () => {

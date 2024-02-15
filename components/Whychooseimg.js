@@ -1,5 +1,5 @@
 import React from 'react'
-import whychoose from '../public/assets/whychoose.png';
+import whychoose from '../public/assets/whychoose.webp';
 import Image from 'next/image';
 
 const Whychooseimg = () => {

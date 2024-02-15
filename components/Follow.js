@@ -3,7 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { TiSocialInstagramCircular } from "react-icons/ti";
 import { FaLinkedinIn } from "react-icons/fa";
-import brandLogo from '../public/assets/brandLogo.svg';
+import brandLogo from '../public/assets/brandLogo.webp';
 import Link from 'next/link';
 import Image from 'next/image';
 const Follow = () => {
