@@ -7,20 +7,20 @@ import brandLogo from '../public/assets/brandLogo.svg';
 import Link from 'next/link';
 import Image from 'next/image';
 const Follow = () => {
-  return (
-    <>
-        <div className='flex-[40%] pt-[2.4rem] justify-center flex flex-col items-center'>
-        <Link href="/"><Image src={brandLogo} width={251} alt="market" /></Link>
-        <h4 className='text-white font-normal text-center text-[16px] pt-[2rem]'>Follow Us On</h4>
-        <nav className='flex  text-white gap-2 justify-center'>
-            <Link href="#" className='flex flex-col justify-center items-center'><FaFacebook size={30} /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><FaLinkedinIn size={30} /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><TiSocialInstagramCircular size={30} /></Link>
-            <Link href="#" className='flex flex-col justify-center items-center'><AiFillTwitterCircle size={30} /></Link>
-        </nav>
-        </div> 
-    </>
-  )
+return (
+  <>
+      <div className='flex-[40%] pt-[2.4rem] justify-center flex flex-col items-center'>
+      <Link href="/"><Image src={brandLogo} width={251} alt="market" /></Link>
+      <h4 className='text-white font-normal text-center text-[16px] pt-[2rem]'>Follow Us On</h4>
+      <nav className='flex  text-white gap-2 justify-center'>
+          <Link href="https://www.facebook.com/AssignmentHelpKSA" className='flex flex-col justify-center items-center'><FaFacebook size={30} /></Link>
+          <Link href="https://www.linkedin.com/company/assignment-help-saudi-arabia " className='flex flex-col justify-center items-center'><FaLinkedinIn size={30} /></Link>
+          <Link href="#" className='flex flex-col justify-center items-center'><TiSocialInstagramCircular size={30} /></Link>
+          <Link href="https://twitter.com/AssignmentKSA" className='flex flex-col justify-center items-center'><AiFillTwitterCircle size={30} /></Link>
+      </nav>
+      </div> 
+  </>
+)
 }
 
 export default Follow
