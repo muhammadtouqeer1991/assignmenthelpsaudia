@@ -58,7 +58,7 @@ bottom: -180.1px;
 .serviceHover:hover ul.dropdown{
     display: block;
     position: absolute;
-    bottom: -8.2rem;
+    top: 6.1rem;
     background: #28D07E;
     padding: 1rem 1rem;
     min-width: 320px;

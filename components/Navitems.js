@@ -53,6 +53,9 @@ return (
         <li><Link href="/cipd-assignment">CIPD Assignment</Link></li>
         <li><Link href="/homework-help">Homework Help</Link></li>
         <li><Link href="/personal-statement">Personal Statement</Link></li>
+        <li><Link href="/thesis-help">Thesis Help</Link></li>
+        <li><Link href="/dissertation-help">Dissertation Help</Link></li>
+        <li><Link href="/dissertation-editing">Dissertation Editing</Link></li>
     </ul>
 </Link>
 
