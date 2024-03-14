@@ -13,23 +13,29 @@ import Whychoose from '@/components/Whychoose'
 import React from 'react'
 import Freerevisionss from '../../public/assets/Freerevisionss.svg';
 
-import BachelorsEssays from '../../public/assets/BachelorsEssays.svg';
-import CollegeEssays from '../../public/assets/CollegeEssays.svg';
-import HighSchoolEssays from '../../public/assets/HighSchoolEssays.svg';
-import MastersEssays from '../../public/assets/MastersEssays.svg';
+import Doctoraldissertationediting from '../../public/assets/Doctoraldissertationediting.svg';
+import Mastersdissertationediting from '../../public/assets/Mastersdissertationediting.svg';
+import Specialisedlearningdissertationediting from '../../public/assets/Specialisedlearningdissertationediting.svg';
+import Undergraduatedissertationediting from '../../public/assets/Undergraduatedissertationediting.svg';
 
-import Affordableservicerates from '../../public/assets/Affordableservicerates.svg';
-import Fullconfidentialityforyourdata from '../../public/assets/Fullconfidentialityforyourdata.svg';
-import Highlyqualifiedsubjectwriters from '../../public/assets/Highlyqualifiedsubjectwriters.svg';
-import Ontimedeliveries from '../../public/assets/Ontimedeliveries.svg';
-import Plagiarismfreeguarantee from '../../public/assets/Plagiarismfreeguarantee.svg';
+import Encryptedcommunicationchannels from '../../public/assets/Encryptedcommunicationchannels.svg';
+import Fullyconfidentialservices from '../../public/assets/Fullyconfidentialservices.svg';
+import Highservicetransparency from '../../public/assets/Highservicetransparency.svg';
+import Nothirdpartysharing from '../../public/assets/Nothirdpartysharing.svg';
+import Strictprivacypolicies from '../../public/assets/Strictprivacypolicies.svg';
 
 
-import AbdullahFahad from '../../public/assets/AbdullahFahad.webp';
-import AhmedSultan from '../../public/assets/AhmedSultan.webp';
+import FatenR from '../../public/assets/FatenR.webp';
+import AyahP from '../../public/assets/AyahP.webp';
 import FatimaNoor from '../../public/assets/FatimaNoor.webp';
-import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
-import MahaAmal from '../../public/assets/MahaAmal.webp';
+import AhmetF from '../../public/assets/AhmetF.webp';
+import AliaF from '../../public/assets/AliaF.webp';
+import SefaM from '../../public/assets/SefaM.webp';
+import HassanH from '../../public/assets/HassanH.webp';
+import InamR from '../../public/assets/InamR.webp';
+import OsamaG from '../../public/assets/OsamaG.webp';
+import ruba from '../../public/assets/ruba.webp';
+import ZeinaY from '../../public/assets/ZeinaY.webp';
 
 import AazraSheikh from '../../public/assets/AazraSheikh.webp';
 import humnaShah from '../../public/assets/humnaShah.webp';
@@ -40,34 +46,34 @@ import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
 export const metadata = {
-  title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-  description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+  title: 'Best #1 Dissertation Editing and Proofreading Services',
+  description: 'Hire a professional dissertation editing & proofreading service providing company in Saudi Arabia. Hire the best PhD dissertation editors in Saudi Arabia.',
   openGraph: {
-    title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-    description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+    title: 'Best #1 Dissertation Editing and Proofreading Services',
+    description: 'Hire a professional dissertation editing & proofreading service providing company in Saudi Arabia. Hire the best PhD dissertation editors in Saudi Arabia.',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
-    canonical: '/essay-writing',
+    canonical: '/dissertation-editing',
     languages: {
-      'en-US': '/essay-writing',
-      'de-DE': '/essay-writing',
+      'en-US': '/dissertation-editing',
+      'de-DE': '/dissertation-editing',
     },
   },
   verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
-  // robots: {
-  //   index: false,
-  //   follow: false,
-  //   nocache: true,
-  //   googleBot: {
-  //     index: false,
-  //     follow: false,
-  //     // noimageindex: true,
-  //     // 'max-video-preview': -1,
-  //     // 'max-image-preview': 'large',
-  //     // 'max-snippet': -1,
-  //   },
-  // },
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      // noimageindex: true,
+      // 'max-video-preview': -1,
+      // 'max-image-preview': 'large',
+      // 'max-snippet': -1,
+    },
+  },
 }
 
 const page = () => {
@@ -86,7 +92,7 @@ const page = () => {
             title:"We offer region-wide editing services ",
           },
         ],
-        formheading:"Top Essay Writing Service KSA (Demo)",
+        formheading:"Top Essay Writing Service KSA",
         formpara:"Get now today!",
         formoption:[
           {
@@ -106,19 +112,19 @@ const page = () => {
         subheading:"We Fulfill Diverse Academic Needs",
         option:[
           {
-            icon:HighSchoolEssays,
+            icon:Undergraduatedissertationediting,
             title:"Undergraduate dissertation editing",
           },
           {
-            icon:CollegeEssays,
+            icon:Mastersdissertationediting,
             title:"Master’s dissertation editing",
           },
           {
-            icon:BachelorsEssays,
+            icon:Doctoraldissertationediting,
             title:"Doctoral dissertation editing",
           },
           {
-            icon:MastersEssays,
+            icon:Specialisedlearningdissertationediting,
             title:"Specialised learning dissertation editing ",
           },
         ]
@@ -194,23 +200,23 @@ const WhychooseContent = {
     para:"Our dissertation editing proofreading help is highly dependable considering its professional and secured ways. You can hire us without any hassles. ",
     option:[
       {
-        icon:Highlyqualifiedsubjectwriters,
+        icon:Fullyconfidentialservices,
         title:"Fully confidential services ",
       },
       {
-        icon:Plagiarismfreeguarantee,
+        icon:Strictprivacypolicies,
         title:"Strict privacy policies ",
       },
       {
-        icon:Ontimedeliveries,
+        icon:Encryptedcommunicationchannels,
         title:"Encrypted communication channels ",
       },
       {
-        icon:Fullconfidentialityforyourdata,
+        icon:Nothirdpartysharing,
         title:"No third-party sharing ",
       },
       {
-        icon:Affordableservicerates,
+        icon:Highservicetransparency,
         title:"High service transparency ",
       }
     ]
@@ -266,7 +272,7 @@ const WhychooseContent = {
     heading:"Craft Impactful Essays With Our Wordsmiths - Pick the Most Fitting One for You Now!",
     option:[
       {
-        image:HamzaSaleh,
+        image:SefaM,
         name:"Sefa M",
         designation:"Master’s in Literature",
         experience:"Years Of Experience: 5 ",
@@ -290,7 +296,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:MahaAmal,
+        image:ZeinaY,
         name:"Zeina Y",
         designation:"Master’s in Philosophy",
         experience:"Years Of Experience: 4.5 ",
@@ -314,7 +320,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AhmedSultan,
+        image:InamR,
         name:"Inam R",
         designation:"PhD in History ",
         experience:"Years Of Experience: 6 ",
@@ -339,7 +345,7 @@ const WhychooseContent = {
       },
       {
         image:FatimaNoor,
-        name:"Boba T",
+        name:"Fatima Noor",
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
         title:"What Can She Help With?",
@@ -362,7 +368,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:HassanH,
         name:"Hassan H",
         designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
@@ -386,7 +392,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:FatenR,
         name:"Faten R",
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
@@ -410,7 +416,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:OsamaG,
         name:"Osama G",
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
@@ -434,7 +440,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:AyahP,
         name:"Ayah P",
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
@@ -458,7 +464,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:AhmetF,
         name:"Ahmet F",
         designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
@@ -482,7 +488,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:AliaF,
         name:"Alia F",
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",

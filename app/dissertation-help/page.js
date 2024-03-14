@@ -13,23 +13,28 @@ import Whychoose from '@/components/Whychoose'
 import React from 'react'
 import Freerevisionss from '../../public/assets/Freerevisionss.svg';
 
-import BachelorsEssays from '../../public/assets/BachelorsEssays.svg';
-import CollegeEssays from '../../public/assets/CollegeEssays.svg';
-import HighSchoolEssays from '../../public/assets/HighSchoolEssays.svg';
-import MastersEssays from '../../public/assets/MastersEssays.svg';
+import Conformingtoyourguidelinesxs from '../../public/assets/Conformingtoyourguidelinesxs.svg';
+import Customisedassistances from '../../public/assets/Customisedassistances.svg';
+import Opencommunications from '../../public/assets/Opencommunications.svg';
+import Standardcompliantdissertations from '../../public/assets/Standardcompliantdissertations.svg';
 
-import Affordableservicerates from '../../public/assets/Affordableservicerates.svg';
-import Fullconfidentialityforyourdata from '../../public/assets/Fullconfidentialityforyourdata.svg';
-import Highlyqualifiedsubjectwriters from '../../public/assets/Highlyqualifiedsubjectwriters.svg';
-import Ontimedeliveries from '../../public/assets/Ontimedeliveries.svg';
-import Plagiarismfreeguarantee from '../../public/assets/Plagiarismfreeguarantee.svg';
+import Dissertationediting from '../../public/assets/Dissertationediting.svg';
+import Dissertationwriting from '../../public/assets/Dissertationwriting.svg';
+import Expertproofreading from '../../public/assets/Expertproofreading.svg';
+import Formattingguidance from '../../public/assets/Formattingguidance.svg';
+import Researchassistance from '../../public/assets/Researchassistance.svg';
 
 
-import AbdullahFahad from '../../public/assets/AbdullahFahad.webp';
-import AhmedSultan from '../../public/assets/AhmedSultan.webp';
-import FatimaNoor from '../../public/assets/FatimaNoor.webp';
-import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
-import MahaAmal from '../../public/assets/MahaAmal.webp';
+import ArdaJ from '../../public/assets/ArdaJ.webp';
+import AsadInam from '../../public/assets/AsadInam.webp';
+import MaryamH from '../../public/assets/MaryamH.webp';
+import MohammadAbdullah from '../../public/assets/MohammadAbdullah.webp';
+import RaifaY from '../../public/assets/RaifaY.webp';
+import RehabK from '../../public/assets/RehabK.webp';
+import RubaR from '../../public/assets/RubaR.webp';
+import SaraA from '../../public/assets/SaraA.webp';
+import YahyaAli from '../../public/assets/YahyaAli.webp';
+import ZeekI from '../../public/assets/ZeekI.webp';
 
 import AazraSheikh from '../../public/assets/AazraSheikh.webp';
 import humnaShah from '../../public/assets/humnaShah.webp';
@@ -40,34 +45,34 @@ import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
 export const metadata = {
-  title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-  description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+  title: 'Best Dissertation Writing Help Service in Saudi Arabia',
+  description: 'Need help with dissertation in Saudi Arabia by a Top dissertation writer/helper at cheap? We Provide quality dissertation writing services in Saudi Arabia.',
   openGraph: {
-    title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-    description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+    title: 'Best Dissertation Writing Help Service in Saudi Arabia',
+    description: 'Need help with dissertation in Saudi Arabia by a Top dissertation writer/helper at cheap? We Provide quality dissertation writing services in Saudi Arabia.',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
-    canonical: '/essay-writing',
+    canonical: '/dissertation-help',
     languages: {
-      'en-US': '/essay-writing',
-      'de-DE': '/essay-writing',
+      'en-US': '/dissertation-help',
+      'de-DE': '/dissertation-help',
     },
   },
   verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
-  // robots: {
-  //   index: false,
-  //   follow: false,
-  //   nocache: true,
-  //   googleBot: {
-  //     index: false,
-  //     follow: false,
-  //     // noimageindex: true,
-  //     // 'max-video-preview': -1,
-  //     // 'max-image-preview': 'large',
-  //     // 'max-snippet': -1,
-  //   },
-  // },
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      // noimageindex: true,
+      // 'max-video-preview': -1,
+      // 'max-image-preview': 'large',
+      // 'max-snippet': -1,
+    },
+  },
 }
 
 const page = () => {
@@ -106,19 +111,19 @@ const page = () => {
         subheading:"Meeting Your Educational Needs Effectively",
         option:[
           {
-            icon:HighSchoolEssays,
+            icon:Customisedassistances,
             title:"Customised assistance ",
           },
           {
-            icon:CollegeEssays,
+            icon:Opencommunications,
             title:"Open communication",
           },
           {
-            icon:BachelorsEssays,
+            icon:Conformingtoyourguidelinesxs,
             title:"Conforming to your guidelines",
           },
           {
-            icon:MastersEssays,
+            icon:Standardcompliantdissertations,
             title:"Standard-compliant dissertation",
           },
         ]
@@ -194,23 +199,23 @@ const WhychooseContent = {
     para:"Our dissertation help Saudi Arabia ensures that you are completely facilitated in your writing and research efforts. We offer help with the following and more: ",
     option:[
       {
-        icon:Highlyqualifiedsubjectwriters,
+        icon:Dissertationwriting,
         title:"Dissertation writing ",
       },
       {
-        icon:Plagiarismfreeguarantee,
+        icon:Researchassistance,
         title:"Research assistance ",
       },
       {
-        icon:Ontimedeliveries,
+        icon:Dissertationediting,
         title:"Dissertation editing ",
       },
       {
-        icon:Fullconfidentialityforyourdata,
+        icon:Expertproofreading,
         title:"Expert proofreading ",
       },
       {
-        icon:Affordableservicerates,
+        icon:Formattingguidance,
         title:"Formatting guidance ",
       }
     ]
@@ -266,7 +271,7 @@ const WhychooseContent = {
     heading:"Partner With Maven Dissertation Writing Helpers Now - Bringing Effective Solutions for Your Project",
     option:[
       {
-        image:HamzaSaleh,
+        image:YahyaAli,
         name:"Yahya Ali",
         designation:"Master’s in Literature",
         experience:"Years Of Experience: 5 ",
@@ -290,7 +295,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:MahaAmal,
+        image:RubaR,
         name:"Ruba R",
         designation:"Master’s in Philosophy",
         experience:"Years Of Experience: 4.5 ",
@@ -314,7 +319,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AhmedSultan,
+        image:MohammadAbdullah,
         name:"Mohammad Abdullah",
         designation:"PhD in History ",
         experience:"Years Of Experience: 6 ",
@@ -338,7 +343,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:FatimaNoor,
+        image:RehabK,
         name:"Rehab K",
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
@@ -362,7 +367,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:AsadInam,
         name:"Asad Inam",
         designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
@@ -386,7 +391,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:SaraA,
         name:"Sara A",
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
@@ -410,7 +415,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:ArdaJ,
         name:"Arda J",
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
@@ -434,7 +439,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:MaryamH,
         name:"Maryam H",
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
@@ -458,7 +463,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:ZeekI,
         name:"Zeek I",
         designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
@@ -482,7 +487,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:RaifaY,
         name:"Raifa Y",
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",

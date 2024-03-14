@@ -13,23 +13,28 @@ import Whychoose from '@/components/Whychoose'
 import React from 'react'
 import Freerevisionss from '../../public/assets/Freerevisionss.svg';
 
-import BachelorsEssays from '../../public/assets/BachelorsEssays.svg';
-import CollegeEssays from '../../public/assets/CollegeEssays.svg';
-import HighSchoolEssays from '../../public/assets/HighSchoolEssays.svg';
-import MastersEssays from '../../public/assets/MastersEssays.svg';
+import Doctoralthesis from '../../public/assets/Doctoralthesis.svg';
+import mastersthesis from '../../public/assets/mastersthesis.svg';
+import Professionalqualificationthesis from '../../public/assets/Professionalqualificationthesis.svg';
+import Undergraduatethesis from '../../public/assets/Undergraduatethesis.svg';
 
-import Affordableservicerates from '../../public/assets/Affordableservicerates.svg';
-import Fullconfidentialityforyourdata from '../../public/assets/Fullconfidentialityforyourdata.svg';
-import Highlyqualifiedsubjectwriters from '../../public/assets/Highlyqualifiedsubjectwriters.svg';
-import Ontimedeliveries from '../../public/assets/Ontimedeliveries.svg';
-import Plagiarismfreeguarantee from '../../public/assets/Plagiarismfreeguarantee.svg';
+import Adherencetoguidelines from '../../public/assets/Adherencetoguidelines.svg';
+import Customisedassistance from '../../public/assets/Customisedassistance.svg';
+import Professionalwriters from '../../public/assets/Professionalwriters.svg';
+import Timelydeliveriesoforders from '../../public/assets/Timelydeliveriesoforders.svg';
+import Variousdiscountofferings from '../../public/assets/Variousdiscountofferings.svg';
 
 
-import AbdullahFahad from '../../public/assets/AbdullahFahad.webp';
-import AhmedSultan from '../../public/assets/AhmedSultan.webp';
-import FatimaNoor from '../../public/assets/FatimaNoor.webp';
-import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
-import MahaAmal from '../../public/assets/MahaAmal.webp';
+import AhmadT from '../../public/assets/AhmadT.webp';
+import EsraaT from '../../public/assets/EsraaT.webp';
+import FatenH from '../../public/assets/FatenH.webp';
+import KazimL from '../../public/assets/KazimL.webp';
+import NajjatH from '../../public/assets/NajjatH.webp';
+import NasserT from '../../public/assets/NasserT.webp';
+import RadwanM from '../../public/assets/RadwanM.webp';
+import ReemaM from '../../public/assets/ReemaM.webp';
+import SadeenK from '../../public/assets/SadeenK.webp';
+import ZishanL from '../../public/assets/ZishanL.webp';
 
 import AazraSheikh from '../../public/assets/AazraSheikh.webp';
 import humnaShah from '../../public/assets/humnaShah.webp';
@@ -40,34 +45,34 @@ import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
 export const metadata = {
-  title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-  description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+  title: 'Rated #1 Thesis Writing Help & Services in Saudi Arabia',
+  description: 'Thesis Help in Saudi Arabia: Hire a professional thesis writer and helper in Saudi Arabia cheap. We offer the best thesis writing service in Saudi Arabia.',
   openGraph: {
-    title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-    description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+    title: 'Rated #1 Thesis Writing Help & Services in Saudi Arabia',
+    description: 'Thesis Help in Saudi Arabia: Hire a professional thesis writer and helper in Saudi Arabia cheap. We offer the best thesis writing service in Saudi Arabia.',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
-    canonical: '/essay-writing',
+    canonical: '/thesis-help',
     languages: {
-      'en-US': '/essay-writing',
-      'de-DE': '/essay-writing',
+      'en-US': '/thesis-help',
+      'de-DE': '/thesis-help',
     },
   },
   verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
-  // robots: {
-  //   index: false,
-  //   follow: false,
-  //   nocache: true,
-  //   googleBot: {
-  //     index: false,
-  //     follow: false,
-  //     // noimageindex: true,
-  //     // 'max-video-preview': -1,
-  //     // 'max-image-preview': 'large',
-  //     // 'max-snippet': -1,
-  //   },
-  // },
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      // noimageindex: true,
+      // 'max-video-preview': -1,
+      // 'max-image-preview': 'large',
+      // 'max-snippet': -1,
+    },
+  },
 }
 
 const page = () => {
@@ -106,19 +111,19 @@ const page = () => {
         subheading:"For All Academic Levels",
         option:[
           {
-            icon:HighSchoolEssays,
+            icon:Undergraduatethesis,
             title:"Undergraduate thesis",
           },
           {
-            icon:CollegeEssays,
+            icon:mastersthesis,
             title:"Master’s thesis",
           },
           {
-            icon:BachelorsEssays,
+            icon:Doctoralthesis,
             title:"Doctoral thesis",
           },
           {
-            icon:MastersEssays,
+            icon:Professionalqualificationthesis,
             title:"Professional qualification thesis ",
           },
         ]
@@ -194,23 +199,23 @@ const WhychooseContent = {
     para:"Assignment Help Saudi Arabia offers economical services with many benefits to students. Hire us and acquire the following: ",
     option:[
       {
-        icon:Highlyqualifiedsubjectwriters,
+        icon:Timelydeliveriesoforders,
         title:"Timely deliveries of orders ",
       },
       {
-        icon:Plagiarismfreeguarantee,
+        icon:Professionalwriters,
         title:"Professional writers ",
       },
       {
-        icon:Ontimedeliveries,
+        icon:Customisedassistance,
         title:"Customised assistance ",
       },
       {
-        icon:Fullconfidentialityforyourdata,
+        icon:Adherencetoguidelines,
         title:"Adherence to guidelines ",
       },
       {
-        icon:Affordableservicerates,
+        icon:Variousdiscountofferings,
         title:"Various discount offerings ",
       }
     ]
@@ -266,7 +271,7 @@ const WhychooseContent = {
     heading:"Make Strides in Your Education With a Professional Thesis Writer",
     option:[
       {
-        image:HamzaSaleh,
+        image:NasserT,
         name:"Nasser T",
         designation:"Master’s in Literature",
         experience:"Years Of Experience: 5  (Demo)",
@@ -290,7 +295,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:MahaAmal,
+        image:ReemaM,
         name:"Reema M",
         designation:"Master’s in Philosophy",
         experience:"Years Of Experience: 4.5 ",
@@ -314,7 +319,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AhmedSultan,
+        image:KazimL,
         name:"Kazim L",
         designation:"PhD in History ",
         experience:"Years Of Experience: 6 ",
@@ -338,7 +343,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:FatimaNoor,
+        image:FatenH,
         name:"Faten H",
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
@@ -362,7 +367,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:RadwanM,
         name:"Radwan M",
         designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
@@ -386,7 +391,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:EsraaT,
         name:"Esraa T",
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
@@ -410,7 +415,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:ZishanL,
         name:"Zishan L",
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
@@ -434,7 +439,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:NajjatH,
         name:"Najjat H",
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
@@ -458,7 +463,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:AhmadT,
         name:"Ahmad T",
         designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
@@ -482,7 +487,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:SadeenK,
         name:"Sadeen K",
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",
