@@ -60,25 +60,25 @@ export const metadata = {
     },
   },
   verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
-  robots: {
-    index: false,
-    follow: false,
-    nocache: true,
-    googleBot: {
-      index: false,
-      follow: false,
-      // noimageindex: true,
-      // 'max-video-preview': -1,
-      // 'max-image-preview': 'large',
-      // 'max-snippet': -1,
-    },
-  },
+  // robots: {
+  //   index: false,
+  //   follow: false,
+  //   nocache: true,
+  //   googleBot: {
+  //     index: false,
+  //     follow: false,
+  //     // noimageindex: true,
+  //     // 'max-video-preview': -1,
+  //     // 'max-image-preview': 'large',
+  //     // 'max-snippet': -1,
+  //   },
+  // },
 }
 
 const page = () => {
 
     const HeaderContent = {
-        heading:"Need an Affordable Thesis Writing Service? We Offer Thesis Writing Convenience With Quality and Affordability",
+        heading:"Thesis Writing Service? We Offer Thesis Help Convenience With High-Quality",
         para:"Uncertain about meeting the writing criteria in your thesis? Our cheap thesis writing service is here to assist you. Hire our experts at low prices and leverage the following perks: ",
         option:[
           {

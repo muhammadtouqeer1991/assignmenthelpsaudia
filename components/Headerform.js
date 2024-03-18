@@ -76,8 +76,15 @@ return (
     <div className='flex gap-3 justify-between pt-2'>
       <select className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' name="pages" onChange={e=>setPages(e.target.value)} value={pages} required >
         <option value="">Select No of Pages</option>
-        {Array(200).fill(1).map((el, i) =>
-        <option key={i+1} value={i+1}>{i+1} Page(s) / {i+1 * 250} Words</option>
+        {Array(200).fill(1).map((el, i) => {
+          let ix = i+1;
+          return (
+            <>
+            <option key={i+1} value={i+1}>{i+1} Page(s) / { 250 * ix} Words</option>
+            </>
+          )
+        }
+        
         )}
       </select>
       <select className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' name="deadline" onChange={e=>setDeadline(e.target.value)} value={deadline} required >

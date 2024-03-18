@@ -61,19 +61,19 @@ export const metadata = {
     },
   },
   verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
-  robots: {
-    index: false,
-    follow: false,
-    nocache: true,
-    googleBot: {
-      index: false,
-      follow: false,
-      // noimageindex: true,
-      // 'max-video-preview': -1,
-      // 'max-image-preview': 'large',
-      // 'max-snippet': -1,
-    },
-  },
+  // robots: {
+  //   index: false,
+  //   follow: false,
+  //   nocache: true,
+  //   googleBot: {
+  //     index: false,
+  //     follow: false,
+  //     // noimageindex: true,
+  //     // 'max-video-preview': -1,
+  //     // 'max-image-preview': 'large',
+  //     // 'max-snippet': -1,
+  //   },
+  // },
 }
 
 const page = () => {
@@ -123,10 +123,10 @@ const page = () => {
             icon:Doctoraldissertationediting,
             title:"Doctoral dissertation editing",
           },
-          {
-            icon:Specialisedlearningdissertationediting,
-            title:"Specialised learning dissertation editing ",
-          },
+          // {
+          //   icon:Specialisedlearningdissertationediting,
+          //   title:"Specialised learning dissertation editing ",
+          // },
         ]
       };
 
