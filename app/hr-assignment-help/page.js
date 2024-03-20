@@ -13,16 +13,16 @@ import Whychoose from '@/components/Whychoose'
 import React from 'react'
 import Freerevisionss from '../../public/assets/Freerevisionss.svg';
 
-import BachelorsEssays from '../../public/assets/BachelorsEssays.svg';
-import CollegeEssays from '../../public/assets/CollegeEssays.svg';
-import HighSchoolEssays from '../../public/assets/HighSchoolEssays.svg';
-import MastersEssays from '../../public/assets/MastersEssays.svg';
+import Undergraduateassignments from '../../public/assets/Undergraduateassignments.svg';
+import Doctoralassignments from '../../public/assets/Doctoralassignments.svg';
+import Mastersassignments from '../../public/assets/Mastersassignments.svg';
+import Professionaleducationprojects from '../../public/assets/Professionaleducationprojects.svg';
 
-import Affordableservicerates from '../../public/assets/Affordableservicerates.svg';
-import Fullconfidentialityforyourdata from '../../public/assets/Fullconfidentialityforyourdata.svg';
-import Highlyqualifiedsubjectwriters from '../../public/assets/Highlyqualifiedsubjectwriters.svg';
-import Ontimedeliveries from '../../public/assets/Ontimedeliveries.svg';
-import Plagiarismfreeguarantee from '../../public/assets/Plagiarismfreeguarantee.svg';
+import Comprehensiveresearchhelp from '../../public/assets/Comprehensiveresearchhelp.svg';
+import Customassignmentformatting from '../../public/assets/Customassignmentformatting.svg';
+import Excellentassignmentswriting from '../../public/assets/Excellentassignmentswriting.svg';
+import Skillededitingservices from '../../public/assets/Skillededitingservices.svg';
+import Plagiarismchecks from '../../public/assets/Plagiarismchecks.svg';
 
 
 import AhmetK from '../../public/assets/AhmetK.webp';
@@ -112,21 +112,21 @@ const page = () => {
         subheading:"Our HR Assignment Writers Cater to All Levels",
         option:[
           {
-            icon:HighSchoolEssays,
+            icon:Undergraduateassignments,
             title:"Undergraduate assignments ",
           },
           {
-            icon:CollegeEssays,
+            icon:Mastersassignments,
             title:"Master’s assignments ",
           },
           {
-            icon:BachelorsEssays,
+            icon:Doctoralassignments,
             title:"Doctoral assignments ",
           },
-          {
-            icon:MastersEssays,
-            title:"Professional education projects ",
-          },
+          // {
+          //   icon:Professionaleducationprojects,
+          //   title:"Professional education projects ",
+          // },
         ]
       };
 
@@ -200,23 +200,23 @@ const WhychooseContent = {
     para:"Our expert and professionally equipped writers serve you in the following aspects of your coursework preparation: ",
     option:[
       {
-        icon:Highlyqualifiedsubjectwriters,
+        icon:Excellentassignmentswriting,
         title:"Excellent assignment writing ",
       },
       {
-        icon:Plagiarismfreeguarantee,
+        icon:Skillededitingservices,
         title:"Skilled editing services ",
       },
       {
-        icon:Ontimedeliveries,
+        icon:Comprehensiveresearchhelp,
         title:"Comprehensive research help",
       },
       {
-        icon:Fullconfidentialityforyourdata,
+        icon:Customassignmentformatting,
         title:"Custom assignment formatting ",
       },
       {
-        icon:Affordableservicerates,
+        icon:Plagiarismchecks,
         title:"Plagiarism checks ",
       }
     ]
