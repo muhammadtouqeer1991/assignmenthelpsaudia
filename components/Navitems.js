@@ -56,6 +56,10 @@ return (
         <li><Link href="/thesis-help">Thesis Help</Link></li>
         <li><Link href="/dissertation-help">Dissertation Help</Link></li>
         <li><Link href="/dissertation-editing">Dissertation Editing</Link></li>
+        <li><Link href="/mba-assignment-help">MBA Assignment Help</Link></li>
+        <li><Link href="/report-writing-help">Report Writing Help</Link></li>
+        <li><Link href="/hr-assignment-help">HR Assignment Help</Link></li>
+        <li><Link href="/law-assignment-help">Law Assignment Help</Link></li>
     </ul>
 </Link>
 

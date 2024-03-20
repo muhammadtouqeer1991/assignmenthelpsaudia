@@ -142,7 +142,7 @@ return (
 </div>
 
 <div className='rounded-full w-[115px] h-[115px] bg-navactive flex justify-center items-center relative top-[-2.1rem] left-[-0.2rem]'>
-<Image src={item.image} width={80} alt="writer" />
+<Image src={item.image} width={80} alt="writer" className='rounded-full' />
 </div>
 
 </div>

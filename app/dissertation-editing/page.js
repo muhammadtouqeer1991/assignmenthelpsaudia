@@ -92,7 +92,7 @@ const page = () => {
             title:"We offer region-wide editing services ",
           },
         ],
-        formheading:"Top Essay Writing Service KSA",
+        formheading:"Top Dissertation Editing Service KSA",
         formpara:"Get now today!",
         formoption:[
           {
@@ -558,7 +558,7 @@ const WhychooseContent = {
   }
 
   const ProcessContent = {
-    heading:"Require Peerless Help With Essay Writing? Hire Our Professional Team Today!",
+    heading:"Require Peerless Help With Dissertation Editing? Hire Our Professional Team Today!",
     option:[
       {
         image:PlaceOrder,

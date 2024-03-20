@@ -557,7 +557,7 @@ const WhychooseContent = {
   }
 
   const ProcessContent = {
-    heading:"Require Peerless Help With Essay Writing? Hire Our Professional Team Today!",
+    heading:"Require Peerless Help With Dissertation Help? Hire Our Professional Team Today!",
     option:[
       {
         image:PlaceOrder,

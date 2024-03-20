@@ -427,7 +427,7 @@ const page = () => {
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
         title:"What Can She Help With?",
-        para:"For your linguistic essay assignments, you can hire our expert writer, Saif. he has been crafting quality essays on all topics for five years and possesses a strong grasp of all the standards of essay writing. ",
+        para:"For your linguistic essay assignments, you can hire our expert writer, Saif. he has been crafting quality essays on all topics for five years and possesses a strong grasp of all the standards of Cipd Assignment. ",
         successrate:"Customer Rating: 99% ",
         completeProject:"Projects Completed: 1100+",
         Expertise:[
@@ -571,7 +571,7 @@ const page = () => {
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Searching for reliable essay writing help in Riyadh for your finance assignments? Umme e Hani is our best writer on this subject, providing high quality and accurate essays on all subject areas. With his knowledge, you can learn well. ",
+        para:"Searching for reliable Cipd Assignment help in Riyadh for your finance assignments? Umme e Hani is our best writer on this subject, providing high quality and accurate essays on all subject areas. With his knowledge, you can learn well. ",
         successrate:"Customer Rating: 98% ",
         completeProject:"Projects Completed: 1000+",
         Expertise:[
