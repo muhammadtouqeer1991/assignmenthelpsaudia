@@ -41,12 +41,16 @@ import Editing from '../../public/assets/Editing.svg';
 import Proofreading from '../../public/assets/Proofreading.svg';
 import Researchhelpandguidance from '../../public/assets/Researchhelpandguidance.svg';
 
-import AbdullahFahad from '../../public/assets/AbdullahFahad.webp';
-import AhmedSultan from '../../public/assets/AhmedSultan.webp';
-import FatimaNoor from '../../public/assets/FatimaNoor.webp';
-import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
-import MahaAmal from '../../public/assets/MahaAmal.webp';
+import DuaAkram from '../../public/assets/DuaAkram.webp';
+import HumnaShah from '../../public/assets/HumnaShah.webp';
+import IssaTariq from '../../public/assets/IssaTariq.webp';
+import ManalHadi from '../../public/assets/ManalHadi.webp';
+import MariamAdnan from '../../public/assets/MariamAdnan.webp';
 import AlvinaSheikh from '../../public/assets/AlvinaSheikh.webp';
+import MaryamIqbal from '../../public/assets/MaryamIqbal.webp';
+import RashaJamal from '../../public/assets/RashaJamal.webp';
+import UmmeeHani from '../../public/assets/UmmeeHani.webp';
+import ZareenFatima from '../../public/assets/ZareenFatima.webp';
 
 
 
@@ -346,12 +350,12 @@ const page = () => {
     heading:"Bring Our CIPD Specialists On Board For a Matchless CIPD Assignment Help KSA ",
     option:[
       {
-        image:HamzaSaleh,
-        name:"Hamza Saleh ",
+        image:IssaTariq,
+        name:"Issa Tariq ",
         designation:"Master’s in Literature",
         experience:"Years Of Experience: 5 ",
         title:"What Can He Help With?",
-        para:"Do you need authentic service for your literature essay assignments? Hire our commendable writer, Majid J. Majid holds advanced qualifications in literature studies and has been facilitating students across KSA for years. ",
+        para:"Do you need authentic service for your literature essay assignments? Hire our commendable writer, Issa Tariq. Issa Tariq holds advanced qualifications in literature studies and has been facilitating students across KSA for years. ",
         successrate:"Customer Rating: 98% ",
         completeProject:"Projects Completed: 1100+",
         Expertise:[
@@ -370,12 +374,12 @@ const page = () => {
         ]
       },
       {
-        image:MahaAmal,
-        name:"Maha Amal ",
+        image:ManalHadi,
+        name:"Manal Hadi ",
         designation:"Master’s in Philosophy",
         experience:"Years Of Experience: 4.5 ",
         title:"What Can She Help With?",
-        para:"Are the essay assignments of your philosophy course becoming an issue? Transform your challenges into competencies with our experienced writer, Nada T. She is a philosophy teacher and can help you greatly in your work. ",
+        para:"Are the essay assignments of your philosophy course becoming an issue? Transform your challenges into competencies with our experienced writer, Manal Hadi. She is a philosophy teacher and can help you greatly in your work. ",
         successrate:"Customer Rating: 99% ",
         completeProject:"Projects Completed: 1200+",
         Expertise:[
@@ -394,12 +398,12 @@ const page = () => {
         ]
       },
       {
-        image:AhmedSultan,
-        name:"Ahmed Sultan",
+        image:RashaJamal,
+        name:"Rasha Jamal",
         designation:"PhD in History ",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Need professional means to edit your history essay? Fahad P. is our talented history writer offering comprehensive support regarding all the facets of essay development. Hire him today at cheap rates. ",
+        para:"Need professional means to edit your history essay? Rasha Jamal. is our talented history writer offering comprehensive support regarding all the facets of essay development. Hire him today at cheap rates. ",
         successrate:"Customer Rating: 97% ",
         completeProject:"Projects Completed: 1000+",
         Expertise:[
@@ -418,8 +422,8 @@ const page = () => {
         ]
       },
       {
-        image:FatimaNoor,
-        name:"Fatima Noor ",
+        image:MariamAdnan,
+        name:"Mariam Adnan",
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
         title:"What Can She Help With?",
@@ -442,8 +446,8 @@ const page = () => {
         ]
       },
       {
-        image:AbdullahFahad,
-        name:"Abdullah Fahad ",
+        image:DuaAkram,
+        name:"Dua Akram ",
         designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
@@ -466,12 +470,12 @@ const page = () => {
         ]
       },
       {
-        image:AbdullahFahad,
-        name:"Ryanah",
+        image:MaryamIqbal,
+        name:"Maryam Iqbal",
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"For your sociology essay assignments, hire our expert essay maker, Liala. With her advanced qualifications and field experience, she brings unique perspectives to your essay content. Get in touch today and get partnered with her.",
+        para:"For your sociology essay assignments, hire our expert essay maker, Maryam Iqbal. With her advanced qualifications and field experience, she brings unique perspectives to your essay content. Get in touch today and get partnered with her.",
         successrate:"Customer Rating: 98% ",
         completeProject:"Projects Completed: 1000+",
         Expertise:[
@@ -490,12 +494,12 @@ const page = () => {
         ]
       },
       {
-        image:AbdullahFahad,
-        name:"Hanan ",
+        image:HumnaShah,
+        name:"Humna Shah ",
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Fed up with constant low grades on your psychology essays? Let our essay helper, Rashid, take care of this issue. With a Master’s degree in psychology and professional exposure, he can deliver excellence to your essays. ",
+        para:"Fed up with constant low grades on your psychology essays? Let our essay helper, Humna Shah, take care of this issue. With a Master’s degree in psychology and professional exposure, he can deliver excellence to your essays. ",
         successrate:"Customer Rating: 97% ",
         completeProject:"Projects Completed: 980+",
         Expertise:[
@@ -514,12 +518,12 @@ const page = () => {
         ]
       },
       {
-        image:AbdullahFahad,
-        name:"Sarah ",
+        image:AlvinaSheikh,
+        name:"Alvina Sheikh ",
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"If you are worried about your performance in your economics essays, contact us now and avail of the expertise of our skilled writer, Tariq. With his expert insights and extensive knowledge about the subject, he can help you develop quality essays. ",
+        para:"If you are worried about your performance in your economics essays, contact us now and avail of the expertise of our skilled writer, Alvina Sheikh. With his expert insights and extensive knowledge about the subject, he can help you develop quality essays. ",
         successrate:"Customer Rating: 96% ",
         completeProject:"Projects Completed: 980+",
         Expertise:[
@@ -538,12 +542,12 @@ const page = () => {
         ]
       },
       {
-        image:AbdullahFahad,
-        name:"Aziza ",
+        image:ZareenFatima,
+        name:"Zareen Fatima ",
         designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Confused about how to structure your marketing essays? Our essay helper, Amal, is an expert marketer offering holistic support to students in their essay assignments. Contact us to get her hired. ",
+        para:"Confused about how to structure your marketing essays? Our essay helper, Zareen Fatima, is an expert marketer offering holistic support to students in their essay assignments. Contact us to get her hired. ",
         successrate:"Customer Rating: 99% ",
         completeProject:"Projects Completed: 900+",
         Expertise:[
@@ -562,12 +566,12 @@ const page = () => {
         ]
       },
       {
-        image:AbdullahFahad,
-        name:"Munira ",
+        image:UmmeeHani,
+        name:"Umme e Hani ",
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Searching for reliable essay writing help in Riyadh for your finance assignments? Ali is our best writer on this subject, providing high quality and accurate essays on all subject areas. With his knowledge, you can learn well. ",
+        para:"Searching for reliable essay writing help in Riyadh for your finance assignments? Umme e Hani is our best writer on this subject, providing high quality and accurate essays on all subject areas. With his knowledge, you can learn well. ",
         successrate:"Customer Rating: 98% ",
         completeProject:"Projects Completed: 1000+",
         Expertise:[

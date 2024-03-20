@@ -42,11 +42,11 @@ import Learningorientedformation from '../../public/assets/Learningorientedforma
 import Opencommunicationchannels from '../../public/assets/Opencommunicationchannels.svg';
 import Plagiarismfreecontent from '../../public/assets/Plagiarismfreecontent.svg';
 
-import AbdullahFahad from '../../public/assets/AbdullahFahad.webp';
-import AhmedSultan from '../../public/assets/AhmedSultan.webp';
-import FatimaNoor from '../../public/assets/FatimaNoor.webp';
-import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
-import MahaAmal from '../../public/assets/MahaAmal.webp';
+import Ahsanulhaq from '../../public/assets/Ahsanulhaq.webp';
+import Zayed from '../../public/assets/Zayed.webp';
+import AlbashSheikh from '../../public/assets/AlbashSheikh.webp';
+import AliaAdil from '../../public/assets/AliaAdil.webp';
+import NooraMansoor from '../../public/assets/NooraMansoor.webp';
 
 import AazraSheikh from '../../public/assets/AazraSheikh.webp';
 import Merajulhaq from '../../public/assets/Merajulhaq.webp';
@@ -342,8 +342,8 @@ const OurwritersContent = {
 heading:"Top Homework Assistance Saudi Arabia - Offering Industry Best Writers for Your Homework ",
 option:[
     {
-      image:HamzaSaleh,
-      name:"Hamza Saleh ",
+      image:AliaAdil,
+      name:"Alia Adil",
       designation:"Masters in Computer Science",
       experience:"Years Of Experience: 5 ",
       title:"What Can He Help With?",
@@ -366,12 +366,12 @@ option:[
       ]
     },
     {
-      image:MahaAmal,
-      name:"Maha Amal ",
+      image:NooraMansoor,
+      name:"Noora Mansoor ",
       designation:"Masters in Business Administration",
       experience:"Years Of Experience: 4.5 ",
       title:"What Can She Help With?",
-      para:"Do you need assignment help from an industry professional for your business management assignments? Our expert writer, Kiley Rein, is an accomplished assignment maker who has been offering holistic help to students regarding their business studies. Hire her and get quality samples. ",
+      para:"Do you need assignment help from an industry professional for your business management assignments? Our expert writer, Noora Mansoor, is an accomplished assignment maker who has been offering holistic help to students regarding their business studies. Hire her and get quality samples. ",
       successrate:"Rated: 95% success rate",
       completeProject:"200+ Projects Delivered",
       Expertise:[
@@ -390,12 +390,12 @@ option:[
       ]
     },
     {
-      image:AhmedSultan,
-      name:"Ahmed Sultan",
+      image:Zayed,
+      name:"Zayed",
       designation:"MPhil in Law",
       experience:"Years Of Experience: 6 ",
       title:"What Can He Help With?",
-      para:"Are you afraid of getting low marks due to the writing quality of your law assignment? Let us handle your worries in the most effective manner with our exemplary assignment assistant, John Sean. He is a law expert and can offer satisfactory help. ",
+      para:"Are you afraid of getting low marks due to the writing quality of your law assignment? Let us handle your worries in the most effective manner with our exemplary assignment assistant, Zayed. He is a law expert and can offer satisfactory help. ",
       successrate:"Rated: 95.8% success rate",
       completeProject:"450+ Projects Delivered",
       Expertise:[
@@ -414,12 +414,12 @@ option:[
       ]
     },
     {
-      image:FatimaNoor,
-      name:"Fatima Noor ",
+      image:Ahsanulhaq,
+      name:"Ahsan-ul-haq ",
       designation:"PhD in Economics ",
       experience:"Years Of Experience: 7 ",
       title:"What Can She Help With?",
-      para:"Give your economics assignments excellent help from a professional assignment maker, Fatima Noor, who holds a Ph.D. in economics. She can create flawless assignments and help you learn complex topics easily. ",
+      para:"Give your economics assignments excellent help from a professional assignment maker, Ahsan-ul-haq, who holds a Ph.D. in economics. She can create flawless assignments and help you learn complex topics easily. ",
       successrate:"Rated: 98% success rate",
       completeProject:"550+ Projects Delivered",
       Expertise:[
@@ -438,12 +438,12 @@ option:[
       ]
     },
     {
-      image:AbdullahFahad,
-      name:"Abdullah Fahad ",
+      image:AlbashSheikh,
+      name:"Albash Sheikh",
       designation:"Masters in Literature ",
       experience:"Years Of Experience: 6 ",
       title:"What Can He Help With?",
-      para:"Are you seeking help with your literature coursework? Abdullah is our top writer regarding all types of literature assignments. He can write exceptional quality essays and other assignments. ",
+      para:"Are you seeking help with your literature coursework? Albash Sheikh is our top writer regarding all types of literature assignments. She can write exceptional quality essays and other assignments. ",
       successrate:"Rated: 97% success rate",
       completeProject:"600+ Projects Delivered",
       Expertise:[

@@ -299,3 +299,10 @@ bottom: -180.1px;
     }
   
   }
+
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+    background: #28D07E;
+    width: 15px;
+    height: 15px;
+}

@@ -33,6 +33,12 @@ import MahaAmal from '../../public/assets/MahaAmal.webp';
 
 import AazraSheikh from '../../public/assets/AazraSheikh.webp';
 import humnaShah from '../../public/assets/humnaShah.webp';
+import Aziza from '../../public/assets/Aziza.webp';
+import Hanan from '../../public/assets/Hanan.webp';
+import Munira from '../../public/assets/Munira.webp';
+import Ryanah from '../../public/assets/Ryanah.webp';
+import Sarah from '../../public/assets/Sarah.webp';
+import Rashid from '../../public/assets/Rashid.webp';
 
 import PlaceOrder from '../../public/assets/PlaceOrder.svg';
 import Processing from '../../public/assets/Processing.svg';
@@ -271,7 +277,7 @@ const WhychooseContent = {
         designation:"Master’s in Literature",
         experience:"Years Of Experience: 5 ",
         title:"What Can He Help With?",
-        para:"Do you need authentic service for your literature essay assignments? Hire our commendable writer, Majid J. Majid holds advanced qualifications in literature studies and has been facilitating students across KSA for years. ",
+        para:"Do you need authentic service for your literature essay assignments? Hire our commendable writer, Hamza Saleh. Hamza Saleh holds advanced qualifications in literature studies and has been facilitating students across KSA for years. ",
         successrate:"Customer Rating: 98% ",
         completeProject:"Projects Completed: 1100+",
         Expertise:[
@@ -295,7 +301,7 @@ const WhychooseContent = {
         designation:"Master’s in Philosophy",
         experience:"Years Of Experience: 4.5 ",
         title:"What Can She Help With?",
-        para:"Are the essay assignments of your philosophy course becoming an issue? Transform your challenges into competencies with our experienced writer, Nada T. She is a philosophy teacher and can help you greatly in your work. ",
+        para:"Are the essay assignments of your philosophy course becoming an issue? Transform your challenges into competencies with our experienced writer, Maha Amal. She is a philosophy teacher and can help you greatly in your work. ",
         successrate:"Customer Rating: 99% ",
         completeProject:"Projects Completed: 1200+",
         Expertise:[
@@ -319,7 +325,7 @@ const WhychooseContent = {
         designation:"PhD in History ",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Need professional means to edit your history essay? Fahad P. is our talented history writer offering comprehensive support regarding all the facets of essay development. Hire him today at cheap rates. ",
+        para:"Need professional means to edit your history essay? Ahmed Sultan. is our talented history writer offering comprehensive support regarding all the facets of essay development. Hire him today at cheap rates. ",
         successrate:"Customer Rating: 97% ",
         completeProject:"Projects Completed: 1000+",
         Expertise:[
@@ -343,7 +349,7 @@ const WhychooseContent = {
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
         title:"What Can She Help With?",
-        para:"For your linguistic essay assignments, you can hire our expert writer, Saif. he has been crafting quality essays on all topics for five years and possesses a strong grasp of all the standards of essay writing. ",
+        para:"For your linguistic essay assignments, you can hire our expert writer, Fatima Noor. She has been crafting quality essays on all topics for five years and possesses a strong grasp of all the standards of essay writing. ",
         successrate:"Customer Rating: 99% ",
         completeProject:"Projects Completed: 1100+",
         Expertise:[
@@ -367,7 +373,7 @@ const WhychooseContent = {
         designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Are you stressed due to the essay burden of your culture studies course? Forget all your worries when you have the expertise of our skilled helper, Rawa. She possesses a bachelor’s degree in the related field and crafts quality content on all topics.",
+        para:"Are you stressed due to the essay burden of your culture studies course? Forget all your worries when you have the expertise of our skilled helper, Abdullah Fahad. He possesses a bachelor’s degree in the related field and crafts quality content on all topics.",
         successrate:"Customer Rating: 96% ",
         completeProject:"Projects Completed: 900+",
         Expertise:[
@@ -386,12 +392,12 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:Ryanah,
         name:"Ryanah",
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"For your sociology essay assignments, hire our expert essay maker, Liala. With her advanced qualifications and field experience, she brings unique perspectives to your essay content. Get in touch today and get partnered with her.",
+        para:"For your sociology essay assignments, hire our expert essay maker, Ryanah. With her advanced qualifications and field experience, he brings unique perspectives to your essay content. Get in touch today and get partnered with her.",
         successrate:"Customer Rating: 98% ",
         completeProject:"Projects Completed: 1000+",
         Expertise:[
@@ -410,8 +416,8 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
-        name:"Hanan ",
+        image:Rashid,
+        name:"Rashid ",
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
@@ -434,12 +440,12 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:Sarah,
         name:"Sarah ",
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"If you are worried about your performance in your economics essays, contact us now and avail of the expertise of our skilled writer, Tariq. With his expert insights and extensive knowledge about the subject, he can help you develop quality essays. ",
+        para:"If you are worried about your performance in your economics essays, contact us now and avail of the expertise of our skilled writer, Sarah. With his expert insights and extensive knowledge about the subject, She can help you develop quality essays. ",
         successrate:"Customer Rating: 96% ",
         completeProject:"Projects Completed: 980+",
         Expertise:[
@@ -458,12 +464,12 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:Aziza,
         name:"Aziza ",
         designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Confused about how to structure your marketing essays? Our essay helper, Amal, is an expert marketer offering holistic support to students in their essay assignments. Contact us to get her hired. ",
+        para:"Confused about how to structure your marketing essays? Our essay helper, Aziza, is an expert marketer offering holistic support to students in their essay assignments. Contact us to get her hired. ",
         successrate:"Customer Rating: 99% ",
         completeProject:"Projects Completed: 900+",
         Expertise:[
@@ -482,12 +488,12 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:Munira,
         name:"Munira ",
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Searching for reliable essay writing help in Riyadh for your finance assignments? Ali is our best writer on this subject, providing high quality and accurate essays on all subject areas. With his knowledge, you can learn well. ",
+        para:"Searching for reliable essay writing help in Riyadh for your finance assignments? Munira is our best writer on this subject, providing high quality and accurate essays on all subject areas. With his knowledge, you can learn well. ",
         successrate:"Customer Rating: 98% ",
         completeProject:"Projects Completed: 1000+",
         Expertise:[

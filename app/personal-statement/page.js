@@ -42,11 +42,11 @@ import Opencommunicationchannelsdemo from '../../public/assets/Opencommunication
 import Professionalexperience from '../../public/assets/Professionalexperience.svg';
 import Successfulwritinghistory from '../../public/assets/Successfulwritinghistory.svg';
 
-import AbdullahFahad from '../../public/assets/AbdullahFahad.webp';
-import AhmedSultan from '../../public/assets/AhmedSultan.webp';
-import FatimaNoor from '../../public/assets/FatimaNoor.webp';
-import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
-import MahaAmal from '../../public/assets/MahaAmal.webp';
+import AadhiraRao from '../../public/assets/AadhiraRao.webp';
+import JohnSean from '../../public/assets/JohnSean.webp';
+import KileyRein from '../../public/assets/KileyRein.webp';
+import MuneebButt from '../../public/assets/MuneebButt.webp';
+import SheikhKabeer from '../../public/assets/SheikhKabeer.webp';
 
 import Yasemin from '../../public/assets/Yasemin.webp';
 import Arham from '../../public/assets/Arham.webp';
@@ -339,8 +339,8 @@ const OurwritersContent = {
 heading:"Hire Top Personal Statement Writers Across Ksa - Delivering Excellence in Every Word",
 option:[
   {
-    image:HamzaSaleh,
-    name:"Hamza Saleh ",
+    image:MuneebButt,
+    name:"Muneeb Butt",
     designation:"Masters in Computer Science",
     experience:"Years Of Experience: 5 ",
     title:"What Can He Help With?",
@@ -363,8 +363,8 @@ option:[
     ]
   },
   {
-    image:MahaAmal,
-    name:"Maha Amal ",
+    image:KileyRein,
+    name:"Kiley Rein ",
     designation:"Masters in Business Administration",
     experience:"Years Of Experience: 4.5 ",
     title:"What Can She Help With?",
@@ -387,8 +387,8 @@ option:[
     ]
   },
   {
-    image:AhmedSultan,
-    name:"Ahmed Sultan",
+    image:JohnSean,
+    name:"John Sean",
     designation:"MPhil in Law",
     experience:"Years Of Experience: 6 ",
     title:"What Can He Help With?",
@@ -411,12 +411,12 @@ option:[
     ]
   },
   {
-    image:FatimaNoor,
-    name:"Fatima Noor ",
+    image:AadhiraRao,
+    name:"Aadhira Rao ",
     designation:"PhD in Economics ",
     experience:"Years Of Experience: 7 ",
     title:"What Can She Help With?",
-    para:"Give your economics assignments excellent help from a professional assignment maker, Fatima Noor, who holds a Ph.D. in economics. She can create flawless assignments and help you learn complex topics easily. ",
+    para:"Give your economics assignments excellent help from a professional assignment maker, Aadhira Rao, who holds a Ph.D. in economics. She can create flawless assignments and help you learn complex topics easily. ",
     successrate:"Rated: 98% success rate",
     completeProject:"550+ Projects Delivered",
     Expertise:[
@@ -435,12 +435,12 @@ option:[
     ]
   },
   {
-    image:AbdullahFahad,
-    name:"Abdullah Fahad ",
+    image:SheikhKabeer,
+    name:"Sheikh Kabeer",
     designation:"Masters in Literature ",
     experience:"Years Of Experience: 6 ",
     title:"What Can He Help With?",
-    para:"Are you seeking help with your literature coursework? Abdullah is our top writer regarding all types of literature assignments. He can write exceptional quality essays and other assignments. ",
+    para:"Are you seeking help with your literature coursework? Sheikh Kabeer is our top writer regarding all types of literature assignments. He can write exceptional quality essays and other assignments. ",
     successrate:"Rated: 97% success rate",
     completeProject:"600+ Projects Delivered",
     Expertise:[
