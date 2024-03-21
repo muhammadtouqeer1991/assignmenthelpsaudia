@@ -45,6 +45,19 @@ import Processing from '../../public/assets/Processing.svg';
 import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
+import compensationandbenefits from '../../public/assets/compensationandbenefits.svg';
+import DiversityandInclusion from '../../public/assets/DiversityandInclusion.svg';
+import employeerelations from '../../public/assets/employeerelations.svg';
+import hrinformationsystems from '../../public/assets/hrinformationsystems.svg';
+import HumanResourceManagementhrm from '../../public/assets/HumanResourceManagementhrm.svg';
+import LaborLawandEmploymentRegulations from '../../public/assets/LaborLawandEmploymentRegulations.svg';
+import OrganisationalBehaviors from '../../public/assets/OrganisationalBehaviors.svg';
+import PerformanceManagement from '../../public/assets/PerformanceManagement.svg';
+import strategichrplanning from '../../public/assets/strategichrplanning.svg';
+import TalentAcquisition from '../../public/assets/TalentAcquisition.svg';
+import TrainingandDevelopment from '../../public/assets/TrainingandDevelopment.svg';
+import WorkplaceHealthandSafety from '../../public/assets/WorkplaceHealthandSafety.svg';
+
 export const metadata = {
   title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
   description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
@@ -260,6 +273,56 @@ const WhychooseContent = {
   const SubjectContent = {
     heading:"Save Your Time and Effort With Our Comprehensive HR Assignment Writing",
     para:"Our competent HR assignment writers provide holistic support for all your needs. You can get reliable assistance with all HR subjects for your project. ",
+    items:[
+      {
+          title:"Human Resource Management (HRM)",
+          img:HumanResourceManagementhrm
+      },
+      {
+          title:"Organisational Behavior",
+          img:OrganisationalBehaviors
+      },
+      {
+          title:"Talent Acquisition",
+          img:TalentAcquisition
+      },
+      {
+          title:"Performance Management",
+          img:PerformanceManagement
+      },
+      {
+          title:"Compensation and Benefits",
+          img:compensationandbenefits
+      },
+      {
+          title:"Employee Relations",
+          img:employeerelations
+      },
+      {
+          title:"Training and Development",
+          img:TrainingandDevelopment
+      },
+      {
+          title:"Diversity and Inclusion",
+          img:DiversityandInclusion
+      },
+      {
+          title:"Labor Law and Employment Regulations",
+          img:LaborLawandEmploymentRegulations
+      },
+      {
+          title:"Strategic HR Planning",
+          img:strategichrplanning
+      },
+      {
+          title:"Workplace Health and Safety",
+          img:WorkplaceHealthandSafety
+      },
+      {
+          title:"HR Information Systems ",
+          img:hrinformationsystems
+      },
+  ]
   };
 
   const CtaContent = {

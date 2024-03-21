@@ -41,6 +41,20 @@ import Editing from '../../public/assets/Editing.svg';
 import Proofreading from '../../public/assets/Proofreading.svg';
 import Researchhelpandguidance from '../../public/assets/Researchhelpandguidance.svg';
 
+import changemanagementsxs from '../../public/assets/changemanagementsxs.svg';
+import diversityandinclusionsad from '../../public/assets/diversityandinclusionsad.svg';
+import employeeengagementasd from '../../public/assets/employeeengagementasd.svg';
+import employeerelationsasd from '../../public/assets/employeerelationsasd.svg';
+import EmploymentLawasd from '../../public/assets/EmploymentLawasd.svg';
+import hranalyticsasdsa from '../../public/assets/hranalyticsasdsa.svg';
+import HRManagementasdasd from '../../public/assets/HRManagementasdasd.svg';
+import learninganddevelopmentasdasd from '../../public/assets/learninganddevelopmentasdasd.svg';
+import OrganisationalDevelopmentasd from '../../public/assets/OrganisationalDevelopmentasd.svg';
+import performancemanagementasd from '../../public/assets/performancemanagementasd.svg';
+import rewardmanagementasdas from '../../public/assets/rewardmanagementasdas.svg';
+import talentmanagementasdasd from '../../public/assets/talentmanagementasdasd.svg';
+
+
 import DuaAkram from '../../public/assets/DuaAkram.webp';
 import HumnaShah from '../../public/assets/HumnaShah.webp';
 import IssaTariq from '../../public/assets/IssaTariq.webp';
@@ -303,39 +317,51 @@ const page = () => {
     items:[
         {
             title:"HR Management",
+            img:HRManagementasdasd
         },
         {
             title:"Learning and Development",
+            img:learninganddevelopmentasdasd
         },
         {
             title:"Organisational Development",
+            img:OrganisationalDevelopmentasd
         },
         {
             title:"Employee Relations",
+            img:employeerelationsasd
         },
         {
             title:"Employment Law",
+            img:EmploymentLawasd
         },
         {
             title:"Diversity and Inclusion",
+            img:diversityandinclusionsad
         },
         {
             title:"Talent Management",
+            img:talentmanagementasdasd
         },
         {
             title:"Performance Management",
+            img:performancemanagementasd
         },
         {
             title:"Reward Management",
+            img:rewardmanagementasdas
         },
         {
             title:"HR Analytics",
+            img:hranalyticsasdsa
         },
         {
             title:"Employee Engagement",
+            img:employeeengagementasd
         },
         {
             title:"Change Management",
+            img:changemanagementsxs
         },
     ]
   };

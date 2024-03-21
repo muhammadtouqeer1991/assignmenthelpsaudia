@@ -20,7 +20,7 @@ return (
 <div className='py-4 flex justify-between items-center flex-wrap gap-3 submainitems'>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={marketing} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[0].img == undefined ? marketing : SubjectContentitems[0].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive w-full text-center'>
@@ -29,7 +29,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center '>
-            <Image src={Nursing} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[1].img == undefined ? Nursing : SubjectContentitems[1].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center active'>
@@ -38,7 +38,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={Law} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[2].img == undefined ? Law : SubjectContentitems[2].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center active'>
@@ -47,7 +47,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={economics} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[3].img == undefined ? economics : SubjectContentitems[3].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center active'>
@@ -56,7 +56,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={Finance} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[4].img == undefined ? Finance : SubjectContentitems[4].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center active'>
@@ -65,7 +65,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={IT} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[5].img == undefined ? IT : SubjectContentitems[5].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center active'>
@@ -74,7 +74,7 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={EnglishLiterature} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[6].img == undefined ? EnglishLiterature : SubjectContentitems[6].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center active'>
@@ -83,47 +83,47 @@ return (
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={Psychology} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[7].img == undefined ? Psychology : SubjectContentitems[7].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center active'>
-        <div className='py-2 px-10 rounded-[16px] text-white' >{SubjectContentitems == '' || SubjectContentitems == null || SubjectContentitems == undefined ? 'Psychology' : SubjectContentitems[6].title}</div>
+        <div className='py-2 px-10 rounded-[16px] text-white' >{SubjectContentitems == '' || SubjectContentitems == null || SubjectContentitems == undefined ? 'Psychology' : SubjectContentitems[7].title}</div>
         </div>
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={Business} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[8].img == undefined ? Business : SubjectContentitems[8].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center active'>
-        <div className='py-2 px-10 rounded-[16px] text-white' >{SubjectContentitems == '' || SubjectContentitems == null || SubjectContentitems == undefined ? 'Business' : SubjectContentitems[7].title}</div>
+        <div className='py-2 px-10 rounded-[16px] text-white' >{SubjectContentitems == '' || SubjectContentitems == null || SubjectContentitems == undefined ? 'Business' : SubjectContentitems[8].title}</div>
         </div>
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={Management} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[9].img == undefined ? Management : SubjectContentitems[9].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center active'>
-        <div className='py-2 px-10 rounded-[16px] text-white' >{SubjectContentitems == '' || SubjectContentitems == null || SubjectContentitems == undefined ? 'Management' : SubjectContentitems[8].title}</div>
+        <div className='py-2 px-10 rounded-[16px] text-white' >{SubjectContentitems == '' || SubjectContentitems == null || SubjectContentitems == undefined ? 'Management' : SubjectContentitems[9].title}</div>
         </div>
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={Accounting} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[10].img == undefined ? Accounting : SubjectContentitems[10].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center active'>
-        <div className='py-2 px-10 rounded-[16px] text-white' >{SubjectContentitems == '' || SubjectContentitems == null || SubjectContentitems == undefined ? 'Accounting' : SubjectContentitems[9].title}</div>
+        <div className='py-2 px-10 rounded-[16px] text-white' >{SubjectContentitems == '' || SubjectContentitems == null || SubjectContentitems == undefined ? 'Accounting' : SubjectContentitems[10].title}</div>
         </div>
     </div>
     <div className='flex justify-center items-center flex-col flex-[20%] relative z-0'>
         <div className='rounded-full w-14 h-14 border-2 border-navactive flex justify-center items-center'>
-            <Image src={SupplyChain} width={30} alt="market" />
+            <Image src={SubjectContentitems == undefined || SubjectContentitems[11].img == undefined ? SupplyChain : SubjectContentitems[11].img} width={30} alt="market" />
         </div>
         <hr className='rotate-0 h-6 mt-0 border-2 border-navactive z-[-1] pb-3' />
         <div className='border-dashed border-2 rounded-[16px] border-navactive  w-full text-center active'>
-        <div className='py-2 px-10 rounded-[16px] text-white' >{SubjectContentitems == '' || SubjectContentitems == null || SubjectContentitems == undefined ? 'Supply Chain' : SubjectContentitems[10].title}</div>
+        <div className='py-2 px-10 rounded-[16px] text-white' >{SubjectContentitems == '' || SubjectContentitems == null || SubjectContentitems == undefined ? 'Supply Chain' : SubjectContentitems[11].title}</div>
         </div>
     </div>
    

@@ -25,6 +25,19 @@ import Professionalwriting from '../../public/assets/Professionalwriting.svg';
 import Welleditedandproofreadorders from '../../public/assets/Welleditedandproofreadorders.svg';
 import Adherencetotheassignmentbrief from '../../public/assets/Adherencetotheassignmentbrief.svg';
 
+import Accountings from '../../public/assets/Accountings.svg';
+import BusinessAnalytics from '../../public/assets/BusinessAnalytics.svg';
+import Entrepreneurship from '../../public/assets/Entrepreneurship.svg';
+import Finances from '../../public/assets/Finances.svg';
+import HumanResourceManagement from '../../public/assets/HumanResourceManagement.svg';
+import InternationalBusiness from '../../public/assets/InternationalBusiness.svg';
+import Leaderships from '../../public/assets/Leaderships.svg';
+import Marketings from '../../public/assets/Marketings.svg';
+import OperationsManagement from '../../public/assets/OperationsManagement.svg';
+import OrganisationalBehavior from '../../public/assets/OrganisationalBehavior.svg';
+import StrategicManagement from '../../public/assets/StrategicManagement.svg';
+import SupplyChainManagement from '../../public/assets/SupplyChainManagement.svg';
+
 
 import DanaF from '../../public/assets/DanaF.webp';
 import GhadaL from '../../public/assets/GhadaL.webp';
@@ -261,6 +274,56 @@ title:"Al Khobar",
 const SubjectContent = {
 heading:"Get a Cheap MBA Assignment Helper for All Your Academic Solutions",
 para:"Assignment Help Saudi Arabia provides exemplary writing and editing services for all subjects of MBA studies. ",
+items:[
+    {
+        title:"Finance",
+        img:Finances,
+    },
+    {
+        title:"Marketing",
+        img:Marketings,
+    },
+    {
+        title:"Operations Management",
+        img:OperationsManagement,
+    },
+    {
+        title:"Human Resource Management",
+        img:HumanResourceManagement,
+    },
+    {
+        title:"Strategic Management",
+        img:StrategicManagement,
+    },
+    {
+        title:"Accounting",
+        img:Accountings,
+    },
+    {
+        title:"Business Analytics",
+        img:BusinessAnalytics,
+    },
+    {
+        title:"Entrepreneurship",
+        img:Entrepreneurship,
+    },
+    {
+        title:"Supply Chain Management",
+        img:SupplyChainManagement,
+    },
+    {
+        title:"Leadership",
+        img:Leaderships,
+    },
+    {
+        title:"Organisational Behavior",
+        img:OrganisationalBehavior,
+    },
+    {
+        title:"International Business",
+        img:InternationalBusiness,
+    },
+]
 };
 
 const CtaContent = {

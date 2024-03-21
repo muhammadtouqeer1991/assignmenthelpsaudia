@@ -45,6 +45,20 @@ import Processing from '../../public/assets/Processing.svg';
 import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
+
+import Businessreports from '../../public/assets/Businessreports.svg';
+import Casestudyreports from '../../public/assets/Casestudyreports.svg';
+import Dissertationreports from '../../public/assets/Dissertationreports.svg';
+import Feasibilitystudyreports from '../../public/assets/Feasibilitystudyreports.svg';
+import Laboratoryreports from '../../public/assets/Laboratoryreports.svg';
+import Policyanalysisreports from '../../public/assets/Policyanalysisreports.svg';
+import Progressreports from '../../public/assets/Progressreports.svg';
+import Projectreports from '../../public/assets/Projectreports.svg';
+import Researchreports from '../../public/assets/Researchreports.svg';
+import Surveyreports from '../../public/assets/Surveyreports.svg';
+import Technicalreports from '../../public/assets/Technicalreports.svg';
+import Thesisreports from '../../public/assets/Thesisreports.svg';
+
 export const metadata = {
   title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
   description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
@@ -260,6 +274,56 @@ const WhychooseContent = {
   const SubjectContent = {
     heading:"Cheap Report Writing Company in Saudi Arabia - Get Quality Help for All Your Reports",
     para:"Write my report for me? Our service offers exceptional educational support for all kinds of reports without any exceptions.   ",
+    items:[
+      {
+          title:"Research reports",
+          img:Researchreports
+      },
+      {
+          title:"Laboratory reports",
+          img:Laboratoryreports
+      },
+      {
+          title:"Case study reports",
+          img:Casestudyreports
+      },
+      {
+          title:"Project reports",
+          img:Projectreports
+      },
+      {
+          title:"Business reports",
+          img:Businessreports
+      },
+      {
+          title:"Thesis reports",
+          img:Thesisreports
+      },
+      {
+          title:"Dissertation reports",
+          img:Dissertationreports
+      },
+      {
+          title:"Technical reports",
+          img:Technicalreports
+      },
+      {
+          title:"Feasibility study reports",
+          img:Feasibilitystudyreports
+      },
+      {
+          title:"Progress reports",
+          img:Progressreports
+      },
+      {
+          title:"Survey reports",
+          img:Surveyreports
+      },
+      {
+          title:"Policy analysis reports",
+          img:Policyanalysisreports
+      },
+  ]
   };
 
   const CtaContent = {

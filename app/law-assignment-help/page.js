@@ -13,37 +13,50 @@ import Whychoose from '@/components/Whychoose'
 import React from 'react'
 import Freerevisionss from '../../public/assets/Freerevisionss.svg';
 
-import BachelorsEssays from '../../public/assets/BachelorsEssays.svg';
-import CollegeEssays from '../../public/assets/CollegeEssays.svg';
-import HighSchoolEssays from '../../public/assets/HighSchoolEssays.svg';
-import MastersEssays from '../../public/assets/MastersEssays.svg';
+import Bachelorsassignmentss from '../../public/assets/Bachelorsassignmentss.svg';
+import Doctoralassignmentss from '../../public/assets/Doctoralassignmentss.svg';
+import ExecutiveLLMassignmentss from '../../public/assets/ExecutiveLLMassignmentss.svg';
+import Mastersassignmentss from '../../public/assets/Mastersassignmentss.svg';
 
-import Affordableservicerates from '../../public/assets/Affordableservicerates.svg';
-import Fullconfidentialityforyourdata from '../../public/assets/Fullconfidentialityforyourdata.svg';
-import Highlyqualifiedsubjectwriters from '../../public/assets/Highlyqualifiedsubjectwriters.svg';
-import Ontimedeliveries from '../../public/assets/Ontimedeliveries.svg';
-import Plagiarismfreeguarantee from '../../public/assets/Plagiarismfreeguarantee.svg';
+import Comprehensiveacademicguidances from '../../public/assets/Comprehensiveacademicguidances.svg';
+import Customassignmentservices from '../../public/assets/Customassignmentservices.svg';
+import Mutuallycollaboratedwritingprocesss from '../../public/assets/Mutuallycollaboratedwritingprocesss.svg';
+import Opencommunicationsss from '../../public/assets/Opencommunicationsss.svg';
+import Wellresearchedcontents from '../../public/assets/Wellresearchedcontents.svg';
 
 
-import AbdullahFahad from '../../public/assets/AbdullahFahad.webp';
-import AhmedSultan from '../../public/assets/AhmedSultan.webp';
-import FatimaNoor from '../../public/assets/FatimaNoor.webp';
-import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
-import MahaAmal from '../../public/assets/MahaAmal.webp';
+import Abdulaziz from '../../public/assets/Abdulaziz.webp';
+import AdelH from '../../public/assets/AdelH.webp';
+import JawahirT from '../../public/assets/JawahirT.webp';
+import ManalP from '../../public/assets/ManalP.webp';
+import RaghadL from '../../public/assets/RaghadL.webp';
 
 import AazraSheikh from '../../public/assets/AazraSheikh.webp';
 import humnaShah from '../../public/assets/humnaShah.webp';
-import Aziza from '../../public/assets/Aziza.webp';
-import Hanan from '../../public/assets/Hanan.webp';
-import Munira from '../../public/assets/Munira.webp';
-import Ryanah from '../../public/assets/Ryanah.webp';
-import Sarah from '../../public/assets/Sarah.webp';
+import RashaS from '../../public/assets/RashaS.webp';
+import SalehJ from '../../public/assets/SalehJ.webp';
+import TahaniH from '../../public/assets/TahaniH.webp';
+import TurkiS from '../../public/assets/TurkiS.webp';
+import YahyaF from '../../public/assets/YahyaF.webp';
 import Rashid from '../../public/assets/Rashid.webp';
 
 import PlaceOrder from '../../public/assets/PlaceOrder.svg';
 import Processing from '../../public/assets/Processing.svg';
 import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
+
+import administrativelaw from '../../public/assets/administrativelaw.svg';
+import BusinessLaw from '../../public/assets/BusinessLaw.svg';
+import ConstitutionalLaw from '../../public/assets/ConstitutionalLaw.svg';
+import ContractLaw from '../../public/assets/ContractLaw.svg';
+import CriminalLaw from '../../public/assets/CriminalLaw.svg';
+import employmentlaw from '../../public/assets/employmentlaw.svg';
+import EnvironmentalLaw from '../../public/assets/EnvironmentalLaw.svg';
+import FamilyLaw from '../../public/assets/FamilyLaw.svg';
+import intellectualpropertylaw from '../../public/assets/intellectualpropertylaw.svg';
+import InternationalLaw from '../../public/assets/InternationalLaw.svg';
+import PropertyLaw from '../../public/assets/PropertyLaw.svg';
+import TortLaw from '../../public/assets/TortLaw.svg';
 
 export const metadata = {
   title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
@@ -112,19 +125,19 @@ const page = () => {
         subheading:"We Offer Across-The-Board Assistance",
         option:[
           {
-            icon:HighSchoolEssays,
+            icon:Bachelorsassignmentss,
             title:"Bachelor’s assignments",
           },
           {
-            icon:CollegeEssays,
+            icon:Mastersassignmentss,
             title:"Master’s assignments ",
           },
           {
-            icon:BachelorsEssays,
+            icon:Doctoralassignmentss,
             title:"Doctoral assignments ",
           },
           {
-            icon:MastersEssays,
+            icon:ExecutiveLLMassignmentss,
             title:"Executive L.L.M assignments ",
           },
         ]
@@ -200,23 +213,23 @@ const WhychooseContent = {
     para:"Our LAW assignment writing assistance helps you develop standard quality projects with a learning-focused service approach. ",
     option:[
       {
-        icon:Highlyqualifiedsubjectwriters,
+        icon:Wellresearchedcontents,
         title:"Well-researched content",
       },
       {
-        icon:Plagiarismfreeguarantee,
+        icon:Mutuallycollaboratedwritingprocesss,
         title:"Mutually collaborated writing process ",
       },
       {
-        icon:Ontimedeliveries,
+        icon:Comprehensiveacademicguidances,
         title:"Comprehensive academic guidance ",
       },
       {
-        icon:Fullconfidentialityforyourdata,
+        icon:Opencommunicationsss,
         title:"Open communication ",
       },
       {
-        icon:Affordableservicerates,
+        icon:Customassignmentservices,
         title:"Custom assignment service",
       }
     ]
@@ -260,6 +273,57 @@ const WhychooseContent = {
   const SubjectContent = {
     heading:"Professional Law Assignment Help Services - A+ Solutions for All Subjects",
     para:"Our LAW assignment writing help in KSA provides complete assignment writing support, and you can hire us for any subject project. ",
+    items:[
+      
+      {
+          title:"Constitutional Law",
+          img:ConstitutionalLaw
+      },
+      {
+          title:"Criminal Law",
+          img:CriminalLaw
+      },
+      {
+          title:"Contract Law",
+          img:ContractLaw
+      },
+      {
+          title:"Tort Law",
+          img:TortLaw
+      },
+      {
+          title:"Property Law",
+          img:PropertyLaw
+      },
+      {
+          title:"Administrative Law",
+          img:administrativelaw
+      },
+      {
+          title:"International Law",
+          img:InternationalLaw
+      },
+      {
+          title:"Family Law",
+          img:FamilyLaw
+      },
+      {
+          title:"Environmental Law",
+          img:EnvironmentalLaw
+      },
+      {
+          title:"Business Law",
+          img:BusinessLaw
+      },
+      {
+          title:"Intellectual Property Law",
+          img:intellectualpropertylaw
+      },
+      {
+          title:"Employment Law",
+          img:employmentlaw
+      },
+  ]
   };
 
   const CtaContent = {
@@ -272,7 +336,7 @@ const WhychooseContent = {
     heading:"Write My Law Assignment? Get Help From the Sharp Pens of Our Experts",
     option:[
       {
-        image:HamzaSaleh,
+        image:TurkiS,
         name:"Turki S",
         designation:"Master’s in Literature",
         experience:"Years Of Experience: 5 ",
@@ -296,7 +360,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:MahaAmal,
+        image:Abdulaziz,
         name:"Abdulaziz ",
         designation:"Master’s in Philosophy",
         experience:"Years Of Experience: 4.5 ",
@@ -320,7 +384,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AhmedSultan,
+        image:SalehJ,
         name:"Saleh J",
         designation:"PhD in History ",
         experience:"Years Of Experience: 6 ",
@@ -344,7 +408,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:FatimaNoor,
+        image:AdelH,
         name:"Adel H",
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
@@ -368,7 +432,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:YahyaF,
         name:"Yahya F",
         designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
@@ -392,7 +456,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:Ryanah,
+        image:ManalP,
         name:"Manal P",
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
@@ -416,7 +480,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:Rashid,
+        image:JawahirT,
         name:"Jawahir T",
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
@@ -440,7 +504,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:Sarah,
+        image:TahaniH,
         name:"Tahani H",
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
@@ -464,7 +528,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:Aziza,
+        image:RaghadL,
         name:"Raghad L",
         designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
@@ -488,7 +552,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:Munira,
+        image:RashaS,
         name:"Rasha S",
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",
