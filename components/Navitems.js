@@ -60,6 +60,7 @@ return (
         <li><Link href="/report-writing-help">Report Writing Help</Link></li>
         <li><Link href="/hr-assignment-help">HR Assignment Help</Link></li>
         <li><Link href="/law-assignment-help">Law Assignment Help</Link></li>
+        <li><Link href="/btec-assignment-help">BTEC Assignment Help</Link></li>
     </ul>
 </Link>
 
