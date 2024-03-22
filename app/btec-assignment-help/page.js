@@ -11,33 +11,46 @@ import Process from '@/components/Process'
 import Subject from '@/components/Subject'
 import Whychoose from '@/components/Whychoose'
 import React from 'react'
+
+import Artanddesignasdas from '../../public/assets/Artanddesignasdas.svg';
+import Businessasd from '../../public/assets/Businessasd.svg';
+import Childcareasd from '../../public/assets/Childcareasd.svg';
+import Constructionasda from '../../public/assets/Constructionasda.svg';
+import Engineeringasd from '../../public/assets/Engineeringasd.svg';
+import Healthandsocialcareasd from '../../public/assets/Healthandsocialcareasd.svg';
+import Hospitalityasdasd from '../../public/assets/Hospitalityasdasd.svg';
+import ITasdas from '../../public/assets/ITasdas.svg';
+import Landbasedasd from '../../public/assets/Landbasedasd.svg';
+import Mediaasda from '../../public/assets/Mediaasda.svg';
+import Performingartsasd from '../../public/assets/Performingartsasd.svg';
+import Publicandprotectiveservicesasdsa from '../../public/assets/Publicandprotectiveservicesasdsa.svg';
 import Freerevisionss from '../../public/assets/Freerevisionss.svg';
 
-import BachelorsEssays from '../../public/assets/BachelorsEssays.svg';
-import CollegeEssays from '../../public/assets/CollegeEssays.svg';
-import HighSchoolEssays from '../../public/assets/HighSchoolEssays.svg';
-import MastersEssays from '../../public/assets/MastersEssays.svg';
+import BTECAssignmentEditingss from '../../public/assets/BTECAssignmentEditingss.svg';
+import BTECAssignmentWritingasd from '../../public/assets/BTECAssignmentWritingasd.svg';
+import ResearchAssistanceasdas from '../../public/assets/ResearchAssistanceasdas.svg';
+import StructuralGuidanceasd from '../../public/assets/StructuralGuidanceasd.svg';
 
-import Affordableservicerates from '../../public/assets/Affordableservicerates.svg';
-import Fullconfidentialityforyourdata from '../../public/assets/Fullconfidentialityforyourdata.svg';
-import Highlyqualifiedsubjectwriters from '../../public/assets/Highlyqualifiedsubjectwriters.svg';
-import Ontimedeliveries from '../../public/assets/Ontimedeliveries.svg';
-import Plagiarismfreeguarantee from '../../public/assets/Plagiarismfreeguarantee.svg';
+import Fullyconfidentialserviceasdas from '../../public/assets/Fullyconfidentialserviceasdas.svg';
+import Onthedotdeliveriesasdas from '../../public/assets/Onthedotdeliveriesasdas.svg';
+import Opencommunicationasd from '../../public/assets/Opencommunicationasd.svg';
+import Satisfactionguaranteedasdas from '../../public/assets/Satisfactionguaranteedasdas.svg';
+import Transparentpricingasdasd from '../../public/assets/Transparentpricingasdasd.svg';
 
 
-import AbdullahFahad from '../../public/assets/AbdullahFahad.webp';
-import AhmedSultan from '../../public/assets/AhmedSultan.webp';
-import FatimaNoor from '../../public/assets/FatimaNoor.webp';
-import HamzaSaleh from '../../public/assets/HamzaSaleh.webp';
-import MahaAmal from '../../public/assets/MahaAmal.webp';
+import AbbasY from '../../public/assets/AbbasY.webp';
+import AbelardaH from '../../public/assets/AbelardaH.webp';
+import AbiaP from '../../public/assets/AbiaP.webp';
+import AbidaF from '../../public/assets/AbidaF.webp';
+import BorakR from '../../public/assets/BorakR.webp';
 
 import AazraSheikh from '../../public/assets/AazraSheikh.webp';
 import humnaShah from '../../public/assets/humnaShah.webp';
-import Aziza from '../../public/assets/Aziza.webp';
-import Hanan from '../../public/assets/Hanan.webp';
-import Munira from '../../public/assets/Munira.webp';
-import Ryanah from '../../public/assets/Ryanah.webp';
-import Sarah from '../../public/assets/Sarah.webp';
+import DabirT from '../../public/assets/DabirT.webp';
+import DuniaT from '../../public/assets/DuniaT.webp';
+import FarisK from '../../public/assets/FarisK.webp';
+import HudaD from '../../public/assets/HudaD.webp';
+import IbrahimG from '../../public/assets/IbrahimG.webp';
 import Rashid from '../../public/assets/Rashid.webp';
 
 import PlaceOrder from '../../public/assets/PlaceOrder.svg';
@@ -112,19 +125,19 @@ const page = () => {
         subheading:"Our Tailored Suite of Services",
         option:[
           {
-            icon:HighSchoolEssays,
+            icon:BTECAssignmentWritingasd,
             title:"BTEC Assignment Writing",
           },
           {
-            icon:CollegeEssays,
+            icon:BTECAssignmentEditingss,
             title:"BTEC Assignment Editing",
           },
           {
-            icon:BachelorsEssays,
+            icon:ResearchAssistanceasdas,
             title:"Research Assistance ",
           },
           {
-            icon:MastersEssays,
+            icon:StructuralGuidanceasd,
             title:"Structural Guidance",
           },
         ]
@@ -212,23 +225,23 @@ const WhychooseContent = {
     para:"Master your academic challenges with the best team of professionals - Hire our BTEC assignment writing service now. ",
     option:[
       {
-        icon:Highlyqualifiedsubjectwriters,
+        icon:Fullyconfidentialserviceasdas,
         title:"Fully confidential service ",
       },
       {
-        icon:Plagiarismfreeguarantee,
+        icon:Opencommunicationasd,
         title:"Open communication",
       },
       {
-        icon:Ontimedeliveries,
+        icon:Transparentpricingasdasd,
         title:"Transparent pricing ",
       },
       {
-        icon:Fullconfidentialityforyourdata,
+        icon:Onthedotdeliveriesasdas,
         title:"On-the-dot deliveries ",
       },
       {
-        icon:Affordableservicerates,
+        icon:Satisfactionguaranteedasdas,
         title:"Satisfaction guaranteed ",
       }
     ]
@@ -275,39 +288,51 @@ const WhychooseContent = {
     items:[
       {
           title:"Art and design",
+          img:Artanddesignasdas
       },
       {
           title:"Business",
+          img:Businessasd
       },
       {
           title:"Childcare",
+          img:Childcareasd
       },
       {
           title:"Construction",
+          img:Constructionasda
       },
       {
           title:"Engineering",
+          img:Engineeringasd
       },
       {
           title:"Health and social care",
+          img:Healthandsocialcareasd
       },
       {
           title:"Hospitality",
+          img:Hospitalityasdasd
       },
       {
           title:"IT",
+          img:ITasdas
       },
       {
           title:"Land-based",
+          img:Landbasedasd
       },
       {
           title:"Media",
+          img:Mediaasda
       },
       {
           title:"Performing arts",
+          img:Performingartsasd
       },
       {
           title:"Public and protective services",
+          img:Publicandprotectiveservicesasdsa
       },
       {
         title:"science",
@@ -331,7 +356,7 @@ const WhychooseContent = {
     heading:"Competent BTEC Assignment Tutors - Let Experts Lighten Your Academic Load",
     option:[
       {
-        image:HamzaSaleh,
+        image:AbelardaH,
         name:"Abelarda H",
         designation:"Master’s in Literature",
         experience:"Years Of Experience: 5 ",
@@ -355,7 +380,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:MahaAmal,
+        image:AbiaP,
         name:"Abia P",
         designation:"Master’s in Philosophy",
         experience:"Years Of Experience: 4.5 ",
@@ -379,7 +404,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AhmedSultan,
+        image:AbidaF,
         name:"Abida F",
         designation:"PhD in History ",
         experience:"Years Of Experience: 6 ",
@@ -403,7 +428,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:FatimaNoor,
+        image:HudaD,
         name:"Huda D",
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
@@ -427,7 +452,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:AbdullahFahad,
+        image:DuniaT,
         name:"Dunia T",
         designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
@@ -451,7 +476,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:Ryanah,
+        image:AbbasY,
         name:"Abbas Y",
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
@@ -475,7 +500,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:Rashid,
+        image:DabirT,
         name:"Dabir T",
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
@@ -499,7 +524,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:Sarah,
+        image:FarisK,
         name:"Faris K",
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
@@ -523,7 +548,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:Aziza,
+        image:IbrahimG,
         name:"Ibrahim G",
         designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
@@ -547,7 +572,7 @@ const WhychooseContent = {
         ]
       },
       {
-        image:Munira,
+        image:BorakR,
         name:"Borak R",
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",
