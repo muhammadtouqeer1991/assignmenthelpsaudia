@@ -79,153 +79,165 @@ export const metadata = {
 const page = () => {
 
     const HeaderContent = {
-        heading:"Hire Our Professional Essay Writing Service Saudi Arabia and Elevate Your Grades",
-        para:"Struggling to meet the unique essay writing specifications of your instructor? Assignment Help Saudi Arabia can help you. We have KSA’s best team of essay writers crafting high quality essays with precision. Hire us today and get the following:",
+        heading:"Aiming for High Grades in BTEC Assignments? We Can Make It Happen!",
+        para:"Are you seeking ways to improve the quality of your BTEC project? You can consider assistance from the top BTEC assignment help KSA, providing a comprehensive suite of services for your needs.  We prioritise the following: ",
         option:[
           {
-            title:"Commendable quality essays for all academic levels and topics",
+            title:"We have the best writing talent in KSA ",
           },
           {
-            title:"Subject specific essay writers with advanced qualifications ",
+            title:"We employ BTEC-qualified writers ",
           },
           {
-            title:"Affordable essay writing help packages ",
+            title:"We offer plagiarism free services ",
           },
         ],
-        formheading:"Top Essay Writing Service KSA",
+        formheading:"Hire Skilled BTEC Assignment Tutors!",
         formpara:"Get now today!",
         formoption:[
           {
-            title:"Within-budget rates ",
+            title:"Custom assignments ",
           },
           {
-            title:"Professional service ",
+            title:"Field specific assignment maker ",
           },
           {
-            title:"Increased learning ",
+            title:"Affordable service prices ",
           },
         ]
       }
 
       const FeaturesContent = {
-        heading:"Need Help With Essay Writing? ",
-        subheading:"We Offer Comprehensive Assistance for All Academic Stages",
+        heading:"Write My BTEC Assignment? ",
+        subheading:"Our Tailored Suite of Services",
         option:[
           {
             icon:HighSchoolEssays,
-            title:"High School Essays ",
+            title:"BTEC Assignment Writing",
           },
           {
             icon:CollegeEssays,
-            title:"College Essays",
+            title:"BTEC Assignment Editing",
           },
           {
             icon:BachelorsEssays,
-            title:"Bachelor’s Essays",
+            title:"Research Assistance ",
           },
           {
             icon:MastersEssays,
-            title:"Master’s Essays",
+            title:"Structural Guidance",
           },
         ]
       };
 
 const BackbonecontentData = {
-heading:"Proficient Essay Writers Ksa - Crafting Words of Academic Excellence",
-para:"Employ our expert essay writers Riyadh, who develop exemplary essays and help you stay ahead in your academics with their holistic support. ",
-heading1:"Why Is It Important to Polish Your Essay Writing? Know From Our Experts",
-para1:"Essay writing is a common part of many academic systems and is often assigned to students as writing projects. It is crucial to improve your essay writing skills because they hold maximum weight when it comes to elevating your marks. Many teachers assign essays to evaluate students' performance in a particular subject and add their marks to the collective academic report. If you do not put effort into improving your essay writing skills, you can impact your educational performance negatively. ",
-heading2:"What Does Essay Writing Add to Your Academics and Your Skills?",
-para2:"Essays are assigned in order to assess how much a student has gained from their class lectures and what their level of subject matter expertise is. Therefore, they are designed in a way that tests many skills of the students, refining and enhancing their aptitude and learning. For instance, one of the most important aspects of essay writing is to critically analyse the content, leading to the refinement of students' critical skills. Other enhancements include may include: ",
+heading:"Professional BTEC Assignment Writing Service - Master Your BTEC Effortlessly",
+para:"Are looming assignment deadlines stressing you out in your BTEC studies? Become as stress-free as you desire to be. So, Hire us now. ",
+heading1:"BTEC Education and Its Assignments - A Brief View",
+para1:"Are you intrigued about the BTEC qualification? Our professional people are here to satisfy your curiosity. BTEC stands for Business and Technology Education Council and offers vocational qualifications to students across various academic fields. These certifications are different from the traditional education system, considering its practical approach toward learning. Students who are more inclined toward gaining hands-on learning prefer to enrol in these courses. BTEC assignments are an important part of these qualifications and contribute to increasing the practical as well as theoretical knowledge of the students. ",
+heading2:"What Role Do BTEC Assignments Play in Students’ Learning?",
+para2:"BTEC assignments are written documents that require students to analyse a particular topic in their chosen field of learning and showcase their own insights and expertise in this regard. They are integral for the learning of students as they assess and evaluate their subject knowledge and help polish their writing and analytical skills. Besides, BTEC assignments often include industry-relevant and complex topics, which require students to conduct thorough research and draw meaningful conclusions. This requirement also makes a significant contribution to broadening their subject information and refining their perspectives. ",
 option:[
     {
-    title:"It refines the communication skills of the students, helping them articulate their ideas clearly and effectively. ",
+    title:"BTEC assignments are competency-based projects and evaluate student’s knowledge in the same regard. ",
     },
     {
-    title:"Essays require a great level of research to design content, which leads to improving students' abilities to research well and gather relevant data. ",
+    title:"These assignments require students to be more expert in practical skills rather than penning down theoretical concepts.",
     },
     {
-    title:"As essays are assigned from a particular course material, researching and writing about the concept results in increasing students’ knowledge.  "
+    title:"They hold different assessment criteria as compared to traditional education projects and test students' practical capabilities. "
     }
 ],
-heading3:"Our Professional Essay Writing Service - Research Well and Craft Quality Content With Us",
-para3:"When crafting essays, research takes centre stage as being the most important quality element. Our essay writers KSA understand that and offer comprehensive help in this context. They assist you in understanding your assignment brief carefully and identifying keywords from it. On the basis of these keywords they help you explore online sources and also provide relevant and credible research references from our own database. With our writers' help, you can craft well-researched and authentic essay content effortlessly. ",
-heading4:"Hire Our Skilled Essay Writers Ksa and Develop Engaging Essays",
-para4:"Want to pique your assessor’s interest in your essay? Hoping to raise the success potential of your essay? Writing guidance from our talented essay experts can provide your essay with all that. Our essay writers have been helping students across KSA with their assignments and have an exceptional understanding of how to make an essay that can catch sight from the very first word. They include the following: ",
+heading3:"How do BTEC Assignments Differ From Traditional Ones?",
+para3:"Are you wondering how a BTEC assignment could differ from traditional education assignments? What are the aspects that make them unique? Then come to us and learn from our expert field writers, who will help you comprehend it accurately so that you can handle your BTEC projects with comprehensive understanding. As per our BTEC assignment tutors, these projects are distinctive due to the following reasons:  ",
+heading4:"Why Master BTEC Assignments? Learn From Our Experts",
+para4:"Are you weary of continuously working on your BTEC assignments and polishing them? Don’t give up; let us shoulder your burden with our BTEC knowledge and academic writing expertise. Because BTEC projects are not just assignment submissions, they hold a much more important position in your studies. Hence, we strive our best to assist you with these projects and help you boost your assignment quality from every angle. By perfecting your BTEC projects, you get the following benefits: ",
 option2:[
     {
-    title:"They try to start your essays with a compelling hook that may be an interesting fact, a research reference, or a quote. ",
+    title:"They are assigned to enhance your knowledge about a particular subject; hence, by working on them, you can boost your learning. ",
     },
     {
-    title:"They put effort into making the introductory part of your essay informative to make the reader aware of what actually does the topic contains.",
+    title:"These assignments are usually designed to evaluate your industry related knowledge, therefore boosting your practical competencies. ",
     },
     {
-    title:"Our writers use descriptive and clear language so the reader can have a vivid mental picture of the things being described in the content.  ",
+    title:"By working on these projects, you polish your analytical, writing, critical, research and communication skills. ",
     }
 ],
-heading5:"Get Help With Essay Writing From Our Maker and Craft Essays With High Clarity",
-para5:"If your essay writing does not contain clarity, you may not be able to deliver the full extent of your subject knowledge to your assessor, which may result in low grades. However, with the help of our commendable helpers, you can craft clear and precise essays comprising logical organisation, strong and well-constructed sentences, consistent writing style, and concise language. ",
-heading6:"Ksa’s Reliable Essay Writing Help - Craft Original Essays",
-para6:"At Assignment Help Saudi Arabia, quality and credibility prevail in all service functionalities. Our writers strive to develop essays that are impressive in their originality and quality. They are proficient in their relevant academic fields and bring enhanced knowledge and expert insights to your essay content. They value academic integrity and support you in crafting credible and authentic content from scratch. ",
+heading5:"BTEC Assignments - Types of Projects You May Encounter",
+para5:"Want to inquire experts about what types of BTEC assignments are there that you may face during your studies? Let our knowledgeable and skilled BTEC assignment writers satisfy your curiosity. As per our professionals, once you start pursuing BTEC, you are assigned many types of writing and practical projects to test your industry-associated capabilities. These may include but are not limited to, case studies, essays, research work, theses, dissertations, reports, and practical assessments. ",
+heading6:"How Are BTEC Assignments Assessed? The Criteria",
+para6:"Do you want to know the criteria upon which your BTEC assignments are evaluated? Consult our experts to learn all about the standards that assess your assignments' quality so that you can create the most well-adhered projects. Assessors check whether the student has portrayed sufficient knowledge and expertise related to the assignment topic and has conducted proper research to support the content of the project. They also evaluate the organisation and writing style of the assignment. Further, makers observe how well students have applied theoretical knowledge to practical industry cases. ",
 option3:[
     {
-    title:"Our essay writing service KSA’s experts helps you conduct in-depth and comprehensive research for your topic. ",
+    title:"This certification polishes your career-related skills with finesse, considering the practical approach it employs for learning. ",
     },
     {
-    title:"Our essay writers employ their ingenuity to help you incorporate unique ideas into your content.  ",
+    title:"Further, the curriculum of this study is designed by collaborating with industry mavens, which ensures on-point inclusion of theory and practicals targeting your main skills associated with career work. ",
     },
     {
-    title:"With our helpers' assistance, you learn how to cite research sources properly, leading to zero plagiarism. "
+    title:"By pursuing this study, you can certainly boost your career potential and gain an edge in the talent pool. "
     }
 ],
-heading7:"Leverage Our Essay Writing Help and Learn to Cite Your Essay Well",
-para7:"Do you find it complex to understand the specifications of various citation styles? You can easily learn how to attribute authors and sources accurately with excellent assistance from our skilled essay makers. Our experts help you learn how to apply the citation style your instructor asked with accuracy and defined standards. Whether it is an APA style or Chicago, with our support, you can enhance the originality of your content by applying every style perfectly.",
-heading8:"Write My Essay for Me Ksa? We Serve You in All Aspects of Your Essay Writing",
-para8:"Are you seeking expert guidance to help you boost your essay quality? Assignment Help Saudi Arabia can be the best solution in this respect. Being an experienced service, we are aware of your academic needs comprehensively and serve you in a personalised and professional manner. Our team is adept at dealing with all kinds of essays, from descriptive to narrative to argumentative. Hire us today and get competent assistance in the following regards: ",
+heading7:"Why Pursue BTEC Qualifications? We Can Guide",
+para7:"Are you curious to know what BTEC qualifications have in them for your future sustenance? Connect with us and learn how these certifications can help you build a thriving career. Our experts are BTEC-qualified and have successful careers in relevant fields. They can offer you the most authentic and comprehensive account of why you should invest your time and resources in studying BTEC. As per the experience of our writers, BTEC qualifications offer you the following",
+heading8:"Levels in BTEC Qualification - A Flexible Approach to Study",
+para8:"Do you know BTEC qualifications offer various levels? These levels are the best quality of these certifications and accommodate the various needs of the students. These levels are distinguished on the basis of skill levels, learning background, and the requirements of a student. With this structured way of learning, students get enhanced flexibility in their study goals which they are unable to get in traditional study path. From foundational skill levels to advanced ones, students can enrol at any level that suits their needs. ",
 option4:[
     {
-    title:"Our writers can craft high quality essays from scratch on all topics for you. ",
+    title:"Level 1",
     },
     {
-    title:"If you want our professional guidance in editing your essays, we have expert editors to assist you. ",
+    title:"Level 2",
     },
     {
-    title:"For the research and meticulous proofreading, we also offer the expertise of our talented individuals. ",
+    title:"Level 3",
+    },
+    {
+    title:"Level 4",
+    },
+    {
+    title:"Level 5",
+    },
+    {
+    title:"Level 6",
+    },
+    {
+    title:"Level 7",
     }
 ]
 };
 
 const WhychooseContent = {
-    heading:"Partner With the Top Essay Writing Service Ksa and Excel in Your Assignments",
-    para:"We are the most fitting option for your essay needs; hire us and experience the difference. ",
+    heading:"Our BTEC Assignment Help Services - We Have Got You Covered",
+    para:"Master your academic challenges with the best team of professionals - Hire our BTEC assignment writing service now. ",
     option:[
       {
         icon:Highlyqualifiedsubjectwriters,
-        title:"Highly qualified specific writers",
+        title:"Fully confidential service ",
       },
       {
         icon:Plagiarismfreeguarantee,
-        title:"Plagiarism free content guarantee ",
+        title:"Open communication",
       },
       {
         icon:Ontimedeliveries,
-        title:"On-time essay deliveries ",
+        title:"Transparent pricing ",
       },
       {
         icon:Fullconfidentialityforyourdata,
-        title:"Full confidentiality for your data ",
+        title:"On-the-dot deliveries ",
       },
       {
         icon:Affordableservicerates,
-        title:"Affordable service rates ",
+        title:"Satisfaction guaranteed ",
       }
     ]
   }
 
 
   const AboutwritersContent = {
-    heading:"Pay to Write My Essay? Get Our Full-Spectrum Help With Essay Writing",
-    para:"Are you in search of competent essay writers Riyadh? Do you want professional assistance with your essay assignments at your convenience? It is possible to fulfil all these needs of yours with our student-friendly and highly accessible essay writing service Saudi Arabia. The main objective of our essay writing help is to facilitate students in all facets of their essay assignments and ease their educational burden. Hence, you will find our service 24/7 active to respond to your needs. Plus, we offer omni service, offering extraordinary support to students across KSA. Whether you are in Riyadh or in Taif, you can hire us effortlessly. ",
+    heading:"BTEC Assessments Help Saudi Arabia - Complete Care for Your Needs",
+    para:"Are you searching for a dependable source to have your BTEC assessments taken? You can rely on the reliable support of Assignment Help Saudi Arabia, offering holistic and effective solutions to all your study concerns without any impact on your pocket or academic integrity. We are a team of educated and professional individuals who are passionate about uplifting the vocational skills of KSA students with our responsive and result-driven BTEC assignment help services. We are always ready to assist you with your educational worries. Whether you need writing support for your BTEC assignments or want a subject expert to take your assessment, you can come to us with the trust that we will serve you with the best value. So, connect with us today and get our proficient BTEC assignment help service in the following KSA areas and more:  ",
     option:[
       {
         title:"Madinah",
@@ -258,256 +270,303 @@ const WhychooseContent = {
   }
 
   const SubjectContent = {
-    heading:"Engage the Best Essay Writing Services for Your Assignments and Progress Well",
-    para:"From English to history, our essay writers Riyadh are dedicated to helping you write quality essays for all subjects. ",
+    heading:"Take Your BTEC Performance to the Next Level - Hire Professional BTEC Assignment Writers",
+    para:"Acquire exceptional marks and increase your academic performance with our across-the-board assignment assistance. We offer help with the following subjects and beyond: ",
+    items:[
+      {
+          title:"Art and design",
+      },
+      {
+          title:"Business",
+      },
+      {
+          title:"Childcare",
+      },
+      {
+          title:"Construction",
+      },
+      {
+          title:"Engineering",
+      },
+      {
+          title:"Health and social care",
+      },
+      {
+          title:"Hospitality",
+      },
+      {
+          title:"IT",
+      },
+      {
+          title:"Land-based",
+      },
+      {
+          title:"Media",
+      },
+      {
+          title:"Performing arts",
+      },
+      {
+          title:"Public and protective services",
+      },
+      {
+        title:"science",
+      },
+      {
+        title:"sport",
+      },
+      {
+        title:"transport, travel and tourism.",
+      },
+  ]
   };
 
   const CtaContent = {
-    heading:"Require Reliable Essay Writing Services in KSA? ",
-    subheading:"Pen the Best Essays With Our Holistic and Dependable Service",
+    heading:"Do My BTEC Assignment for Me?  ",
+    subheading:"Our Adept Team Is Here to Assist at Cheap Rates",
     // treeheading:"We Guarantee Full Satisfaction",
   };
 
   const OurwritersContent = {
-    heading:"Craft Impactful Essays With Our Wordsmiths - Pick the Most Fitting One for You Now!",
+    heading:"Competent BTEC Assignment Tutors - Let Experts Lighten Your Academic Load",
     option:[
       {
         image:HamzaSaleh,
-        name:"Hamza Saleh ",
+        name:"Abelarda H",
         designation:"Master’s in Literature",
         experience:"Years Of Experience: 5 ",
         title:"What Can He Help With?",
-        para:"Do you need authentic service for your literature essay assignments? Hire our commendable writer, Hamza Saleh. Hamza Saleh holds advanced qualifications in literature studies and has been facilitating students across KSA for years. ",
-        successrate:"Customer Rating: 98% ",
-        completeProject:"Projects Completed: 1100+",
+        para:"Are you pursuing a business and management study with BTEC? For your assignments, you can consider a partnership with our commendable business writer, Abelarda. She is an experienced writer and brings exceptional knowledge to your projects. ",
+        successrate:"Customer Rating: 96% ",
+        completeProject:"Projects Completed: 1800+",
         Expertise:[
           {
-            title:"literary analysis",
+            title:"Business administration",
           },
           {
-            title:"research skills",
+            title:"entrepreneurship",
           },
           {
-            title:"writing skills",
+            title:"marketing",
           },
           {
-            title:"cultural and historical context ",
+            title:"human resources  ",
           },
         ]
       },
       {
         image:MahaAmal,
-        name:"Maha Amal ",
+        name:"Abia P",
         designation:"Master’s in Philosophy",
         experience:"Years Of Experience: 4.5 ",
         title:"What Can She Help With?",
-        para:"Are the essay assignments of your philosophy course becoming an issue? Transform your challenges into competencies with our experienced writer, Maha Amal. She is a philosophy teacher and can help you greatly in your work. ",
-        successrate:"Customer Rating: 99% ",
-        completeProject:"Projects Completed: 1200+",
+        para:"Aiming to build a career in information technology with BTEC courses? We can offer increased assistance to manifest your goals. Hire our technical writer, Abia, and get comprehensive support with your BTEC assignments. ",
+        successrate:"Customer Rating: 97% ",
+        completeProject:"Projects Completed: 2600+",
         Expertise:[
           {
-            title:"analytical skills",
+            title:"Networking",
           },
           {
-            title:"critical thinking",
+            title:"software development",
           },
           {
-            title:"Interdisciplinary Understanding",
+            title:"cybersecurity",
           },
           {
-            title:"problem solving",
+            title:"IT support",
           },
         ]
       },
       {
         image:AhmedSultan,
-        name:"Ahmed Sultan",
+        name:"Abida F",
         designation:"PhD in History ",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Need professional means to edit your history essay? Ahmed Sultan. is our talented history writer offering comprehensive support regarding all the facets of essay development. Hire him today at cheap rates. ",
-        successrate:"Customer Rating: 97% ",
-        completeProject:"Projects Completed: 1000+",
+        para:"Are you studying BTEC engineering and fed up with its complicated assignment tasks? Let us unwind you with the help of our laudable engineering writer, Abida. She is a professional engineer and can help you well. ",
+        successrate:"Customer Rating: 99% ",
+        completeProject:"Projects Completed: 2800+",
         Expertise:[
           {
-            title:"Historiography",
+            title:"Electrical engineering",
           },
           {
-            title:"attention to detail",
+            title:"electronics",
           },
           {
-            title:"Chronological Competence",
+            title:"mechanical engineering",
           },
           {
-            title:"research skills",
+            title:"automotive engineering ",
           },
         ]
       },
       {
         image:FatimaNoor,
-        name:"Fatima Noor ",
+        name:"Huda D",
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
         title:"What Can She Help With?",
-        para:"For your linguistic essay assignments, you can hire our expert writer, Fatima Noor. She has been crafting quality essays on all topics for five years and possesses a strong grasp of all the standards of essay writing. ",
+        para:"Are you struggling to develop health and social care assignments in your BTEC studies? No worries, you can hire our skilled writer, Huda and develop any project seamlessly with quality results.  ",
         successrate:"Customer Rating: 99% ",
         completeProject:"Projects Completed: 1100+",
         Expertise:[
           {
-            title:"applied linguistics",
+            title:"Healthcare management",
           },
           {
-            title:"linguistic anthropology",
+            title:"nursing",
           },
           {
-            title:"sociolinguistics",
+            title:"social work",
           },
           {
-            title:"pragmatics",
+            title:"childcare",
           },
         ]
       },
       {
         image:AbdullahFahad,
-        name:"Abdullah Fahad ",
+        name:"Dunia T",
         designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Are you stressed due to the essay burden of your culture studies course? Forget all your worries when you have the expertise of our skilled helper, Abdullah Fahad. He possesses a bachelor’s degree in the related field and crafts quality content on all topics.",
-        successrate:"Customer Rating: 96% ",
-        completeProject:"Projects Completed: 900+",
+        para:"Students who are facing challenges with creative arts and media assignments in their BTEC studies can get expert support from our writer, Dunia. She is a professional artist and experienced academic writer. ",
+        successrate:"Customer Rating: 97% ",
+        completeProject:"Projects Completed: 2000+",
         Expertise:[
           {
-            title:"cultural theory",
+            title:"Graphic design",
           },
           {
-            title:"globalisation studies",
+            title:"photography",
           },
           {
-            title:"cultural history",
+            title:"film and TV production",
           },
           {
-            title:"cultural geography",
+            title:"journalism",
           },
         ]
       },
       {
         image:Ryanah,
-        name:"Ryanah",
+        name:"Abbas Y",
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"For your sociology essay assignments, hire our expert essay maker, Ryanah. With her advanced qualifications and field experience, he brings unique perspectives to your essay content. Get in touch today and get partnered with her.",
-        successrate:"Customer Rating: 98% ",
-        completeProject:"Projects Completed: 1000+",
+        para:"Craft exceptional quality BTEC assignments for hospitality and tourism courses with our professional writer, Abbas. He is a field maven and brings practical knowledge to the table. Hire him today. ",
+        successrate:"Customer Rating: 95% ",
+        completeProject:"Projects Completed: 2300+",
         Expertise:[
           {
-            title:"Social theory",
+            title:"Culinary arts",
           },
           {
-            title:"research methods in sociology",
+            title:"hotel operations",
           },
           {
-            title:"cultural sociology",
+            title:"event management",
           },
           {
-            title:"social psychology",
+            title:"tourism studies ",
           },
         ]
       },
       {
         image:Rashid,
-        name:"Rashid ",
+        name:"Dabir T",
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Fed up with constant low grades on your psychology essays? Let our essay helper, Rashid, take care of this issue. With a Master’s degree in psychology and professional exposure, he can deliver excellence to your essays. ",
-        successrate:"Customer Rating: 97% ",
-        completeProject:"Projects Completed: 980+",
+        para:"Meet standards in your BTEC sports and exercise assignments by leveraging the professional support from Dabir, our expert academic writer. He is an experienced writer and can help you well. ",
+        successrate:"Customer Rating: 99% ",
+        completeProject:"Projects Completed: 2600+",
         Expertise:[
           {
-            title:"Biological psychology",
+            title:"Sports coaching",
           },
           {
-            title:"Cognitive psychology",
+            title:"fitness instruction",
           },
           {
-            title:"Social psychology",
+            title:"sports science",
           },
           {
-            title:"research skills ",
+            title:"sports management ",
           },
         ]
       },
       {
         image:Sarah,
-        name:"Sarah ",
+        name:"Faris K",
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"If you are worried about your performance in your economics essays, contact us now and avail of the expertise of our skilled writer, Sarah. With his expert insights and extensive knowledge about the subject, She can help you develop quality essays. ",
+        para:"Exploring the intricate concepts of science with BTEC qualifications? Let us be your academic partner in this journey and develop quality assignments without any worries about time. Hire our science writer, Faris, today. ",
         successrate:"Customer Rating: 96% ",
-        completeProject:"Projects Completed: 980+",
+        completeProject:"Projects Completed: 2900+",
         Expertise:[
           {
-            title:"Econometrics",
+            title:"Biology",
           },
           {
-            title:"microeconomics",
+            title:"chemistry",
           },
           {
-            title:"macroeconomics",
+            title:"physics",
           },
           {
-            title:"development economics",
+            title:"applied science ",
           },
         ]
       },
       {
         image:Aziza,
-        name:"Aziza ",
+        name:"Ibrahim G",
         designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Confused about how to structure your marketing essays? Our essay helper, Aziza, is an expert marketer offering holistic support to students in their essay assignments. Contact us to get her hired. ",
-        successrate:"Customer Rating: 99% ",
-        completeProject:"Projects Completed: 900+",
+        para:"Are you building your skills in construction and built environment? You can get guidance from our best writer, Ibrahim, in this regard. He is a professional in the field and can produce compelling assignments. ",
+        successrate:"Customer Rating: 96% ",
+        completeProject:"Projects Completed: 1900+",
         Expertise:[
           {
-            title:"Consumer Behaviour",
+            title:"Carpentry",
           },
           {
-            title:"market research",
+            title:"plumbing",
           },
           {
-            title:"brand management",
+            title:"electrical installation",
           },
           {
-            title:"marketing analytics",
+            title:"construction management ",
           },
         ]
       },
       {
         image:Munira,
-        name:"Munira ",
+        name:"Borak R",
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Searching for reliable essay writing help in Riyadh for your finance assignments? Munira is our best writer on this subject, providing high quality and accurate essays on all subject areas. With his knowledge, you can learn well. ",
-        successrate:"Customer Rating: 98% ",
-        completeProject:"Projects Completed: 1000+",
+        para:"Is public services your potential career field? Do you want to increase your career skills in this field? Hire our writer, Borak, and learn all the necessary skills and knowledge with holistic guidance. ",
+        successrate:"Customer Rating: 95% ",
+        completeProject:"Projects Completed: 2700+",
         Expertise:[
           {
-            title:"financial accounting",
+            title:"Firefighting",
           },
           {
-            title:"corporate finance",
+            title:"emergency medical services",
           },
           {
-            title:"investment management",
+            title:"security studies",
           },
           {
-            title:"business finance",
+            title:"criminal justice",
           },
         ]
       },
@@ -516,49 +575,49 @@ const WhychooseContent = {
 
   const FaqItems = [
     {
-      title:"How do you ensure the quality of the content you create? ",
-      para:"At Assignment Help Saudi Arabia, we put great emphasis on producing quality work over quantity. Our team comprises highly qualified individuals possessing degrees in various academic fields. Combining their educational achievements and professional experience, they craft valuable essay content. This content is then edited and proofread by other industry experts and undergoes plagiarism checks. "
+      title:"What is BTEC?",
+      para:"BTEC stands for Business and Technology Education Council. It offers vocational education to students across various domains and prepares them to enter the workforce directly or go for higher studies. These qualifications are different from traditional studies as they focus more on practical skills rather than theory. With these certifications, students can gain considerable advantages in their careers. "
     },
     {
-      title:"Is it possible to communicate directly with the writer using your service? ",
-      para:"Absolutely. Assignment Help Saudi Arabia is a professional service and understands that quality essay content depends greatly on the clarity and comprehensiveness of the information from the client. Therefore, we offer direct communication platforms to our customers if they want so that they can directly convey to the writer their unique requirements. "
+      title:"Why do students get help for their BTEC assignments?",
+      para:"BTEC assignments are time-consuming and require critically analysed information. Students who are already engaged in careers find it particularly hard to develop original and quality assignments on time. Therefore, they prefer to hire reliable assignment writing help services to help them with their academic tasks. By hiring them, they submit quality assignments efficiently and share their educational burden. "
     },
     {
-      title:"What is your service stance if I find my work not up to my expectations? ",
-      para:"Assignment Help Saudi Arabia thrives when its customers are satisfied with the service delivered. Hence, you will find us striving to provide the utmost satisfaction to our clients. If you do not get the content as per your requirements and details, you can immediately contact us, and we will provide revisions as stated by our policy without any charges. "
+      title:"Is it ethical to use your BTEC assignment writing help service? ",
+      para:"Yes, it is ethical to use our academic writing assistance. Assignment Help Saudi Arabia is a professional and credible service that complies with the principles of educational transparency and ensures maximum learning with its academic support services. We encourage students to boost their writing skills and subject expertise by offering quality-backed samples of their assignments. "
     },
     {
-      title:"I need affordable essay writing help in Riyadh. Can you help with it? ",
-      para:"Of course, we can help you. Assignment Help Saudi Arabia takes into account the limited finances of students when designing its service packages and rates. Our cheap essay writing services offer budget-friendly and accessible rates so that you can avail of our expertise without any hassles. Plus, we add more convenience to hiring us by offering various discounts and other markdown offers. "
+      title:"What type of BTEC assignment do you cater to?",
+      para:"At Assignment Help Saudi Arabia, we aim to provide complete support to students in their tough academics. Hence, our BTEC assignment writing service provides quality assistance with al types of assignments. Whether you need to write a case study assignment or complete a research paper, our competent writers can help you out in the best way. "
     }
   ];
   const FaqHeading = {
-    heading:"Frequently Asked Question",
-    para:"Searching for pay to write my essay in Riyadh? Connect with us today and ease your essay worries. For any queries, refer to our FAQ section or call us. ",
+    heading:"Frequently Asked Questions - BTEC Assignment Help KSA",
+    para:"Interested in learning more about our BTEC assignment help services? Explore our FAQs for common queries. For further info, contact us anytime.  ",
   }
 
 
   const ClientsaysContent = {
-    heading:"Testimonials: The Trust Clients Put In Our Essay Writers Ksa",
-    para:"Students in Riyadh and across the various regions of the KSA rely on our expertise to cater to their academic needs. ",
+    heading:"Our Customers' Experience - In Their Own Words",
+    para:"Our customers trust our BTEC assignment answers, as evidenced by the words of praise we receive. Join the ranks of satisfied customers; hire us now. ",
     option:[
       {
         image:humnaShah,
         name:"Humna Shah",
         location:"Jeddah",
-        para:"It was really a great experience hiring Assignment Help Saudi Arabia for my linguistic essay, as they delivered top-notch content with efficient service. The whole process was smooth, and I found it very easy to hire them, considering their responsive and active service. Thank you for the great work. "
+        para:"I am very impressed by the quality service of Assignment Help Saudi Arabia. I hired these people for my case study task related to my business management course, and I am pleased to say that they provided excellent writing service for that. The writing was original, genuine and perfectly clear. Five stars for sure!"
       },
       {
         image:AazraSheikh,
         name:"Ramsa",
         location:"Riyadh",
-        para:"I highly recommend Assignment Help Saudi Arabia to all students as I had their help last week, and I got an A+ on my essay due to their commendable work. From the intro to the conclusion, every word they wrote was impressive and helped me acquire my desired grade. Thanks. "
+        para:"I was very stressed due to a pile of chemistry assignments which I was not able to complete considering my busyness lately. My friend asked me to get help from Assignment Help Saudi Arabia so I signed up for the service. The help I received was no doubt highly professional, excellent, and complied with my expectations. Thanks. "
       }
     ]
   }
 
   const ProcessContent = {
-    heading:"Require Peerless Help With Essay Writing? Hire Our Professional Team Today!",
+    heading:"Require Peerless Help With BTEC Assignment Help? Hire Our Professional Team Today!",
     option:[
       {
         image:PlaceOrder,
