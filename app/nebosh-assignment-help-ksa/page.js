@@ -79,153 +79,158 @@ export const metadata = {
 const page = () => {
 
     const HeaderContent = {
-        heading:"Hire Our Professional Essay Writing Service Saudi Arabia and Elevate Your Grades",
-        para:"Struggling to meet the unique essay writing specifications of your instructor? Assignment Help Saudi Arabia can help you. We have KSA’s best team of essay writers crafting high quality essays with precision. Hire us today and get the following:",
+        heading:"Affordable Nebosh Assignment Help KSA - Attain Excellence",
+        para:"Are you on the lookout for a cheap and certified Nebosh assignment writer? No need to look beyond Assignment Help Saudi Arabia, as we offer laudable Nebosh writing experts while keeping your expenses in check. Our writers craft standard assignment answers at cost-effective packages. ",
         option:[
           {
-            title:"Commendable quality essays for all academic levels and topics",
+            title:"Get human written content crafted by Nebosh tutors from scratch ",
           },
           {
-            title:"Subject specific essay writers with advanced qualifications ",
+            title:"Submit your assignments timely with our efficient deliveries ",
           },
           {
-            title:"Affordable essay writing help packages ",
+            title:"We keep your data secure with foolproof measures ",
           },
         ],
-        formheading:"Top Essay Writing Service KSA",
+        formheading:"Savant Nebosh Assignment Helper",
         formpara:"Get now today!",
         formoption:[
           {
-            title:"Within-budget rates ",
+            title:"Writing expertise ",
           },
           {
-            title:"Professional service ",
+            title:"Plagiarism free work ",
           },
           {
-            title:"Increased learning ",
+            title:"Efficient work process ",
           },
         ]
       }
 
       const FeaturesContent = {
-        heading:"Need Help With Essay Writing? ",
-        subheading:"We Offer Comprehensive Assistance for All Academic Stages",
+        heading:"Professional Nebosh Service",
+        subheading:"Facilitating Your Success",
         option:[
           {
             icon:HighSchoolEssays,
-            title:"High School Essays ",
+            title:"Nebosh assignment writing ",
           },
           {
             icon:CollegeEssays,
-            title:"College Essays",
+            title:"Nebosh assignment editing ",
           },
           {
             icon:BachelorsEssays,
-            title:"Bachelor’s Essays",
+            title:"Nebosh assignment formatting ",
           },
           {
             icon:MastersEssays,
-            title:"Master’s Essays",
+            title:"Nebosh assignment research help",
           },
         ]
       };
 
 const BackbonecontentData = {
-heading:"Proficient Essay Writers Ksa - Crafting Words of Academic Excellence",
-para:"Employ our expert essay writers Riyadh, who develop exemplary essays and help you stay ahead in your academics with their holistic support. ",
-heading1:"Why Is It Important to Polish Your Essay Writing? Know From Our Experts",
-para1:"Essay writing is a common part of many academic systems and is often assigned to students as writing projects. It is crucial to improve your essay writing skills because they hold maximum weight when it comes to elevating your marks. Many teachers assign essays to evaluate students' performance in a particular subject and add their marks to the collective academic report. If you do not put effort into improving your essay writing skills, you can impact your educational performance negatively. ",
-heading2:"What Does Essay Writing Add to Your Academics and Your Skills?",
-para2:"Essays are assigned in order to assess how much a student has gained from their class lectures and what their level of subject matter expertise is. Therefore, they are designed in a way that tests many skills of the students, refining and enhancing their aptitude and learning. For instance, one of the most important aspects of essay writing is to critically analyse the content, leading to the refinement of students' critical skills. Other enhancements include may include: ",
+heading:"A Supportive Nebosh Assignment Writing Help - Write Your Projects Effortlessly",
+para:"Make the most of our Nebosh writing help and get maximum guidance at every turn. We provide competent tutors and helpers who ensure learning and satisfaction.  ",
+
+heading1:"What is Nebosh? An Overview ",
+para1:"Are you thinking about taking a Nebosh diploma? Do you want to know what it entails for you? Hear from our experts the basic information about this qualification. Nebosh stands for National Examination Board in Occupational Safety and Health. It is a globally recognised awarding body that offers various professional qualifications in the field of health safety and environment. It offers diplomas, certificates and various other awards to enhance professionals' knowledge and improve safety conditions in the workplace. ",
+
+heading2:"Why Should You Take Nebosh? The Career Benefits",
+para2:"Ready to include Nebosh as a shining star in your resume? However, do you need some assurance regarding how it will benefit your career? Read on. Nebosh offers theoretical as well as practical skills to students in the health and safety field, leading to increased career potential. These qualifications are given precedence by employers across the globe; hence, they are a good addition to your qualifications, making you an ideal candidate in the talent pool. Plus, with international recognition, these awards can open global career doors for you. ",
 option:[
     {
-    title:"It refines the communication skills of the students, helping them articulate their ideas clearly and effectively. ",
+    title:"Students are provided a chance to apply the theory they have learned in real world industry settings resulting in an in-depth understanding and mastery of skills. ",
     },
     {
-    title:"Essays require a great level of research to design content, which leads to improving students' abilities to research well and gather relevant data. ",
+    title:"With Nebosh, students become better at critical thinking and effective decision making as they learn about analysing risks and mitigating them timely with fitting solutions. ",
     },
     {
-    title:"As essays are assigned from a particular course material, researching and writing about the concept results in increasing students’ knowledge.  "
+    title:"It equips students with the latest and updated regulations regarding work place safety regulations. "
     }
 ],
-heading3:"Our Professional Essay Writing Service - Research Well and Craft Quality Content With Us",
-para3:"When crafting essays, research takes centre stage as being the most important quality element. Our essay writers KSA understand that and offer comprehensive help in this context. They assist you in understanding your assignment brief carefully and identifying keywords from it. On the basis of these keywords they help you explore online sources and also provide relevant and credible research references from our own database. With our writers' help, you can craft well-researched and authentic essay content effortlessly. ",
-heading4:"Hire Our Skilled Essay Writers Ksa and Develop Engaging Essays",
-para4:"Want to pique your assessor’s interest in your essay? Hoping to raise the success potential of your essay? Writing guidance from our talented essay experts can provide your essay with all that. Our essay writers have been helping students across KSA with their assignments and have an exceptional understanding of how to make an essay that can catch sight from the very first word. They include the following: ",
+heading3:"Importance of Nebosh Studies - Some Insights From Our Experts",
+para3:"Are you curious to know why Nebosh's qualifications are highly preferred by students and employers alike? Well, tag along with our experts as they enlighten you about the importance of these sought-after qualifications. As per our field maven and tutors who are Nebosh qualified themselves, Nebosh studies are designed in a way to boost students' knowledge in the health and safety field through both practical and conceptual means, which offers the following benefits: ",
+
+heading4:"Nebosh Assignments - How Do They Shape Your Learning?",
+para4:"Are you interested in learning how Nebosh assignments contribute to your skill and knowledge enhancement? Then, read what our Nebosh assignment experts outline here. Nebosh assignments are a significant part of these qualifications as they act as a means to evaluate students’ understanding of the core concepts and their competencies regarding the fieldwork. When you take Nebosh, you encounter two types of assignments: practical and theoretical. Both these assignments offer the following: ",
 option2:[
     {
-    title:"They try to start your essays with a compelling hook that may be an interesting fact, a research reference, or a quote. ",
+    title:"These assignments offer students a comprehensive view of what actually entails in the health and safety industry, its regulations and standards.  ",
     },
     {
-    title:"They put effort into making the introductory part of your essay informative to make the reader aware of what actually does the topic contains.",
+    title:"They require students to analyse case studies, assess risks and formulate effective solutions. ",
     },
     {
-    title:"Our writers use descriptive and clear language so the reader can have a vivid mental picture of the things being described in the content.  ",
+    title:"In these assignments, students also learn to develop safety policies and rules and work toward bringing improvements. ",
     }
 ],
-heading5:"Get Help With Essay Writing From Our Maker and Craft Essays With High Clarity",
-para5:"If your essay writing does not contain clarity, you may not be able to deliver the full extent of your subject knowledge to your assessor, which may result in low grades. However, with the help of our commendable helpers, you can craft clear and precise essays comprising logical organisation, strong and well-constructed sentences, consistent writing style, and concise language. ",
-heading6:"Ksa’s Reliable Essay Writing Help - Craft Original Essays",
-para6:"At Assignment Help Saudi Arabia, quality and credibility prevail in all service functionalities. Our writers strive to develop essays that are impressive in their originality and quality. They are proficient in their relevant academic fields and bring enhanced knowledge and expert insights to your essay content. They value academic integrity and support you in crafting credible and authentic content from scratch. ",
+heading5:"Types of Nebosh Assignments - Our Experts Offer Guidance ",
+para5:"Have you just got enrolled in Nebosh and want to understand what kind of academic projects you may get assigned? Refer to our guidance provided by expert writers. Nebosh is a comprehensive study and involves many types of academic tasks to study the students’ capabilities and knowledge concerning workplace safety. They may include case studies, reports, essays and practical assessments. If you face any difficulties in working on these assignments, you can consult our Nebosh assignment writing service. ",
+
+heading6:"Why Do You Need Assistance With Nebosh Assignments? The Challenges",
+para6:"While studying the tough study of Nebosh, many students face challenges in preparing quality assignments or meeting deadlines. There are several reasons that make it difficult for students to work on their projects. First and foremost is time management. Nebosh is taken by students who are professionally engaged in various roles; hence, it poses complications for them in managing their time effectively. Secondly, Nebosh's hard concepts require in-depth research and time investment, which, if they are not dedicated, makes it challenging to create quality content for their tasks. ",
 option3:[
     {
-    title:"Our essay writing service KSA’s experts helps you conduct in-depth and comprehensive research for your topic. ",
+    title:"We help you access the top level Nebosh assignment writing expertise in the form of our commendable writers who offer quality learning and understanding. ",
     },
     {
-    title:"Our essay writers employ their ingenuity to help you incorporate unique ideas into your content.  ",
+    title:"Our writers help you submit your projects timely by offering comprehensive assistance and responsive service for all your needs. ",
     },
     {
-    title:"With our helpers' assistance, you learn how to cite research sources properly, leading to zero plagiarism. "
+    title:"With our expert insights, you gain an understanding of how to develop quality-backed assignments and adhere to writing standards.   "
     }
 ],
-heading7:"Leverage Our Essay Writing Help and Learn to Cite Your Essay Well",
-para7:"Do you find it complex to understand the specifications of various citation styles? You can easily learn how to attribute authors and sources accurately with excellent assistance from our skilled essay makers. Our experts help you learn how to apply the citation style your instructor asked with accuracy and defined standards. Whether it is an APA style or Chicago, with our support, you can enhance the originality of your content by applying every style perfectly.",
-heading8:"Write My Essay for Me Ksa? We Serve You in All Aspects of Your Essay Writing",
-para8:"Are you seeking expert guidance to help you boost your essay quality? Assignment Help Saudi Arabia can be the best solution in this respect. Being an experienced service, we are aware of your academic needs comprehensively and serve you in a personalised and professional manner. Our team is adept at dealing with all kinds of essays, from descriptive to narrative to argumentative. Hire us today and get competent assistance in the following regards: ",
+heading7:"Nebosh Assignment Help KSA- The Benefits of Hiring Us",
+para7:"Are you wondering why you should consider a professional assignment writing help service? Read and learn how an expert Nebosh assignment writing service like ours can help you with your academics. Our reliable and academically sound practices can offer you increased convenience and comfort in your Nebosh journey and can provide the necessary guidance to become successful in one go. Our service makes it possible by offering the following",
+
+heading8:"Hire a Certified Nebosh Assignment Writer With Our Service and Thrive",
+para8:"Are you ready to hire a qualified and trustworthy Nebosh assignment helper for your tasks? Then, explore our team of top assignment writers and choose the best one per your liking. Our writers are exceptional in their academics, writing proficiency and subject expertise. They can formulate your Nebosh assignments with precision and standard quality while adding to your learning in the process. ",
 option4:[
     {
-    title:"Our writers can craft high quality essays from scratch on all topics for you. ",
+    title:"Our writers are qualified and possess Nebosh certifications. ",
     },
     {
-    title:"If you want our professional guidance in editing your essays, we have expert editors to assist you. ",
+    title:"They are familiar with health and safety regulations across various industries and can offer holistic guidance. ",
     },
     {
-    title:"For the research and meticulous proofreading, we also offer the expertise of our talented individuals. ",
+    title:"All our writers work in the field of health and safety and provide you with professional insights. ",
     }
 ]
 };
 
 const WhychooseContent = {
-    heading:"Partner With the Top Essay Writing Service Ksa and Excel in Your Assignments",
-    para:"We are the most fitting option for your essay needs; hire us and experience the difference. ",
+    heading:"Nebosh Diploma Assignment Help Jeddah - Trusty Support Within Reach",
+    para:"Our Nebosh assignment helper is your ultimate academic partner with consistent support and dependable assistance. Hire the one now and leverage academic ease like never before: ",
     option:[
       {
         icon:Highlyqualifiedsubjectwriters,
-        title:"Highly qualified specific writers",
+        title:"Certified Nebosh assignment writer",
       },
       {
         icon:Plagiarismfreeguarantee,
-        title:"Plagiarism free content guarantee ",
+        title:"Academic writing experience  ",
       },
       {
         icon:Ontimedeliveries,
-        title:"On-time essay deliveries ",
+        title:"Expert researchers ",
       },
       {
         icon:Fullconfidentialityforyourdata,
-        title:"Full confidentiality for your data ",
+        title:"Subject expertise",
       },
       {
         icon:Affordableservicerates,
-        title:"Affordable service rates ",
+        title:"Writing proficiency ",
       }
     ]
   }
 
 
   const AboutwritersContent = {
-    heading:"Pay to Write My Essay? Get Our Full-Spectrum Help With Essay Writing",
-    para:"Are you in search of competent essay writers Riyadh? Do you want professional assistance with your essay assignments at your convenience? It is possible to fulfil all these needs of yours with our student-friendly and highly accessible essay writing service Saudi Arabia. The main objective of our essay writing help is to facilitate students in all facets of their essay assignments and ease their educational burden. Hence, you will find our service 24/7 active to respond to your needs. Plus, we offer omni service, offering extraordinary support to students across KSA. Whether you are in Riyadh or in Taif, you can hire us effortlessly. ",
+    heading:"Reliable Nebosh Assignment Writing Help - Get Continuous Support and Guidance",
+    para:"Assignment Help Saudi Arabia can bring enhanced ease and comfort to your educational routine. We understand that time is a critical factor when it comes to developing quality assignments, and it is challenging for you to take out sufficient time from your professional and personal commitments. Hence, we help you manage your time effectively by offering a support system backed by the expertise of qualified and experienced writers. Our tutors assist you in your endeavours and offer comprehensive assistance for all types of Nebosh assignments. From level 1 to level 10, you can entrust your projects confidently to our tutors. Our service is available 24/7, and you can reach out to us from any of the following cities: ",
     option:[
       {
         title:"Madinah",
@@ -258,160 +263,160 @@ const WhychooseContent = {
   }
 
   const SubjectContent = {
-    heading:"Engage the Best Essay Writing Services for Your Assignments and Progress Well",
-    para:"From English to history, our essay writers Riyadh are dedicated to helping you write quality essays for all subjects. ",
+    heading:"Do My Nebosh Assignment for Me? We Offer Help for All Levels",
+    para:"Our Nebosh writing experts can create flawless and standard quality assignments for all levels. Sign up with our service today and register your order",
   };
 
   const CtaContent = {
-    heading:"Require Reliable Essay Writing Services in KSA? ",
-    subheading:"Pen the Best Essays With Our Holistic and Dependable Service",
+    heading:"Write My Nebosh Assignment? ",
+    subheading:"Have Confidence in Us and Master Assignment Writing",
     // treeheading:"We Guarantee Full Satisfaction",
   };
 
   const OurwritersContent = {
-    heading:"Craft Impactful Essays With Our Wordsmiths - Pick the Most Fitting One for You Now!",
+    heading:"Nebosh Writing Experts at Your Service - Hire Now",
     option:[
       {
         image:HamzaSaleh,
-        name:"Hamza Saleh ",
+        name:"Abdul Aziz",
         designation:"Master’s in Literature",
         experience:"Years Of Experience: 5 ",
         title:"What Can He Help With?",
-        para:"Do you need authentic service for your literature essay assignments? Hire our commendable writer, Hamza Saleh. Hamza Saleh holds advanced qualifications in literature studies and has been facilitating students across KSA for years. ",
-        successrate:"Customer Rating: 98% ",
-        completeProject:"Projects Completed: 1100+",
+        para:"Looking to get writing help for your Nebosh level 1 assignments? Hire our certified tutor, Abdul Aziz. He is proficient in the fundamental concepts and can assist you holistically in developing quality assignments. ",
+        successrate:"Customer Rating: 95% ",
+        completeProject:"Projects Completed: 2800+",
         Expertise:[
           {
-            title:"literary analysis",
+            title:"Importance of health and safety",
           },
           {
-            title:"research skills",
+            title:"health and safety regulations",
           },
           {
-            title:"writing skills",
+            title:"dentification of common hazards",
           },
           {
-            title:"cultural and historical context ",
+            title:"safety practices and procedures",
           },
         ]
       },
       {
         image:MahaAmal,
-        name:"Maha Amal ",
+        name:"Fahd H",
         designation:"Master’s in Philosophy",
         experience:"Years Of Experience: 4.5 ",
         title:"What Can She Help With?",
-        para:"Are the essay assignments of your philosophy course becoming an issue? Transform your challenges into competencies with our experienced writer, Maha Amal. She is a philosophy teacher and can help you greatly in your work. ",
-        successrate:"Customer Rating: 99% ",
-        completeProject:"Projects Completed: 1200+",
+        para:"For your level 2 assignments, consider assistance from our competent tutor, Fahd. He is Nebosh certified and has been working in the industry for five years. His expertise can guide you the best. ",
+        successrate:"Customer Rating: 96% ",
+        completeProject:"Projects Completed: 2700+",
         Expertise:[
           {
-            title:"analytical skills",
+            title:"Writing proficiency",
           },
           {
-            title:"critical thinking",
+            title:"in-depth subject knowledge",
           },
           {
-            title:"Interdisciplinary Understanding",
+            title:"time management",
           },
           {
-            title:"problem solving",
+            title:"understanding of quality criteria",
           },
         ]
       },
       {
         image:AhmedSultan,
-        name:"Ahmed Sultan",
+        name:"Ali R",
         designation:"PhD in History ",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Need professional means to edit your history essay? Ahmed Sultan. is our talented history writer offering comprehensive support regarding all the facets of essay development. Hire him today at cheap rates. ",
-        successrate:"Customer Rating: 97% ",
-        completeProject:"Projects Completed: 1000+",
+        para:"Are you seeking writing help with your health and safety management system assignments? We offer the laudable expertise of our writer, Ali. He holds the NEBOSH International General Certificate (IGC). ",
+        successrate:"Customer Rating: 98% ",
+        completeProject:"Projects Completed: 2900+",
         Expertise:[
           {
-            title:"Historiography",
+            title:"PDCA cycle",
           },
           {
-            title:"attention to detail",
+            title:"auditing",
           },
           {
-            title:"Chronological Competence",
+            title:"continuous improvement",
           },
           {
-            title:"research skills",
+            title:"health and safety management system ",
           },
         ]
       },
       {
         image:FatimaNoor,
-        name:"Fatima Noor ",
+        name:"Khaled G",
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
         title:"What Can She Help With?",
-        para:"For your linguistic essay assignments, you can hire our expert writer, Fatima Noor. She has been crafting quality essays on all topics for five years and possesses a strong grasp of all the standards of essay writing. ",
-        successrate:"Customer Rating: 99% ",
-        completeProject:"Projects Completed: 1100+",
+        para:"Are you stressed due to risk assessment and control assignments? Follow the expert guidance of our laudable tutor, Khaled. He possesses a Nebosh diploma and has been helping students for three years. ",
+        successrate:"Customer Rating: 95% ",
+        completeProject:"Projects Completed: 3000+",
         Expertise:[
           {
-            title:"applied linguistics",
+            title:"Techniques for identifying hazards",
           },
           {
-            title:"linguistic anthropology",
+            title:"assessing risks",
           },
           {
-            title:"sociolinguistics",
+            title:"implementing control measures",
           },
           {
-            title:"pragmatics",
+            title:"mitigating risks",
           },
         ]
       },
       {
         image:AbdullahFahad,
-        name:"Abdullah Fahad ",
+        name:"Saud T",
         designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Are you stressed due to the essay burden of your culture studies course? Forget all your worries when you have the expertise of our skilled helper, Abdullah Fahad. He possesses a bachelor’s degree in the related field and crafts quality content on all topics.",
-        successrate:"Customer Rating: 96% ",
-        completeProject:"Projects Completed: 900+",
+        para:"Do you need assistance with Nebosh level 3 assignments? Sign up with our professional service and gain quality support from our writer, Saud. He is a certified professional and has over four years of industry experience. ",
+        successrate:"Customer Rating: 97% ",
+        completeProject:"Projects Completed: 2600+",
         Expertise:[
           {
-            title:"cultural theory",
+            title:"Subject expertise",
           },
           {
-            title:"globalisation studies",
+            title:"writing proficiency",
           },
           {
-            title:"cultural history",
+            title:"deadline management",
           },
           {
-            title:"cultural geography",
+            title:"extensive experience ",
           },
         ]
       },
       {
         image:Ryanah,
-        name:"Ryanah",
+        name:"Abdul Rehman",
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"For your sociology essay assignments, hire our expert essay maker, Ryanah. With her advanced qualifications and field experience, he brings unique perspectives to your essay content. Get in touch today and get partnered with her.",
+        para:"Are you looking to hire someone professional for your occupational health assignments? Leverage the subject expertise of our well-versed writer, Abdul Rehman. He is a competent professional and can boost your learning significantly. ",
         successrate:"Customer Rating: 98% ",
-        completeProject:"Projects Completed: 1000+",
+        completeProject:"Projects Completed: 2000+",
         Expertise:[
           {
-            title:"Social theory",
+            title:"Ergonomics",
           },
           {
-            title:"research methods in sociology",
+            title:"noise",
           },
           {
-            title:"cultural sociology",
+            title:"vibration",
           },
           {
-            title:"social psychology",
+            title:"hazardous substances ",
           },
         ]
       },
@@ -421,93 +426,93 @@ const WhychooseContent = {
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Fed up with constant low grades on your psychology essays? Let our essay helper, Rashid, take care of this issue. With a Master’s degree in psychology and professional exposure, he can deliver excellence to your essays. ",
-        successrate:"Customer Rating: 97% ",
-        completeProject:"Projects Completed: 980+",
+        para:"Are you failing your environmental management assignments? Worry no more and hire our writer, Sultan. He is a renowned name in the environmental sector and helps students greatly with his knowledge. ",
+        successrate:"Customer Rating: 96% ",
+        completeProject:"Projects Completed: 2900+",
         Expertise:[
           {
-            title:"Biological psychology",
+            title:"Environmental legislation",
           },
           {
-            title:"Cognitive psychology",
+            title:"environmental impact assessments",
           },
           {
-            title:"Social psychology",
+            title:"waste management",
           },
           {
-            title:"research skills ",
+            title:"pollution control",
           },
         ]
       },
       {
         image:Sarah,
-        name:"Sarah ",
+        name:"Sarah R",
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"If you are worried about your performance in your economics essays, contact us now and avail of the expertise of our skilled writer, Sarah. With his expert insights and extensive knowledge about the subject, She can help you develop quality essays. ",
-        successrate:"Customer Rating: 96% ",
-        completeProject:"Projects Completed: 980+",
+        para:"Ready to master your incident investigation and reporting course? Team up with Sarah now. Sarah is our best writer in this area of Nebosh study, comprising many certifications and extensive professional experience.",
+        successrate:"Customer Rating: 97% ",
+        completeProject:"Projects Completed: 2500+",
         Expertise:[
           {
-            title:"Econometrics",
+            title:"Investigating accidents",
           },
           {
-            title:"microeconomics",
+            title:"incidents",
           },
           {
-            title:"macroeconomics",
+            title:"near misses in the workplace",
           },
           {
-            title:"development economics",
+            title:"root cause analysis",
           },
         ]
       },
       {
         image:Aziza,
-        name:"Aziza ",
+        name:"Ayesha E",
         designation:"Master’s in Business Administration",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Confused about how to structure your marketing essays? Our essay helper, Aziza, is an expert marketer offering holistic support to students in their essay assignments. Contact us to get her hired. ",
-        successrate:"Customer Rating: 99% ",
-        completeProject:"Projects Completed: 900+",
+        para:"Create flawless emergency planning and response assignments with comprehensive support from our writer, Ayesha. With Nebosh certification, she ensures high precision and excellence in your assignments. Hire her now. ",
+        successrate:"Customer Rating: 94% ",
+        completeProject:"Projects Completed: 1900+",
         Expertise:[
           {
-            title:"Consumer Behaviour",
+            title:"Emergency response plans",
           },
           {
-            title:"market research",
+            title:"emergency management",
           },
           {
-            title:"brand management",
+            title:"medical emergencies",
           },
           {
-            title:"marketing analytics",
+            title:"fire and chemical spills ",
           },
         ]
       },
       {
         image:Munira,
-        name:"Munira ",
+        name:"Maha K",
         designation:"PhD in Finance",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Searching for reliable essay writing help in Riyadh for your finance assignments? Munira is our best writer on this subject, providing high quality and accurate essays on all subject areas. With his knowledge, you can learn well. ",
-        successrate:"Customer Rating: 98% ",
-        completeProject:"Projects Completed: 1000+",
+        para:"Want plagiarism free high quality assignments for Nebosh level 7? Look nowhere and employ our skilled and qualified writer, Maha. Maha has been working in the corporate sector for five years and has great experience in academic writing.  ",
+        successrate:"Customer Rating: 99% ",
+        completeProject:"Projects Completed: 3100+",
         Expertise:[
           {
-            title:"financial accounting",
+            title:"Comprehensive guidance",
           },
           {
-            title:"corporate finance",
+            title:"writing mastery",
           },
           {
-            title:"investment management",
+            title:"standard adherence",
           },
           {
-            title:"business finance",
+            title:"high work ethic ",
           },
         ]
       },
@@ -516,43 +521,43 @@ const WhychooseContent = {
 
   const FaqItems = [
     {
-      title:"How do you ensure the quality of the content you create? ",
-      para:"At Assignment Help Saudi Arabia, we put great emphasis on producing quality work over quantity. Our team comprises highly qualified individuals possessing degrees in various academic fields. Combining their educational achievements and professional experience, they craft valuable essay content. This content is then edited and proofread by other industry experts and undergoes plagiarism checks. "
+      title:"Is it ethical if I use a writing service for my Nebosh assignments? ",
+      para:"Yes, it is ethical to use academic writing assistance for your Nebosh projects if you are employing these services to boost your learning and improve your writing skills. The service you hire should be transparent in its processing and should produce original work by working side by side with you. "
     },
     {
-      title:"Is it possible to communicate directly with the writer using your service? ",
-      para:"Absolutely. Assignment Help Saudi Arabia is a professional service and understands that quality essay content depends greatly on the clarity and comprehensiveness of the information from the client. Therefore, we offer direct communication platforms to our customers if they want so that they can directly convey to the writer their unique requirements. "
+      title:"How can I identify a reliable and professional Nebosh assignment writing help? ",
+      para:"To hire a trustworthy assignment writing help, you should prefer a service that employs highly qualified and subject specific writers. Plus, to ensure the authenticity of the service, search thoroughly and read reviews and testimonials about the service. Further, review the samples and choose the service that complies with Nebosh writing standards.  "
     },
     {
-      title:"What is your service stance if I find my work not up to my expectations? ",
-      para:"Assignment Help Saudi Arabia thrives when its customers are satisfied with the service delivered. Hence, you will find us striving to provide the utmost satisfaction to our clients. If you do not get the content as per your requirements and details, you can immediately contact us, and we will provide revisions as stated by our policy without any charges. "
+      title:"Can hiring an assignment writer impact my Nebosh learning and certification? ",
+      para:"When you team up with an expert and field maven writer for your Nebosh assignments, you get increased knowledge from them which results in an in-depth and comprehensive understanding of the concepts. The writer also equips you with practical insights and concepts become clearer and applicable for you. Regarding impact on certification, no it does not impact your Nebosh certification in anyway. "
     },
     {
-      title:"I need affordable essay writing help in Riyadh. Can you help with it? ",
-      para:"Of course, we can help you. Assignment Help Saudi Arabia takes into account the limited finances of students when designing its service packages and rates. Our cheap essay writing services offer budget-friendly and accessible rates so that you can avail of our expertise without any hassles. Plus, we add more convenience to hiring us by offering various discounts and other markdown offers. "
+      title:"How can I reach out to your service to register my order? ",
+      para:"You can register your order seamlessly with our service. Our website provides an order registration form where you are required to fill in important details concerning your assignment. Once you submit these details, our support team contacts you to acquire the more necessary information and pairs you with the relevant writer after the payment. "
     }
   ];
   const FaqHeading = {
-    heading:"Frequently Asked Question",
-    para:"Searching for pay to write my essay in Riyadh? Connect with us today and ease your essay worries. For any queries, refer to our FAQ section or call us. ",
+    heading:"Frequently Asked Questions - Nebosh Assignment Help KSA",
+    para:"Do you need more infor about our service and its practices? Then, explore our FAQ section that outlines commonly asked questions by our customers. ",
   }
 
 
   const ClientsaysContent = {
-    heading:"Testimonials: The Trust Clients Put In Our Essay Writers Ksa",
-    para:"Students in Riyadh and across the various regions of the KSA rely on our expertise to cater to their academic needs. ",
+    heading:"Testimonials: Experiences Worth Sharing",
+    para:"Students of KSA entrust their projects to Assignment Help Saudi Arabia and this reflects in the experiences they share in their reviews. ",
     option:[
       {
         image:humnaShah,
         name:"Humna Shah",
         location:"Jeddah",
-        para:"It was really a great experience hiring Assignment Help Saudi Arabia for my linguistic essay, as they delivered top-notch content with efficient service. The whole process was smooth, and I found it very easy to hire them, considering their responsive and active service. Thank you for the great work. "
+        para:"It was a good experience with Assignment Help Saudi Arabia for my level 4 assignment. The writer helped me throughout the assignment process and offered valuable tips and strategies. I was able to complete my very lengthy assignment way before my deadline due to these people. Thank you.  "
       },
       {
         image:AazraSheikh,
         name:"Ramsa",
         location:"Riyadh",
-        para:"I highly recommend Assignment Help Saudi Arabia to all students as I had their help last week, and I got an A+ on my essay due to their commendable work. From the intro to the conclusion, every word they wrote was impressive and helped me acquire my desired grade. Thanks. "
+        para:"I endorse the quality service of Assignment Help Saudi Arabia. The team was very professional and treated me nicely throughout the service. My assignment required extensive research, with which they helped me by providing reliable and credible sources. I got an immense understanding from these references and created a quality assignment. Thank you. "
       }
     ]
   }
