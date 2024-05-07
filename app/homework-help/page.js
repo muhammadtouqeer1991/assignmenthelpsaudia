@@ -347,7 +347,7 @@ option:[
       designation:"Masters in Computer Science",
       experience:"Years Of Experience: 5 ",
       title:"What Can He Help With?",
-      para:" Are coding assignments getting out of your comprehension abilities? No need to worry, as our expert and masters in computer science tutor is here to provide effective solutions. From coding to algorithms to software technicalities, he is a pro in all. ",
+      para:" Are coding assignments getting out of your comprehension abilities? No need to worry, as our expert and masters in computer science tutor is here to provide effective solutions. From coding to algorithms to software technicalities, She is a pro in all. ",
       successrate:"Rated: 96% success rate",
       completeProject:"400+ Projects Delivered",
       Expertise:[
@@ -419,7 +419,7 @@ option:[
       designation:"PhD in Economics ",
       experience:"Years Of Experience: 7 ",
       title:"What Can She Help With?",
-      para:"Give your economics assignments excellent help from a professional assignment maker, Ahsan-ul-haq, who holds a Ph.D. in economics. She can create flawless assignments and help you learn complex topics easily. ",
+      para:"Give your economics assignments excellent help from a professional assignment maker, Ahsan-ul-haq, who holds a Ph.D. in economics. He can create flawless assignments and help you learn complex topics easily. ",
       successrate:"Rated: 98% success rate",
       completeProject:"550+ Projects Delivered",
       Expertise:[
@@ -443,7 +443,7 @@ option:[
       designation:"Masters in Literature ",
       experience:"Years Of Experience: 6 ",
       title:"What Can He Help With?",
-      para:"Are you seeking help with your literature coursework? Albash Sheikh is our top writer regarding all types of literature assignments. She can write exceptional quality essays and other assignments. ",
+      para:"Are you seeking help with your literature coursework? Albash Sheikh is our top writer regarding all types of literature assignments. He can write exceptional quality essays and other assignments. ",
       successrate:"Rated: 97% success rate",
       completeProject:"600+ Projects Delivered",
       Expertise:[

@@ -397,7 +397,7 @@ const WhychooseContent = {
         designation:"PhD in Sociology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"For your sociology essay assignments, hire our expert essay maker, Ryanah. With her advanced qualifications and field experience, he brings unique perspectives to your essay content. Get in touch today and get partnered with her.",
+        para:"For your sociology essay assignments, hire our expert essay maker, Ryanah. With her advanced qualifications and field experience, She brings unique perspectives to your essay content. Get in touch today and get partnered with her.",
         successrate:"Customer Rating: 98% ",
         completeProject:"Projects Completed: 1000+",
         Expertise:[

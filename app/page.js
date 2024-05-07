@@ -315,7 +315,7 @@ export default function Home() {
       },
       {
         image:MahaAmal,
-        name:"Maha Amal ",
+        name:"Kiley Rein ",
         designation:"Masters in Business Administration",
         experience:"Years Of Experience: 4.5 ",
         title:"What Can She Help With?",

@@ -420,7 +420,7 @@ const WhychooseContent = {
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Are you concerned about the authenticity of your sociology thesis? Then, hire our skilled writer, Zishan, and craft high quality and original content. He is an experienced writer and has exceptional writing proficiency. ",
+        para:"Are you concerned about the authenticity of your sociology thesis? Then, hire our skilled writer, Zishan L, and craft high quality and original content. She is an experienced writer and has exceptional writing proficiency. ",
         successrate:"Customer Rating: 98% ",
         completeProject:"Projects Completed: 1600+",
         Expertise:[
@@ -557,7 +557,7 @@ const WhychooseContent = {
   }
 
   const ProcessContent = {
-    heading:"Require Peerless Help With Essay Writing? Hire Our Professional Team Today!",
+    heading:"Require Peerless Help With Thesis Help? Hire Our Professional Team Today!",
     option:[
       {
         image:PlaceOrder,

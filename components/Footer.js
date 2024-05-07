@@ -9,10 +9,11 @@ const Footer = () => {
     <>
       <div className='bg-navcolor py-16'>
         <div className="container mx-auto flex md:flex-row flex-col justify-between gap-6">
+        <Footerabout />
           <Quicklinks />
           <Getintouch />
           <Follow />
-          <Footerabout />
+          
         </div>
       </div>
       <div className='flex justify-center items-center bg-navactive py-2 pb-2'>

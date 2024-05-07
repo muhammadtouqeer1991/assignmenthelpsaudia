@@ -131,7 +131,7 @@ const page = () => {
       };
 
 const BackbonecontentData = {
-heading:"The Finest Dissertation Editing Company in Singapore for Your Academic Success",
+heading:"The Finest Dissertation Editing Company in Saudi Arabia for Your Academic Success",
 para:"Assignment Help Saudi Arabia offers professional assistance in proofreading your dissertations. Our experienced and exceptional skills contribute greatly to boost your document accuracy and overall quality.",
 heading1:"Make Your Writing Impactful With Our Grammar and Syntax Editing",
 para1:"Grammatical and syntax errors can greatly impact your dissertation writing. If not put together perfectly, they can make it difficult for the reader to understand your findings and can also decrease the credibility of your work. Therefore, when you send us your work for polishing, we first focus on these elements. Our experts perfect your subject-verb agreements, tense structure, pronoun usage, sentence structure, punctuation, parallelism, modifiers, verb tense consistency, active voice, and many other facets.  ",
@@ -196,7 +196,7 @@ option4:[
 };
 
 const WhychooseContent = {
-    heading:"Best Dissertation Editing Company in Singapore - We Provide Reliable Services",
+    heading:"Best Dissertation Editing Company in Saudi Arabia - We Provide Reliable Services",
     para:"Our dissertation editing proofreading help is highly dependable considering its professional and secured ways. You can hire us without any hassles. ",
     option:[
       {
@@ -269,7 +269,7 @@ const WhychooseContent = {
   };
 
   const OurwritersContent = {
-    heading:"Craft Impactful Essays With Our Wordsmiths - Pick the Most Fitting One for You Now!",
+    heading:"Craft Impactful Dissertations With Our Wordsmith's exceptional Dissertation Editing Services—pick the Most Fitting One for You Now!",
     option:[
       {
         image:SefaM,
@@ -349,7 +349,7 @@ const WhychooseContent = {
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
         title:"What Can She Help With?",
-        para:"We can help you elevate the quality of your biology dissertation with the expertise of our best editor in this field, Boba. She is highly qualified in the natural sciences domain and can be a great assistance for your project. ",
+        para:"We can help you elevate the quality of your biology dissertation with the expertise of our best editor in this field. She is highly qualified in the natural sciences domain and can be a great assistance for your project. ",
         successrate:"Customer Rating: 97% ",
         completeProject:"Projects Completed: 1500+",
         Expertise:[

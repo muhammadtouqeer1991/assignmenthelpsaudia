@@ -453,7 +453,7 @@ const page = () => {
         designation:"Master’s in Linguistics",
         experience:"Years Of Experience: 7 ",
         title:"What Can She Help With?",
-        para:"For your linguistic essay assignments, you can hire our expert writer, Saif. he has been crafting quality essays on all topics for five years and possesses a strong grasp of all the standards of Cipd Assignment. ",
+        para:"For your linguistic essay assignments, you can hire our expert writer, Mariam Adnan. She has been crafting quality essays on all topics for five years and possesses a strong grasp of all the standards of Cipd Assignment. ",
         successrate:"Customer Rating: 99% ",
         completeProject:"Projects Completed: 1100+",
         Expertise:[
@@ -477,7 +477,7 @@ const page = () => {
         designation:"Bachelor’s in Culture Studies",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Are you stressed due to the essay burden of your culture studies course? Forget all your worries when you have the expertise of our skilled helper, Rawa. She possesses a bachelor’s degree in the related field and crafts quality content on all topics.",
+        para:"Are you stressed due to the essay burden of your culture studies course? Forget all your worries when you have the expertise of our skilled helper, Dua Akram. She possesses a bachelor’s degree in the related field and crafts quality content on all topics.",
         successrate:"Customer Rating: 96% ",
         completeProject:"Projects Completed: 900+",
         Expertise:[
@@ -525,7 +525,7 @@ const page = () => {
         designation:"Master’s in Psychology",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"Fed up with constant low grades on your psychology essays? Let our essay helper, Humna Shah, take care of this issue. With a Master’s degree in psychology and professional exposure, he can deliver excellence to your essays. ",
+        para:"Fed up with constant low grades on your psychology essays? Let our essay helper, Humna Shah, take care of this issue. With a Master’s degree in psychology and professional exposure, She can deliver excellence to your essays. ",
         successrate:"Customer Rating: 97% ",
         completeProject:"Projects Completed: 980+",
         Expertise:[
@@ -549,7 +549,7 @@ const page = () => {
         designation:"Master’s in Economics",
         experience:"Years Of Experience: 6 ",
         title:"What Can He Help With?",
-        para:"If you are worried about your performance in your economics essays, contact us now and avail of the expertise of our skilled writer, Alvina Sheikh. With his expert insights and extensive knowledge about the subject, he can help you develop quality essays. ",
+        para:"If you are worried about your performance in your economics essays, contact us now and avail of the expertise of our skilled writer, Alvina Sheikh. With his expert insights and extensive knowledge about the subject, She can help you develop quality essays. ",
         successrate:"Customer Rating: 96% ",
         completeProject:"Projects Completed: 980+",
         Expertise:[

@@ -6,7 +6,7 @@ const Backboneabout = ({Backboneaboutdata}) => {
     <>
        <div className='py-8 bg-navcolor'>
         <div className='container mx-auto'>
-          <h4 className='text-[45px] font-bold text-center text-white'>{Backboneaboutdata.heading}</h4>
+          <h2 className='text-[45px] font-bold text-center text-white'>{Backboneaboutdata.heading}</h2>
           <p className='text-[16px] text-center font-normal pb-7 text-white'>{Backboneaboutdata.para}</p>
         </div>
         <div className='container mx-auto'>
