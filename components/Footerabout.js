@@ -6,7 +6,7 @@ import brandLogo from '../public/assets/brandLogo.webp';
 const Footerabout = () => {
   return (
     <>
-        <div className='w-[80%]'>
+        <div className='md:w-[80%] w-[100%]'>
         {/* <h4 className='text-white font-bold text-[26px] pb-2'>About</h4> */}
         <Link href="/"><Image src={brandLogo} width={251} alt="market" /></Link>
         {/* <hr className='w-28 border-navactive'/> */}

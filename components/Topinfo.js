@@ -7,7 +7,7 @@ import Image from 'next/image';
 const Topinfo = () => {
 return (
 <>
-<div className='flex gap-6 items-center'>
+<div className='hidden md:flex md:gap-6 items-center '>
     <Link href="mailto:info@assignmenthelp.sa.com" className='md:flex md:flex-row hidden items-center text-white gap-2 font-normal text-[16px]'>
         <Image src={email} alt="market" />
         info@assignmenthelp.sa.com

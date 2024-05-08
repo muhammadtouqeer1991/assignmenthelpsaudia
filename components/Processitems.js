@@ -4,10 +4,11 @@ import React from 'react'
 const Processitems = ({ProcessContent}) => {
 return (
 <>
-<div className='pt-8'>
+<div className='pt-8 md:pb-0 pb-[3rem]'>
+
 <div className='flex'>
-<div className='flex-[50%]'></div>
-<div className='flex'>
+<div className='flex-[10%] md:flex-[50%]'></div>
+<div className='flex md:flex-nowrap flex-wrap'>
 <div className='flex-[70%] relative'>
 <div className='absolute'><svg xmlns="http://www.w3.org/2000/svg" width="83" height="85" viewBox="0 0 83 85" fill="none">
 <path d="M0.00395725 0.151453L0.00397904 84.4429L82.612 0.176765L0.00395725 0.151453Z" fill="#45484B"/>
@@ -36,11 +37,12 @@ return (
 </div>
 </div>
 </div> 
-<div className='flex relative top-[-3rem]'>
 
-<div className='flex'>
+<div className='flex relative md:top-[-3rem] top-[1rem]'>
 
-<div className='w-[70%]'>
+<div className='flex flex-wrap md:flex-nowrap flex-col-reverse md:flex-row justify-center'>
+
+<div className='md:w-[70%] w-[100%]'>
 <div className='flex'>
 
 <div className='pt-4'>
@@ -52,7 +54,7 @@ return (
 </div>
 </div>
 </div>
-<div className='flex-[70%] relative'>
+<div className='md:flex-[70%] relative'>
 <div className='absolute right-0'><svg xmlns="http://www.w3.org/2000/svg" width="84" height="85" viewBox="0 0 84 85" fill="none">
 <path d="M83.5825 0.208582L83.5824 84.5L0.97439 0.233894L83.5825 0.208582Z" fill="#45484B"/>
 </svg></div>
@@ -68,11 +70,13 @@ return (
 </div>
 </div>
 </div>
-<div className='flex-[80%]'></div>
+<div className='flex-[10%] md:flex-[80%]'></div>
 </div> 
-<div className='flex relative top-[-6.3rem]'>
-<div className='flex-[50%]'></div>
-<div className='flex'>
+
+
+<div className='flex relative md:top-[-6.3rem] top-[1rem]'>
+<div className='flex-[10%] md:flex-[50%]'></div>
+<div className='flex md:flex-nowrap flex-wrap'>
 <div className='flex-[70%] relative'>
 <div className='absolute'>
 <svg xmlns="http://www.w3.org/2000/svg" width="83" height="85" viewBox="0 0 83 85" fill="none">
@@ -104,11 +108,12 @@ return (
 </div>
 </div>
 </div> 
-<div className='flex relative top-[-9.3rem]'>
 
-<div className='flex'>
+<div className='flex relative md:top-[-9.3rem] top-[2rem]'>
 
-<div className='w-[70%]'>
+<div className='flex md:flex-nowrap flex-wrap flex-col-reverse md:flex-row'>
+
+<div className='md:w-[70%] w-[100%]'>
 <div className='flex'>
 
 <div className='pt-4'>
@@ -121,7 +126,7 @@ return (
 </div>
 </div>
 </div>
-<div className='flex-[70%] relative'>
+<div className='md:flex-[70%] relative'>
 <div className='absolute right-0'><svg xmlns="http://www.w3.org/2000/svg" width="84" height="85" viewBox="0 0 84 85" fill="none">
 <path d="M83.5825 0.208582L83.5824 84.5L0.97439 0.233894L83.5825 0.208582Z" fill="#45484B"/>
 </svg></div>
@@ -137,7 +142,7 @@ return (
 </div>
 </div>
 </div>
-<div className='flex-[80%]'></div>
+<div className='md:flex-[80%] flex-[10%]'></div>
 </div> 
 
 </div> 

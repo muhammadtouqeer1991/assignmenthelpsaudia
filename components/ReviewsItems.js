@@ -12,7 +12,7 @@
     myReview.map((item,key) => {
     return (
       <>
-        <div className='bg-navactive py-5 px-5 rounded-[25px] relative h-fit w-[45%]'>
+        <div className='bg-navactive py-5 px-5 rounded-[25px] relative h-fit md:w-[45%] w-[100%]'>
 
     <div style={{background:'radial-gradient(50% 50% at 50% 50%, rgba(22, 27, 33, 0.80) 0%, rgba(22, 27, 33, 0.78) 100%)',backdropFilter:'blur(20px)'}} className='py-4 px-6 rounded-[25px] relative top-[-3rem] md:right-[-2.6rem] border-2 border-navactive'>
     <div className='flex items-center'>

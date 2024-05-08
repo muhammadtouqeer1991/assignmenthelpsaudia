@@ -5,8 +5,8 @@ import Link from 'next/link';
 const Headerinfo = ({HeaderContent}) => {
 return (
 <>
-<div className='md:w-[45%] md:pb-0 pb-10 pl-5 md:pl-0'>
-<h1 className='text-[42px] font-bold leading-[62px] pb-2 text-white'>{HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 'Boost your Grades with the Best Dissertation Help Services in Saudi Arabia' : HeaderContent.heading}</h1>
+<div className='md:w-[45%] md:pb-0 pb-10 md:pl-0 px-4 md:px-0'>
+<h1 className='md:text-[42px] text-[27px] font-bold md:leading-[62px] leading-[38px] pb-2 text-white'>{HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 'Boost your Grades with the Best Dissertation Help Services in Saudi Arabia' : HeaderContent.heading}</h1>
 <hr className='w-[295.002px] border-navactive mb-4 mt-1'/>
 <p className='pb-3 text-[16px] text-white'>{HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 'Need cost-effective online assignment help services in Saudi Arabia? Call us! For a reasonable price, the subject experts in our team will provide plagiarism-free and customized assignment solutions for all subjects without delay.' : HeaderContent.para }</p>
 {HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ?  <ul className='flex flex-col gap-3 text-white pt-2'>

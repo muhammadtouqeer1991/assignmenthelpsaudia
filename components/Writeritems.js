@@ -341,7 +341,7 @@ return (
 </svg>
 </div>
 
-<div className='rounded-full w-[260px] h-[187px] bg-navactive flex justify-center items-center relative top-[-1.4rem] left-[-0.2rem]'>
+<div className='rounded-full md:w-[260px] md:h-[187px] w-[220px] h-[147px] bg-navactive flex justify-center items-center relative md:top-[-1.4rem] top-[-1.5rem] left-[-0.2rem]'>
 <Image src={item.image} width={120} alt="market" className='rounded-full' />
 </div>
 <div className='bg-navactive w-full relative left-[-3rem] z-[-1] h-20 flex justify-center items-center text-[26px] text-white font-bold rounded-tr-[20px] flex-col'>
@@ -351,7 +351,7 @@ return (
 </div>
 <div className='flex md:flex-row flex-col py-4 px-6 pt-0 gap-6 md:h-[200px]'>
 
-<div className='flex  flex-col items-end relative md:top-[-5.4rem] md:w-[77%]'>
+<div className='flex flex-col items-end relative md:top-[-5.4rem] top-[-3rem] md:w-[77%]'>
 <div>
 <h4 className='text-[16px] text-white font-normal pt-2'>{item.successrate}</h4>
 <p className='text-[16px] font-bold text-white pt-2'>{item.completeProject}</p>
@@ -360,7 +360,7 @@ return (
 </div>
 
 </div>
-<div className='py-4 px-6 pt-0 mt-[-11rem] flex flex-col w-100'>
+<div className='py-4 px-6 pt-0 md:mt-[-11rem] mt-[-4rem] flex flex-col w-100'>
 <p className='text-[16px] text-white font-normal pt-2'>{item.para}</p>
 </div>
 

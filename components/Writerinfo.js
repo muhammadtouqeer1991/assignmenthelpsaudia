@@ -10,8 +10,8 @@ const Writerinfo = ({AboutwritersContent}) => {
 
 return (
 <>
-<div className='w-[100%] py-10 px-10 md:px-0'>
-<h6 className='text-[40px] text-white font-bold'>{AboutwritersContent == null || AboutwritersContent == '' || AboutwritersContent == undefined ? 'Assuring Excellent Results with our Exclusive Help With Dissertation Writing' : AboutwritersContent.heading }</h6>
+<div className='w-[100%] py-10 px-5 md:px-0'>
+<h6 className='md:text-[40px] text-[25px] text-white font-bold'>{AboutwritersContent == null || AboutwritersContent == '' || AboutwritersContent == undefined ? 'Assuring Excellent Results with our Exclusive Help With Dissertation Writing' : AboutwritersContent.heading }</h6>
 <hr className='md:w-[338.037px] border-navactive border-2 mt-3 mb-3' />
 <p className='text-[16px] text-white pt-2 pb-3'>{AboutwritersContent == null || AboutwritersContent == '' || AboutwritersContent == undefined ? 'You won’t be able to find many such platforms that guarantee you to gain brilliant results with their exclusive dissertation writing help services. However, we are here with our highly qualified writers offering the guarantee of attaining good grades with our services.You won’t be able to find many such platforms that guarantee you to gain brilliant results with their exclusive dissertation writing help services. However, we are here with our highly qualified writers offering the guarantee of attaining good grades with our services.' : AboutwritersContent.para }</p>
 {AboutwritersContent == null || AboutwritersContent == '' || AboutwritersContent == undefined ? <ul className='flex flex-col gap-3 text-white pt-2'>

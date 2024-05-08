@@ -48,20 +48,20 @@ const getData = async (pages,academic,deadline) => {
 
 return (
 <>
-<div className='relative md:w-[550px]'>
+<div className='relative md:w-[550px] m-100'>
   <div className=' bg-[#282B2F] py-3 px-3 rounded h-fit'>
   <form onSubmit={orderSubmit} method='post'>
     <div style={{background:'linear-gradient(180deg, #28D07E 0%, rgba(40, 208, 126, 0.05) 100%);'}} className='text-center py-4 rounded'>
       <h4 className='font-bold text-[26px] text-white'>{HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 'Get Help Instantly' : HeaderContent.formheading }</h4>
       <h6 className='text-[16px] text-white'>{HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 'Raise Your Grades with Assignment Help Pro' : HeaderContent.formpara }</h6> 
     </div>
-    <div className='flex gap-3 justify-between pt-3'>
+    <div className='flex gap-3 justify-between pt-3 flex-wrap md:flex-nowrap '>
       
       <input type="text" placeholder='Your Name' name="Name" className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' onChange={e=>setName(e.target.value)} value={Name} required />
       
       <input type="email" placeholder='Your Email Address' name="Email"  className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' onChange={e=>setEmail(e.target.value)} value={Email} required  />
     </div>
-    <div className='flex gap-3 justify-between pt-3'>
+    <div className='flex gap-3 justify-between pt-3 '>
     <select className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' name="academic" onChange={e=>setAcademic(e.target.value)} value={academic} required >
       <option value="" selected>Education Level</option>
       <option value="high-school">High School</option>
@@ -73,7 +73,7 @@ return (
       </select>
     </div>
     
-    <div className='flex gap-3 justify-between pt-2'>
+    <div className='flex gap-3 justify-between pt-2 flex-wrap md:flex-nowrap'>
       <select className='flex-1 py-4 rounded-[10px] px-4 bg-navcolor border-navactive border-2 text-white' name="pages" onChange={e=>setPages(e.target.value)} value={pages} required >
         <option value="">Select No of Pages</option>
         {Array(200).fill(1).map((el, i) => {
@@ -105,7 +105,7 @@ return (
     </div>
     <textarea className='w-full rounded-[10px] mt-2 py-4 px-4 bg-navcolor border-navactive border-2 text-white' name="Message" placeholder='Message' cols={10} rows={5} onChange={e=>setMessage(e.target.value)} value={Message} required></textarea>
     <label htmlFor="" className='text-[20px] text-navactive'><b>Total Price: SAR <span>{Price}</span></b></label>
-    <div className='flex gap-3 justify-between pt-2 items-center'>
+    <div className='flex gap-3 justify-between pt-2 items-center flex-wrap md:pb-0 pb-[5rem]'>
     {HeaderContent == null || HeaderContent == '' || HeaderContent == undefined ? 
     <ul className='flex flex-col gap-2 text-white pt-2'>
     <li className='flex gap-2 items-center'><Image src={arrow} alt="market" /> Unlimited Revisions</li>

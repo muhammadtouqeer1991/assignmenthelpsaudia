@@ -6,7 +6,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const Topsocial = () => {
 return (
 <>
-<div className='flex'>
+<div className='flex justify-center md:justify-end'>
     <Link href="https://www.facebook.com/AssignmentHelpKSA" className='py-2 px-4 bg-[#527BDA]'>
         <FaFacebookSquare fill='#fff' size={20} />
     </Link>

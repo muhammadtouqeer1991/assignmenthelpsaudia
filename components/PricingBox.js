@@ -5,14 +5,14 @@ import basic from '../public/assets/basic.svg';
 const PricingBox = () => {
 return (
 <>
-<div className='py-5 bg-topbarcolor'>
+<div className='py-5 bg-topbarcolor px-3 md:px-0'>
 <div className='container mx-auto'>
 <div className='text-center'>
-<h2 className='text-[50px] font-bold text-white'>Get Service Excellence Beyond Expectations at Budget-Friendly Rates</h2>
+<h2 className='md:text-[50px] text-[25px] pb-3 md:pb-0 font-bold text-white'>Get Service Excellence Beyond Expectations at Budget-Friendly Rates</h2>
 <hr className='w-[326.025px] h-[1px] border-navactive mx-auto mb-2' />
 <p className='text-white text-[16px]'>We are a student-friendly service, and our accessible and feasible work charges endorse that.</p>
 
-<div className='flex justify-between border-navactive border-2 pt-6 items-center py-6 px-7 mt-[10rem] gap-2 border-b-0 rounded-tl-[2rem] rounded-tr-[2rem]'>
+<div className='flex justify-between border-navactive border-2 pt-6 items-center py-6 px-7 mt-[10rem] gap-2 border-b-0 rounded-tl-[2rem] rounded-tr-[2rem] md:flex-nowrap flex-wrap md:gap-2'>
 
 <div className='flex-1 relative top-[-9rem]'>
 <div className='text-center py-7 px-5 bg-[#2C3539] rounded-tr-[20px] rounded-tl-[20px] relative'>
@@ -76,9 +76,9 @@ return (
 </div>
 
 
-<div className='flex justify-between border-navactive border-2 gap-3'>
+<div className='flex justify-between border-navactive border-2 gap-3 md:flex-nowrap flex-wrap'>
    
-    <div className='flex-1 gap-4 flex flex-col'>
+    <div className='flex-[40%] md:flex-1 gap-4 flex flex-col'>
         <div className='bg-navinactive block w-100 py-4'>
             <p className='text-white fw-bold text-[20px]'>SAR 30</p>
             <p className='text-white fw-bold text-[25px]'>20+ Days</p>
@@ -128,7 +128,7 @@ return (
             <p className='text-white fw-bold text-[25px]'>6 Hours</p>
         </div>
     </div>
-    <div className='flex-1 gap-4 flex flex-col'>
+    <div className='flex-[40%] md:flex-1  gap-4 flex flex-col'>
         <div className='bg-navinactive block w-100 py-4'>
             <p className='text-white fw-bold text-[20px]'>SAR 35</p>
             <p className='text-white fw-bold text-[25px]'>20+ Days</p>
@@ -178,7 +178,7 @@ return (
             <p className='text-white fw-bold text-[25px]'>6 Hours</p>
         </div>
     </div>
-    <div className='flex-1 gap-4 flex flex-col'>
+    <div className='flex-[40%] md:flex-1  gap-4 flex flex-col'>
         <div className='bg-navinactive block w-100 py-4'>
             <p className='text-white fw-bold text-[20px]'>SAR 40</p>
             <p className='text-white fw-bold text-[25px]'>20+ Days</p>
@@ -228,7 +228,7 @@ return (
             <p className='text-white fw-bold text-[25px]'>6 Hours</p>
         </div>
     </div>
-    <div className='flex-1 gap-4 flex flex-col'>
+    <div className='flex-[40%] md:flex-1  gap-4 flex flex-col'>
         <div className='bg-navinactive block w-100 py-4'>
             <p className='text-white fw-bold text-[20px]'>SAR 50</p>
             <p className='text-white fw-bold text-[25px]'>20+ Days</p>
@@ -278,7 +278,7 @@ return (
             <p className='text-white fw-bold text-[25px]'>6 Hours</p>
         </div>
     </div>
-    <div className='flex-1 gap-4 flex flex-col'>
+    <div className='flex-[40%] md:flex-1  gap-4 flex flex-col'>
         <div className='bg-navinactive block w-100 py-4'>
             <p className='text-white fw-bold text-[20px]'>SAR 60</p>
             <p className='text-white fw-bold text-[25px]'>20+ Days</p>
@@ -328,7 +328,7 @@ return (
             <p className='text-white fw-bold text-[25px]'>6 Hours</p>
         </div>
     </div>
-    <div className='flex-1 gap-4 flex flex-col'>
+    <div className='flex-[40%] md:flex-1 gap-4 flex flex-col'>
         <div className='bg-navinactive block w-100 py-4'>
             <p className='text-white fw-bold text-[20px]'>SAR 70</p>
             <p className='text-white fw-bold text-[25px]'>20+ Days</p>

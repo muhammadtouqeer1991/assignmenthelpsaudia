@@ -6,7 +6,7 @@ return (
 <>
 <div className='py-8 bg-navcolor overflow-hidden'>
 <div class="container mx-auto">
-    <h5 className='text-[40px] font-bold text-white text-center'>{OurwritersContent == '' || OurwritersContent == null || OurwritersContent == undefined ? 'Why Choose Our Writer' : OurwritersContent.heading}</h5>
+    <h5 className='md:text-[40px] text-[25px] font-bold text-white text-center'>{OurwritersContent == '' || OurwritersContent == null || OurwritersContent == undefined ? 'Why Choose Our Writer' : OurwritersContent.heading}</h5>
 </div>
 <div className='container mx-auto relative z-0'>
     <Writeritems OurwritersContent={OurwritersContent} />

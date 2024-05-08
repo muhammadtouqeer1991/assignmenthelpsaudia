@@ -7,7 +7,7 @@ import Footerabout from './Footerabout'
 const Footer = () => {
   return (
     <>
-      <div className='bg-navcolor py-16'>
+      <div className='bg-navcolor md:py-16 py-5 md:px-0 px-5'>
         <div className="container mx-auto flex md:flex-row flex-col justify-between gap-6">
         <Footerabout />
           <Quicklinks />

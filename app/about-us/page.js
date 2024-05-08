@@ -172,9 +172,9 @@ return (
 <Cta CtaContent={CtaContent} />
 <Clientsays ClientsaysContent={ClientsaysContent} />
 <Faqs FaqItems={FaqItems} FaqHeading={FaqHeading} />
-<div className='py-5 bg-navcolor'>
+<div className='py-5 bg-navcolor px-4 md:px-0'>
 <div className="container mx-auto">
-    <div className='flex justify-between items-center'>
+    <div className='flex justify-between items-center md:flex-row flex-col'>
     <div className='text-[25px] text-white m-0'>
     Get Assignment Help Online From The Experts
     </div>

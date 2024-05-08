@@ -7,7 +7,7 @@ const Backboneinfo = ({BackbonecontentData}) => {
 return (
 <>
 <div className='flex flex-col md:flex-row h-[500px] overflow-auto backbone gap-7'>
-<div className='w-[50%]'>
+<div className='md:w-[50%] w-full'>
 <h5 className='text-[16px] font-semibold text-white'>{BackbonecontentData == null || BackbonecontentData == '' || BackbonecontentData == undefined ? 'Assuring Excellent Results with our Exclusive Help With Dissertation Writing' : BackbonecontentData.heading1 }</h5>
 <p className='text-white text-[16px] font-normal pt-2 pb-2'>{BackbonecontentData == null || BackbonecontentData == '' || BackbonecontentData == undefined ? 'You won’t be able to find many such platforms that guarantee you to gain brilliant results with their exclusive dissertation writing help services. However, we are here with our highly qualified writers offering the guarantee of attaining good grades with our services. Our exclusive services include:' : BackbonecontentData.para1 }</p>
 <h6 className='text-white text-[16px] font-semibold pt-2 pb-2'>{BackbonecontentData == null || BackbonecontentData == '' || BackbonecontentData == undefined ? 'Thoroughly Researched Dissertation:' : BackbonecontentData.heading2 }</h6>
@@ -63,7 +63,7 @@ return (
 
 </div>
 
-<div className='w-[50%]'>
+<div className='md:w-[50%] w-full'>
 <h5 className='text-[16px] font-semibold text-white'>{BackbonecontentData == null || BackbonecontentData == '' || BackbonecontentData == undefined ? 'Assuring Excellent Results with our Exclusive Help With Dissertation Writing' : BackbonecontentData.heading5 }</h5>
 <p className='text-white text-[16px] font-normal pt-2 pb-2'>{BackbonecontentData == null || BackbonecontentData == '' || BackbonecontentData == undefined ? 'You won’t be able to find many such platforms that guarantee you to gain brilliant results with their exclusive dissertation writing help services. However, we are here with our highly qualified writers offering the guarantee of attaining good grades with our services. Our exclusive services include:' : BackbonecontentData.para5 }</p>
 <h6 className='text-white text-[16px] font-semibold pt-2 pb-2'>{BackbonecontentData == null || BackbonecontentData == '' || BackbonecontentData == undefined ? 'Thoroughly Researched Dissertation:' : BackbonecontentData.heading6 }</h6>

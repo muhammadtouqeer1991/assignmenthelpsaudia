@@ -145,9 +145,9 @@ const page = () => {
     <>
     <BreadCrumb title="Our Phenomenal Assignment Writing Help, as Told by the Students" para="Our assignment writing help service is creating a difference in the KSA students' academics remarkably, and it is validated by the positive reviews we receive frequently. " />
     <Features FeaturesContent={FeaturesContent} />
-    <div className='py-8 bg-navcolor'>
+    <div className='py-8 bg-navcolor md:px-0 px-4'>
       <div className='container mx-auto'>
-          <h2 className='text-[40px] text-white font-bold text-center'>Testimonials: Read Our Service Brilliance</h2>
+          <h2 className='md:text-[40px] text-[25px] text-white font-bold text-center'>Testimonials: Read Our Service Brilliance</h2>
           <p className='text-center text-white text-[16px] font-normal'>We give happy endings to your assignment writing projects, and you can witness that from our customer experiences as well. </p>
       </div>
       <div className='container mx-auto'>
