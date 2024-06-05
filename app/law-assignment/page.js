@@ -59,34 +59,34 @@ import PropertyLaw from '../../public/assets/PropertyLaw.svg';
 import TortLaw from '../../public/assets/TortLaw.svg';
 
 export const metadata = {
-  title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-  description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+  title: 'Premium Quality Law Assignment Help in Saudi Arabia',
+  description: 'Get high grades with our law assignment help in Saudi Arabia. We provide the best law assignment writing services to KSA students. We are the #1 HRM Writers',
   openGraph: {
-    title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-    description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+    title: 'Premium Quality Law Assignment Help in Saudi Arabia',
+    description: 'Get high grades with our law assignment help in Saudi Arabia. We provide the best law assignment writing services to KSA students. We are the #1 HRM Writers',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
-    canonical: '/law-assignment-help',
+    canonical: '/law-assignment',
     languages: {
-      'en-US': '/law-assignment-help',
-      'de-DE': '/law-assignment-help',
+      'en-US': '/law-assignment',
+      'de-DE': '/law-assignment',
     },
   },
   verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
-  robots: {
-    index: false,
-    follow: false,
-    nocache: true,
-    googleBot: {
-      index: false,
-      follow: false,
-      // noimageindex: true,
-      // 'max-video-preview': -1,
-      // 'max-image-preview': 'large',
-      // 'max-snippet': -1,
-    },
-  },
+  // robots: {
+  //   index: false,
+  //   follow: false,
+  //   nocache: true,
+  //   googleBot: {
+  //     index: false,
+  //     follow: false,
+  //     // noimageindex: true,
+  //     // 'max-video-preview': -1,
+  //     // 'max-image-preview': 'large',
+  //     // 'max-snippet': -1,
+  //   },
+  // },
 }
 
 const page = () => {

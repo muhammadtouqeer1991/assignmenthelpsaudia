@@ -59,11 +59,11 @@ import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
 export const metadata = {
-  title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-  description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+  title: 'BTEC Assignment Help Saudi Arabia for Entry to Level 7',
+  description: 'In search of Btec assignment writing services in Saudi Arabia? We offer professional Btec assignment help by Top Writers. KSA’s #1 Btec Assignment Helper.',
   openGraph: {
-    title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-    description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+    title: 'BTEC Assignment Help Saudi Arabia for Entry to Level 7',
+    description: 'In search of Btec assignment writing services in Saudi Arabia? We offer professional Btec assignment help by Top Writers. KSA’s #1 Btec Assignment Helper.',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
@@ -74,19 +74,19 @@ export const metadata = {
     },
   },
   verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
-  robots: {
-    index: false,
-    follow: false,
-    nocache: true,
-    googleBot: {
-      index: false,
-      follow: false,
-      // noimageindex: true,
-      // 'max-video-preview': -1,
-      // 'max-image-preview': 'large',
-      // 'max-snippet': -1,
-    },
-  },
+  // robots: {
+  //   index: false,
+  //   follow: false,
+  //   nocache: true,
+  //   googleBot: {
+  //     index: false,
+  //     follow: false,
+  //     // noimageindex: true,
+  //     // 'max-video-preview': -1,
+  //     // 'max-image-preview': 'large',
+  //     // 'max-snippet': -1,
+  //   },
+  // },
 }
 
 const page = () => {

@@ -60,34 +60,34 @@ import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
 export const metadata = {
-title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+title: 'Get MBA Assignment Help Saudi Arabia to Secure A+ grade',
+description: 'Need MBA Help in Saudi Arabia? Hire the best MBA assignment helper to write your MBA assignments in KSA. *Expert Writers *24/7 support! 100% plagiarism-free',
 openGraph: {
-title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+title: 'Get MBA Assignment Help Saudi Arabia to Secure A+ grade',
+description: 'Need MBA Help in Saudi Arabia? Hire the best MBA assignment helper to write your MBA assignments in KSA. *Expert Writers *24/7 support! 100% plagiarism-free',
 },
 metadataBase: new URL('https://assignmenthelp.sa.com'),
 alternates: {
-canonical: '/mba-assignment-help',
+canonical: '/mba-assignment',
 languages: {
-'en-US': '/mba-assignment-help',
-'de-DE': '/mba-assignment-help',
+'en-US': '/mba-assignment',
+'de-DE': '/mba-assignment',
 },
 },
 verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
-robots: {
-index: false,
-follow: false,
-nocache: true,
-googleBot: {
-index: false,
-follow: false,
-// noimageindex: true,
-// 'max-video-preview': -1,
-// 'max-image-preview': 'large',
-// 'max-snippet': -1,
-},
-},
+// robots: {
+// index: false,
+// follow: false,
+// nocache: true,
+// googleBot: {
+// index: false,
+// follow: false,
+// // noimageindex: true,
+// // 'max-video-preview': -1,
+// // 'max-image-preview': 'large',
+// // 'max-snippet': -1,
+// },
+// },
 }
 
 const page = () => {

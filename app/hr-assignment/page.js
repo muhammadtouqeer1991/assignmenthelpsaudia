@@ -59,34 +59,34 @@ import TrainingandDevelopment from '../../public/assets/TrainingandDevelopment.s
 import WorkplaceHealthandSafety from '../../public/assets/WorkplaceHealthandSafety.svg';
 
 export const metadata = {
-  title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-  description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+  title: 'Top #1 HR Assignment Help in Saudi Arabia – KSA Writers',
+  description: 'Get the best HR assignment writing services in Saudi Arabia by professional human resource writers. Get 24/7 help online from HR assignment helper in KSA',
   openGraph: {
-    title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-    description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+    title: 'Top #1 HR Assignment Help in Saudi Arabia – KSA Writers',
+    description: 'Get the best HR assignment writing services in Saudi Arabia by professional human resource writers. Get 24/7 help online from HR assignment helper in KSA',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
-    canonical: '/hr-assignment-help',
+    canonical: '/hr-assignment',
     languages: {
-      'en-US': '/hr-assignment-help',
-      'de-DE': '/hr-assignment-help',
+      'en-US': '/hr-assignment',
+      'de-DE': '/hr-assignment',
     },
   },
   verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
-  robots: {
-    index: false,
-    follow: false,
-    nocache: true,
-    googleBot: {
-      index: false,
-      follow: false,
-      // noimageindex: true,
-      // 'max-video-preview': -1,
-      // 'max-image-preview': 'large',
-      // 'max-snippet': -1,
-    },
-  },
+  // robots: {
+  //   index: false,
+  //   follow: false,
+  //   nocache: true,
+  //   googleBot: {
+  //     index: false,
+  //     follow: false,
+  //     // noimageindex: true,
+  //     // 'max-video-preview': -1,
+  //     // 'max-image-preview': 'large',
+  //     // 'max-snippet': -1,
+  //   },
+  // },
 }
 
 const page = () => {

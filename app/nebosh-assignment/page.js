@@ -46,18 +46,18 @@ import ProvideInfo from '../../public/assets/ProvideInfo.svg';
 import QAandDelivery from '../../public/assets/QAandDelivery.svg';
 
 export const metadata = {
-  title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-  description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+  title: 'Best #1 Nebosh Exam Help in Saudi Arabia by Top Tutors',
+  description: 'Hire a professional Nebosh helper in Saudi Arabia for assessment and online exams. Get Nebosh exam and assessment help services for IG1, IG2, NG1 and NG2.',
   openGraph: {
-    title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-    description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+    title: 'Best #1 Nebosh Exam Help in Saudi Arabia by Top Tutors',
+    description: 'Hire a professional Nebosh helper in Saudi Arabia for assessment and online exams. Get Nebosh exam and assessment help services for IG1, IG2, NG1 and NG2.',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
-    canonical: '/nebosh-assignment-help-ksa',
+    canonical: '/nebosh-assignment',
     languages: {
-      'en-US': '/nebosh-assignment-help-ksa',
-      'de-DE': '/nebosh-assignment-help-ksa',
+      'en-US': '/nebosh-assignment',
+      'de-DE': '/nebosh-assignment',
     },
   },
   verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },

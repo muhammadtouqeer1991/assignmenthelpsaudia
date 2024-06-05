@@ -60,34 +60,34 @@ import Technicalreports from '../../public/assets/Technicalreports.svg';
 import Thesisreports from '../../public/assets/Thesisreports.svg';
 
 export const metadata = {
-  title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-  description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+  title: 'Best #01 Report Writing Help Services in Saudi Arabia',
+  description: 'In search of Report Writing help in Saudi Arabia? Hire expert writers for your reports and secure an A+ Grade! We offer best report writing service in KSA.',
   openGraph: {
-    title: 'Best Essay Writing Services Saudi Arabia by KSA Writers',
-    description: 'Hire professional essay writing company to get help with essay writing online in Saudi Arabia. Hire Expert Essay Writer / Helper at Cheap. #1 Essay Helpers',
+    title: 'Best #01 Report Writing Help Services in Saudi Arabia',
+    description: 'In search of Report Writing help in Saudi Arabia? Hire expert writers for your reports and secure an A+ Grade! We offer best report writing service in KSA.',
   },
   metadataBase: new URL('https://assignmenthelp.sa.com'),
   alternates: {
-    canonical: '/report-writing-help',
+    canonical: '/report-writing',
     languages: {
-      'en-US': '/report-writing-help',
-      'de-DE': '/report-writing-help',
+      'en-US': '/report-writing',
+      'de-DE': '/report-writing',
     },
   },
   verification: { google: 'LZDMd3XEP7E_UMf5H3cD6EQ-fkNkup-fk96YDh9Z1Ac', },
-  robots: {
-    index: false,
-    follow: false,
-    nocache: true,
-    googleBot: {
-      index: false,
-      follow: false,
-      // noimageindex: true,
-      // 'max-video-preview': -1,
-      // 'max-image-preview': 'large',
-      // 'max-snippet': -1,
-    },
-  },
+  // robots: {
+  //   index: false,
+  //   follow: false,
+  //   nocache: true,
+  //   googleBot: {
+  //     index: false,
+  //     follow: false,
+  //     // noimageindex: true,
+  //     // 'max-video-preview': -1,
+  //     // 'max-image-preview': 'large',
+  //     // 'max-snippet': -1,
+  //   },
+  // },
 }
 
 const page = () => {

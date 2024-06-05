@@ -62,12 +62,12 @@ return (
         <li><Link href="/thesis-help" onClick={()=>HamburgerBtn(setActive(true))}>Thesis Help</Link></li>
         <li><Link href="/dissertation-help" onClick={()=>HamburgerBtn(setActive(true))}>Dissertation Help</Link></li>
         <li><Link href="/dissertation-editing" onClick={()=>HamburgerBtn(setActive(true))}>Dissertation Editing</Link></li>
-        {/* <li><Link href="/mba-assignment-help">MBA Assignment Help</Link></li>
-        <li><Link href="/report-writing-help">Report Writing Help</Link></li>
-        <li><Link href="/hr-assignment-help">HR Assignment Help</Link></li>
-        <li><Link href="/law-assignment-help">Law Assignment Help</Link></li>
-        <li><Link href="/btec-assignment-help">BTEC Assignment Help</Link></li>
-        <li><Link href="/nebosh-assignment-help-ksa">Nebosh Assignment Help KSA</Link></li> */}
+        <li><Link href="/mba-assignment">MBA Assignment</Link></li>
+        <li><Link href="/report-writing">Report Writing</Link></li>
+        <li><Link href="/hr-assignment">HR Assignment</Link></li>
+        <li><Link href="/law-assignment">Law Assignment</Link></li>
+        <li><Link href="/btec-assignment">BTEC Assignment</Link></li>
+        {/* <li><Link href="/nebosh-assignment">Nebosh Assignment</Link></li> */}
     </ul>
 </Link>
 
